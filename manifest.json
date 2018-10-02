@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "No longer need to bore terrible translations.",
+        "name": "PE Translation Patch",
+        "uuid": "6ab4515c-4f62-352c-aed6-e23022a8ebee",
+        "version": [1, 6, 014]
+        "min_engine_version": [1, 2, 6]
+    },
+    "modules": [
+        {
+            "description": "No longer need to bore terrible translations.",
+            "type": "resources",
+            "uuid": "6ee9332c-3615-4876-a061-0406d3725a80",
+            "version": [1, 6, 014]
+        }
+    ]
+}
