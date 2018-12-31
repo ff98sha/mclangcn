@@ -1,5 +1,5 @@
 ## Comments can be added anywhere on a valid line by starting with '##'
-## Minecraft译名修正 key.codeBuilder=代码生成器	#
+## Minecraft译名修正
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
 
@@ -4172,6 +4172,7 @@ options.chat.height.focused=聚焦高度	#
 options.chat.height.unfocused=淡化高度	#
 options.chat.links=网页链接	#
 options.chat.links.prompt=链接提示	#
+options.chat.messageSpacing=信息间隔：x%s	#
 options.chat.opacity=透明度	#
 options.chat.scale=比例	#
 options.chat.title=聊天设置…	#
@@ -4180,9 +4181,10 @@ options.chat.visibility.full=显示	#
 options.chat.visibility.hidden=隐藏	#
 options.chat.visibility.system=仅命令	#
 options.chat.width=宽度	#
+options.codeBuilder=代码生成器	#
 options.controller=手柄	#
 options.controllerLayout=手柄布局	#
-options.controllerSettings=手柄设置	#
+permissions.ability.options.controllerSettings=手柄设置	#
 options.controls=控制…	#
 options.crouch=蹲下	#
 options.customizeTitle=自定义世界设置	#
@@ -4644,7 +4646,8 @@ playscreen.noLegacyWorldsFound.body=未发现来自其他版本的Minecraft的�
 playscreen.lockedSkin=你配备的皮肤来自跨平台多人游戏中禁用的内容包。如果继续，该世界的跨平台多人游戏将关闭。	#
 playscreen.multiplayerLockedSkin=你配备的皮肤来自多人游戏中禁用的内容包。如果继续，该世界的多人游戏将关闭。	#
 
-permissions.ability.buildandmine=建造和采矿	#
+permissions.ability.build=放置	#
+permissions.ability.mine=破坏	#
 permissions.ability.doorsandswitches=使用门和开关	#
 permissions.ability.opencontainers=使用容器	#
 permissions.ability.attackplayers=攻击玩家	#
@@ -4662,6 +4665,7 @@ permissions.MultiplayerSessionsOnConsole=你的Xbox Live设置不允许多人游
 permissions.GoBack=返回	#
 permissions.Continue=继续	#
 permissions.chatmute=聊天当前被禁用	#
+permissions.deopingother.message=如果降低他们的权限级别，那么他们将不再具有管理员级别权限。	#
 permissions.description.visitors=游客可以自由探索你的世界，但无法与方块、物品或实体交互。信任玩家已关闭。	#
 permissions.description.members=成员是你世界中的活动玩家，他们可以破坏和创建方块，并攻击生物和其他玩家。	#
 permissions.description.operators=管理员是可以设置玩家权限并将命令用于获取对你世界的更多控制权的成员。	#
@@ -4671,8 +4675,9 @@ permissions.level.member=成员	#
 permissions.level.operator=管理员	#
 permissions.level.visitor=游客	#
 permissions.nocheats=作弊已禁用	#
-permissions.nocheats.message=仅当作弊已开启时，管理和传送命令才可用。可通过“游戏设置”下的暂停菜单来打开作弊。	#
-permissions.deopingother.message=如果降低他们的权限级别，那么他们将不再具有管理员级别权限。	#
+permissions.nocheats.message=仅当作弊已开启时，传送命令才可用。可通过“游戏设置”下的暂停菜单来打开作弊。如果您选择打开作弊，这个世界中的成就将被禁用。	#
+permissions.nocheats.turnon=打开作弊	#
+permissions.nocheats.turnoff=保持作弊关闭	#
 permissions.deopingself=删除管理员权限？	#
 permissions.deopingself.message=降低权限级别，你将不再具有管理员级别权限。	#
 permissions.title=玩家权限	#
@@ -4879,7 +4884,7 @@ resourcePack.description.bottom.level=资源包从下到上应用。这表示两
 resourcePack.header.behavior=启用的行为包适用于全部玩家。	#
 resourcePack.header.level=要求玩家接受资源包才能加入	#
 resourcePack.crashRecovery.title=全局资源重置	#
-resourcePack.crashRecovery.message=检测到游戏出现崩溃。	#
+resourcePack.crashRecovery.message=上一次资源加载失败。	#
 resourcePack.warning.title=这很危险！	#
 resourcePack.warning.body=在选择游玩一个世界后添加或删除行为包，可能损坏世界并导致你丢失所创建的内容。	#
 resourcePack.error.plugin_removal.title=不允许操作。	#
@@ -5282,6 +5287,7 @@ store.itemMayNotBeCompatible=该物品与你的设备不兼容。	#
 store.owned=已拥有	#
 store.owned.legacy=已拥有（旧）	#
 store.unlocked=已解锁	#
+store.mypacks=%s个包	#
 
 store.toast.downloadStarted=下载已开始：%s	#
 store.toast.downloadComplete=下载完成：%s	#
@@ -5373,12 +5379,16 @@ store.mashup.title.resourcePack=游览！	#
 store.mashup.title.skinPack=%s：%s	#
 store.mashup.title.worldView=新世界之旅！	#
 store.mashup.title.ratings=社区评分	#
-store.mashup.mashupContentsFull=%s 款皮肤、材质包和世界	#
+store.mashup.title.recentlyViewed=最近查看	#
+store.mashup.title.relatedItems=相关物品	#
+store.mashup.mashupContentsFull=%s款皮肤、材质包和世界	#
 store.mashup.mashupContentsSkinAndTexturePack=%s款皮肤和材质包	#
 store.mashup.mashupContentsSkinAndWorld=%s款皮肤和世界	#
 store.mashup.mashupContentsTexturePackAndWorld=材质包和世界	#
 store.mashup.mashupContentsSkinPack=%s款皮肤	#
 store.mashup.purchase.generalContent=购买%s:minecoin:的内容	#
+
+store.new.icon=新	#
 
 store.offerDescription.title=资源包说明	#
 
@@ -5409,7 +5419,7 @@ store.coins.offer0=Minecoin堆！	#
 store.coins.offer1=Minecoin叠！	#
 store.coins.offer2=Minecoin山！	#
 store.coins.header=使用Minecoin解锁各类炫酷物品！	#
-store.coins.value=最佳值！	#
+store.coins.value=最划算！	#
 store.coins.purchase.toast.withCoinCount=你刚刚购买了%s个Minecoin！	#
 store.coins.purchase.toast.unknownCoinCount=你刚刚购买了Minecoin！	#
 store.coins.purchased.failed.title=出错了	#
@@ -5454,6 +5464,7 @@ store.fetchingItem=正在连接到商店…	#
 store.importing.title=正在导入：%s	#
 store.importing=正在导入…	#
 store.showMore=查看所有 %d	#
+store.inventory.no.xbl=我的资源包	#
 
 store.promo.today=仅限今天！	#
 store.promo.upsell=今日提供免费礼物，不要错过！	#
@@ -5523,6 +5534,7 @@ store.search.singularResult=结果	#
 store.search.singularPossibleResult=可能的结果	#
 store.search.title=搜索	#
 store.search.trendingRowTitle=热门搜索：%s	#
+store.search.button=搜索	#
 
 store.search.filters.clear=清空过滤器	#
 store.search.filters.reset=重置过滤器	#
@@ -5551,6 +5563,9 @@ store.search.sort_menu.A_to_Z=从A到Z	#
 store.search.sort_menu.Z_to_A=从Z到A	#
 store.search.sort_menu.Installed=已安装	#
 store.search.sort_menu.notInstalled=未安装	#
+
+store.shareDescription=呜哇！%s做出了这么酷的包。您得来看看。	#
+store.copyToastMessage=链接已复制到剪贴板！	#
 
 stream.confirm_start=你确定要开始直播吗？	#
 stream.unavailable.account_not_bound=在通过Twitch直播Minecraft之前，你需要在mojang.com上绑定你的Twitch账户。是否马上开启？	#
@@ -6337,26 +6352,27 @@ trial.upsell.expiredViewWorld=查看世界	#
 
 ## tabbedUpsell content
 trial.tabbed_upsell.title=解锁完整游戏	#
-trial.tabbed_upsell.button=为%s购买	#
-trial.tabbed_upsell.buttonAlternate=解锁Minecraft完整游戏	#
-trial.tabbed_upsell.minecraft.title=我的世界 	#
-trial.tabbed_upsell.minecraft.description=无限探索随机生成的世界，建造不可思议的事物，从最简单的住宅，到最宏伟的城堡。你可以在创造模式中享用无限资源，也可以到生存模式中挖掘整个世界，合成武器和盔甲，抵御各种危险生物。另外还可以在线与好友一起畅玩！立即解锁完整游戏！	#
-trial.tabbed_upsell.xbl.title=XBOX LIVE	#
-trial.tabbed_upsell.xbl.description=你可以借助完整的Minecraft体验获得创造模式、成就等等，另外你还可以借助Xbox Live在Minecraft社区中结识其他玩家！你可以加入Xbox Live好友的世界，在服务器上结识新的好友，并将你的市场购买同步到你玩Minecraft的任何地方。	#
+trial.tabbed_upsell.button=购买Minecraft！	#
+trial.tabbed_upsell.buttonAlternate=解锁Minecraft完整版	#
+trial.tabbed_upsell.minecraft.title=Minecraft 	#
+trial.tabbed_upsell.minecraft.description=无限探索您自己的独特世界，建造您能想象到的一切——从最简单的住宅，到最宏伟的城堡！您可以在创造模式中利用无限资源建造奇迹，也可以在生存模式中进行挖掘，合成武器和盔甲，抵御各种危险生物并在夜晚幸存下来。另外还可以在线与好友一起畅玩！立即解锁完整游戏！	#
+trial.tabbed_upsell.xbl.title=Xbox Live	#
+trial.tabbed_upsell.xbl.description=借助完整版的Minecraft和Xbox Live账户，您可以和您在iOS、安卓、任天堂Switch以及Windows 10等其他设备上的好友一起玩。您可以加入Xbox Live好友的世界，在服务器上结交新的朋友，以及在玩Minecraft时随时随地访问已购内容*！	#
+trial.tabbed_upsell.xbl.description.line2=*（在带有商城的版本中）	#
 trial.tabbed_upsell.achievements.title=成就	#
-trial.tabbed_upsell.achievements.description=除了获得带有创造模式、多人游戏等等的完整Minecraft游戏体验，你还将获得成就。成就和玩家分数记录了你的Minecraft进度，并向你的Xbox Live好友展示你的成就。立即获得完整游戏来开始获得它们！	#
+trial.tabbed_upsell.achievements.description=完整的Minecraft游戏体验能够让您享受创造模式、多人游戏和成就！借助玩家分数和成就，您可以展示您的Minecraft进度并和您的好友比赛看谁能率先解锁所有它们！立即获得Minecraft来开始获得它们！	#
 trial.tabbed_upsell.multiplayer.title=多人游戏	#
-trial.tabbed_upsell.multiplayer.description=完整的Minecraft游戏体验包含了创造模式、成就等等，另外你还可以在控制台、电脑或移动端上与好友一起玩，一起征服新的挑战。邀请一位好友来和你一起勇斗恶龙，或者作为后援与你一同进入地狱——立即解锁！	#
+trial.tabbed_upsell.multiplayer.description=完整的Minecraft游戏体验能够让您享受创造模式、成就以及与您的好友在多种Minecraft设备上进行多人游戏！和主机、电脑和移动端上的好友一起玩，一起创造、探索和生存。立即解锁完整的Minecraft游戏体验！	#
 trial.tabbed_upsell.server.title=服务器	#
-trial.tabbed_upsell.server.description=除了获得带有创造模式、多人游戏等等的完整Minecraft游戏体验，你还可以访问服务器。服务器为你提供了更多针对Minecraft的创意玩法！和Minecraft社区一起玩小游戏，结识数以千计的新朋友。 立即获得完整游戏！	#
+trial.tabbed_upsell.server.description=服务器提供了一些享受Minecraft的最有创意的方式！玩精彩的小游戏，邂逅Minecraft社区并结识新的好友。立即解锁完整的Minecraft游戏体验以尝试服务器！	#
 trial.tabbed_upsell.store.title=商店	#
-trial.tabbed_upsell.store.description=除了获得带有创造模式、成就等等的完整Minecraft游戏体验，你还可以通过访问商店来安全而方便地获得社区制作内容以扩展你的世界！立即获得完整游戏！	#
+trial.tabbed_upsell.store.description=访问我们的游戏内商店——Minecraft商城。用新的皮肤让自己焕然一新，更改您的世界，或者探索来自最佳的社区创创造者的神奇新地图！立即获得完整游戏！	#
 trial.tabbed_upsell.creative.title=创造	#
-trial.tabbed_upsell.creative.description=解锁完整的Minecraft体验以尝试创造模式。用整个物品栏来进行玩耍和创造，获得无穷乐趣！飞遍你的世界，用带釉陶瓦建造你的梦想之家，用无限量的TNT炸掉一座山，等等！立即解锁。	#
-trial.tabbed_upsell.addon.title=附加包	#
-trial.tabbed_upsell.addon.description=想让狼表现得像兔子一样吗？向你的世界添加一个行为包来改变游戏中的行为。想让所有的树都看起来像棉花糖吗？解锁完整的Minecraft体验以获得创造模式、成就和更多，此外还可以使用附加件来轻松地改变你的游戏体验。	#
+trial.tabbed_upsell.creative.description=购买Minecraft并获得创造模式！访问整个物品栏——唯一能限制您建造的东西的只有您的想象力！飞遍您的世界，用任何东西、一切东西建造您的梦想之家，或者干脆用无限量的TNT炸掉一座山！ 	#
+trial.tabbed_upsell.addon.title=附加件	#
+trial.tabbed_upsell.addon.description=想让狼表现得像兔子一样吗？把所有的树都变成棉花糖？您可以在完整的Minecraft游戏体验中使用附加件改变一切！此外，您还可以访问多人游戏、创造模式、成就等等！立即购买Minecraft获得完整访问权限！	#
 trial.tabbed_upsell.seeds.title=种子	#
-trial.tabbed_upsell.seeds.description=解锁带有创造模式、成就等等的完整Minecraft游戏体验。另外还可以访问种子以发现新的生物群系！在冰原上生存，攀登险峻的山峰，或者徒步穿越沙漠。立即以独特的世界模板开始游戏或探索随机的新世界。	#
+trial.tabbed_upsell.seeds.description=解锁完整的Minecraft游戏体验，获得访问种子的权限！种子会帮助您发现新的生物群系——在冰原上生存，攀登险峻的山峰，或者徒步穿越沙漠。立即以独特的模板开始游戏或探索随机的新世界！立即购买Minecraft，获得访问种子、创造模式、多人游戏以及更多内容的权限！	#
 
 utility.zipFile=Zip 文件	#
 verification.nolicense=你似乎没有Minecraft的有效许可。请从正版商店下载并安装正版Minecraft	#
