@@ -6807,13 +6807,13 @@ trial.tabbed_upsell.store.title=商店	#
 trial.tabbed_upsell.store.description=访问我们的游戏内商店——Minecraft商城。用新的皮肤让自己焕然一新，更改您的世界，或者探索来自最佳的社区创创造者的神奇新地图！立即获得完整游戏！	#
 trial.tabbed_upsell.creative.title=创造	#
 trial.tabbed_upsell.creative.description=购买Minecraft并获得创造模式！访问整个物品栏——唯一能限制您建造的东西的只有您的想象力！飞遍您的世界，用任何东西、一切东西建造您的梦想之家，或者干脆用无限量的TNT炸掉一座山！ 	#
-trial.tabbed_upsell.addon.title=附加件	#
-trial.tabbed_upsell.addon.description=想让狼表现得像兔子一样吗？把所有的树都变成棉花糖？您可以在完整的Minecraft游戏体验中使用附加件改变一切！此外，您还可以访问多人游戏、创造模式、成就等等！立即购买Minecraft获得完整访问权限！	#
+trial.tabbed_upsell.addon.title=附加包	#
+trial.tabbed_upsell.addon.description=想让狼表现得像兔子一样吗？把所有的树都变成棉花糖？您可以在完整的Minecraft游戏体验中使用附加包改变一切！此外，您还可以访问多人游戏、创造模式、成就等等！立即购买Minecraft获得完整访问权限！	#
 trial.tabbed_upsell.seeds.title=种子	#
 trial.tabbed_upsell.seeds.description=解锁完整的Minecraft游戏体验，获得访问种子的权限！种子会帮助您发现新的生物群系——在冰原上生存，攀登险峻的山峰，或者徒步穿越沙漠。立即以独特的模板开始游戏或探索随机的新世界！立即购买Minecraft，获得访问种子、创造模式、多人游戏以及更多内容的权限！	#
 
 utility.zipFile=Zip 文件	#
-verification.nolicense.title=h偶全错误	#
+verification.nolicense.title=出现错误	#
 verification.nolicense.description=我们确认您在此设备上拥有Minecraft时遇到了困难。请确保您已经从商店下载并安装了Minecraft，或重新连接到互联网并再试一次。	#
 
 ## Autosave Info strings
