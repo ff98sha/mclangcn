@@ -1930,7 +1930,7 @@ difficulty.lock.question=你确定你要锁定这个世界的难度吗？这会�
 difficulty.lock.title=锁定世界难度	#
 
 dimension.dimensionName0=主世界	#
-dimension.dimensionName1=地狱	#
+dimension.dimensionName1=下界	#
 dimension.dimensionName2=末地	#
 
 disconnect.closed=连接已关闭	#
@@ -4219,9 +4219,9 @@ item.muttonCooked.name=熟羊肉	#
 item.muttonRaw.name=生羊肉	#
 item.name_tag.name=命名牌	#
 item.netherbrick.name=地狱砖	#
-item.quartz.name=地狱石英	#
+item.quartz.name下界石英	#
 item.nether_wart.name=地狱疣	#
-item.netherStar.name=地狱之星	#
+item.netherStar.name=下界之星	#
 item.painting.name=画	#
 item.paper.name=纸	#
 item.diamond_pickaxe.name=钻石镐	#
