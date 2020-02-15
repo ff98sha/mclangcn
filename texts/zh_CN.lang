@@ -3005,7 +3005,7 @@ howtoplay.difficulty.text.5=困难 - 在“困难”难度下，敌对生物会�
 
 howtoplay.dispensers=发射器	#
 howtoplay.dispensers.title=游戏指南：发射器	#
-howtoplay.dispensers.text.1=发射器用于抛射物品。你需要将红石信号（例如，一根拉杆）放置于每个发射器旁边才能触发它。	#
+howtoplay.dispensers.text.1=发射器用于抛射物品。你需要使用红石信号（例如，一根拉杆）给发射器充能才能触发它。	#
 howtoplay.dispensers.text.2.notTouch=若要用物品填充发射器，请按发射器上的 :_input_key.use:，然后将想要发射的物品从你的物品栏移到发射器。 	#
 howtoplay.dispensers.text.2.touch=若要填充发射器，请点击发射器，然后将想要发射的物品从你的物品栏移到发射器。	#
 howtoplay.dispensers.header.1=用法	#
@@ -3314,7 +3314,7 @@ howtoplay.raids.title=游戏指南：袭击	#
 howtoplay.raids.text.1=在探索世界的过程中，你可能会遇到掠夺者的营地或巡逻队。掠夺者总是在寻找村庄进行袭击，携带他们的旗帜会引起他们的注意，他们还可能会选择袭击附近的村庄。	#
 howtoplay.raids.text.2=一定要保卫你的村庄，如果你击败了所有的掠夺者，攻击就会停止。	#
 howtoplay.raids.header.1=村庄英雄	#
-howtoplay.raids.text.3=村民们很可能会非常感激你把他们从劫掠者手中救了出来。一定要和他们确认一下，你可能会做成一笔好交易。	#
+howtoplay.raids.text.3=村民们很可能会非常感激你把他们从袭击者手中救了出来。一定要和他们确认一下，你可能会做成一笔好交易。	#
 
 howtoplay.ranching=牧场经营	#
 howtoplay.ranching.title=游戏指南：牧场经营	#
@@ -3339,10 +3339,10 @@ howtoplay.realms.text.6=在“订阅”按钮下，你可以看到Realm的到期
 
 howtoplay.redstone=红石	#
 howtoplay.redstone.title=游戏指南：红石	#
-howtoplay.redstone.text.1=红石粉是传输电子信号的红石。当充有能量时，它将点亮并将其信号传输给邻近的其他红石物品。	#
+howtoplay.redstone.text.1=红石粉是传输电子信号的红石元件。当充有能量时，它将点亮并将其信号传输给邻近的其他红石物品。	#
 howtoplay.redstone.header.1=红石能量	#
-howtoplay.redstone.text.2=若要为其中一个物品提供能量，你需要诸如拉杆、按钮或压力板等能量源。试着找齐全部能量源！	#
-howtoplay.redstone.text.3=在能量源旁边放置一些红石粉并开启它来传输能量。	#
+howtoplay.redstone.text.2=若要为其中一个物品提供能量，你需要诸如拉杆、按钮或压力板等电源。试着找齐全部电源！	#
+howtoplay.redstone.text.3=在电源旁边放置一些红石粉并开启它来传输能量。	#
 howtoplay.redstone.text.4=有许多物品使用红石信号来发挥作用，例如漏斗或活塞。	#
 howtoplay.redstone.text.5=红石可以实现无限可能性！试着为自己创建一些有用的东西，例如自动农场！	#
 
@@ -3447,10 +3447,10 @@ howtoplay.transportation=交通运输	#
 howtoplay.transportation.title=游戏指南：交通运输	#
 howtoplay.transportation.text.1=除了步行、骑乘或飞行外，还有很多方法可以到达各地。	#
 howtoplay.transportation.header.1=矿车	#
-howtoplay.transportation.text.2=矿车是在铁轨上滚动的可乘坐的车子。你可以通过彼此相邻放置铁轨来前往你要去的地方，将矿车放置在铁轨上，现在可以乘坐了。	#
-howtoplay.transportation.text.3.keyboard=在看向矿车时按 :_input_key.use: 跃上并乘坐。按 :_input_key.forward: 向前滚动。按 :_input_key.jump: 或 :_input_key.sneak: 跃下。 	#
-howtoplay.transportation.text.3.gamepad=在看向矿车时按 :_input_key.use: 跃上并乘坐。向前推 :_gamepad_stick_left: 可向前滚动。按 :_input_key.jump: 或 :_input_key.sneak: 可跃下。	#
-howtoplay.transportation.text.3.touch=在接近矿车时点击“乘坐”按钮跃上并乘坐。按 :_input_key.forward: 可向前滚动。点击 :_input_key.jump: 可跃下。 	#
+howtoplay.transportation.text.2=矿车是在铁轨上行驶的可乘坐的车子。你可以通过彼此相邻放置铁轨来前往你要去的地方，将矿车放置在铁轨上，现在可以乘坐了。	#
+howtoplay.transportation.text.3.keyboard=在看向矿车时按 :_input_key.use: 乘坐。按 :_input_key.forward: 向前行驶。按 :_input_key.jump: 或 :_input_key.sneak: 跃下。 	#
+howtoplay.transportation.text.3.gamepad=在看向矿车时按 :_input_key.use: 乘坐。向前推 :_gamepad_stick_left: 可向前行驶。按 :_input_key.jump: 或 :_input_key.sneak: 可跃下。	#
+howtoplay.transportation.text.3.touch=在接近矿车时点击“乘坐”按钮乘坐。按 :_input_key.forward: 可向前行驶。点击 :_input_key.jump: 可跃下。 	#
 howtoplay.transportation.header.2=船	#
 howtoplay.transportation.text.4=船让你可以在水面上旅行，将一艘船放在水方块上，即可出发。	#
 howtoplay.transportation.text.5.keyboard=在看向船时按 :_input_key.use: 可上船。按 :_input_key.left: 或 :_input_key.right: 可向左或向右转。按 :_input_key.forward: 可向前移动。按 :_input_key.jump: 或 :_input_key.sneak: 可下船。	#
