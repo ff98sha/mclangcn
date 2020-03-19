@@ -60,7 +60,7 @@ accessibility.state.unchecked=：未选中	#
 accessibility.state.selected=：已选择	#
 accessibility.state.unselected=：未选择	#
 
-accessibility.index=第%s/%s个 # 这是编号，表示在所有可互动的物件总数量中的第几个。如：第1/3个	#
+accessibility.index=第%s/%s个		### This is numbering, which number out of the total number of objects is available for interaction. Example: 1 of 3
 
 accessibility.slider.tts.percentValue=%s%	#
 
@@ -103,10 +103,10 @@ accessibility.start.skinPicker=选择皮肤	#
 
 accessibility.store.tag=标签	#
 
-accessibility.textbox.editing正在编辑	#
+accessibility.textbox.editing=正在编辑	#
 
 accessibility.text.period=句号	#
-accessibility.text.period.url=点 #
+accessibility.text.period.url=点	#
 accessibility.text.comma=逗号	#
 accessibility.text.colon=冒号	#
 accessibility.text.apostrophe=撇号	#
@@ -7115,7 +7115,7 @@ tile.warped_stairs.name=诡异木楼梯	#
 tile.crimson_fence.name=绯红木栅栏	#
 tile.warped_fence.name=诡异木栅栏	#
 tile.crimson_fence_gate.name=绯红木栅栏门	#
-tile.warped_fence_gate.name=诡异木栅栏们	#
+tile.warped_fence_gate.name=诡异木栅栏门	#
 tile.crimson_button.name=绯红木按钮	#
 tile.warped_button.name=诡异木按钮	#
 tile.crimson_pressure_plate.name=绯红木压力板	#
