@@ -1991,7 +1991,7 @@ xbl.transferEntitlements.error.error1=错误编号	#
 xbl.transferEntitlements.error.error2=ID编号	#
 
 playfab.account.banned.title=被封禁	#
-playfab.account.banned.body=您已被线上Minecraft封禁。您将无法在服务器上游玩、加入Realm、创建与加入多人游戏或使用市场。	#
+playfab.account.banned.body=您已被线上Minecraft封禁。您将无法在服务器上游玩、加入Realm、创建与加入多人游戏或使用商城。	#
 playfab.account.banned.body.button=更多信息	#
 
 store.sign_in_warning.no_xbl_and_local_content=重要提示！你所购买的资源包和Minecoin只能在此设备上使用，并且可能会由于设备故障、丢失或卸载Minecraft而丢失！使用微软账户（免费）登录并将你的资源包权限和Minecoin转移到该账户，以便在你登录的任何设备上保护和使用它们。	#
@@ -2153,8 +2153,8 @@ disconnect.endOfStream=数据流终止	#
 disconnect.genericReason=%s	#
 disconnect.kicked=你已被踢出游戏	#
 disconnect.kicked.reason=你已被踢出游戏：	#
-disconnect.removed=您已被移出游戏	#
-disconnect.removed.reason=您已被移出游戏：	#
+disconnect.removed=你已被移出游戏	#
+disconnect.removed.reason=你已被移出游戏：	#
 disconnect.loginFailed=登入失败	#
 disconnect.loginFailedInfo=登入失败：%s	#
 disconnect.loginFailedInfo.invalidSession=无效的会话（请尝试重启你的游戏）	#
