@@ -281,7 +281,7 @@ action.hint.exit.horse=点击“潜行”以下马	#
 action.hint.exit.donkey=点击“潜行”以下驴	#
 action.hint.exit.mule=点击“潜行”以下骡	#
 action.hint.exit.llama=点击“潜行”以下羊驼	#
-action.hint.exit.skeleton_horse=轻按潜行以下骷髅马	#
+action.hint.exit.skeleton_horse=点击“潜行”以下骷髅马	#
 action.interact.creeper=引爆	#
 action.interact.edit=编辑	#
 action.interact.exit.boat=下船	#
@@ -1781,7 +1781,7 @@ realmsPlus.popup.title=Realms Plus订阅已过期	#
 realmsPlus.popup.message=您的Realms Plus订阅已过期。为了能够重新访问您的Realm和您从Realms Plus获得的包和皮肤，您需要进行续订。	#
 
 realmsPlusUpgradeNotice.title=欢迎使用Realms Plus！	#
-realmsPlusUpgradeNotice.body=您的Realms订阅已升级为Realms Plus。现在您无需花费额外的费用，即可访问来自市场的50多个内容包。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
+realmsPlusUpgradeNotice.body=您的Realms订阅已升级为Realms Plus。现在您无需花费额外的费用，即可访问来自商城的50多个内容包。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
 realmsPlusUpgradeNotice.continue=继续	#
 realmsPlusUpgradeNotice.viewpacks=查看Realms Plus包	#
 
@@ -1994,7 +1994,7 @@ store.sign_in_warning.no_xbl_and_no_local_content.line3=另外，你可以在任
 store.sign_in_warning.no_xbl_and_no_local_content.line4=只要在你的设备上登录到你的合作伙伴商店账户，即可使用通过合作伙伴商店购买的内容。	#
 
 xbl.skipSignIn.prompt.title=临时账户	#
-xbl.skipSignIn.prompt.description=如果你未将此设备的购买传输到此微软账户，该账户将不是这台设备的主账户。当你启动Minecraft时，将不会自动登录。	#
+xbl.skipSignIn.prompt.description=如果你未将此设备中购买的内容传输到此微软账户，该账户将不会成为此设备的主账户。当你启动Minecraft时，将不会自动登录。	#
 xbl.signOut.title=微软账户购买！	#
 xbl.signOut.message1=从你的微软账户注销后，你将无法访问已在商店中购买的Minecoin和物品。	#
 xbl.signOut.message2=是否确定要执行此操作？	#
@@ -2015,13 +2015,13 @@ date.formatted=%s %d %d	#
 
 dayOneExperience.carousel.title=欢迎来到全新的Minecraft！	#
 dayOneExperience.carousel.welcome_text=新版本的Minecraft中有很多令人兴奋的新内容！查看商城，创建一个Realm，并与跨平台好友一起在线玩！	#
-dayOneExperience.carousel.marketplace=在Minecraft市场中可以找到由各位才华横溢的创作者创作的新皮肤、世界、材质和混搭包。	#
+dayOneExperience.carousel.marketplace=在Minecraft商城中可以找到由各位才华横溢的创作者创作的新皮肤、世界、材质和混搭包。	#
 dayOneExperience.carousel.cross_platform=跨平台玩法让你与不同平台上的玩家连系在一起。登录您的微软账户，与您所有的Minecraft好友一起玩！	#
 dayOneExperience.carousel.realms=Realm 即由我们专为您和您的好友运行的服务器。它能够在您本人已经下线的情况下，保持您的Minecraft的世界始终在线并且始终能够进入。	#
 dayOneExperience.carousel.villager=只有在新的Minecraft中，您才能够接收未来包含了新的功能、生物、物品、方块等内容的更新！	#
 
 dayOneExperience.tab.landing=新增内容	#
-dayOneExperience.tab.marketplace=市场	#
+dayOneExperience.tab.marketplace=商城	#
 dayOneExperience.tab.crossplatform=跨平台游戏	#
 dayOneExperience.tab.realms=Realms	#
 dayOneExperience.tab.villager=更多内容	#
@@ -2674,9 +2674,9 @@ updateScreen.update=更新	#
 updateScreen.updateRequired=需要更新	#
 updateScreen.title=版本已过期	#
 updateScreen.body=更新到最新版本，以访问所有的新功能、与好友在线玩，或者看看商城里有什么新东西。	#
-updateScreen.commerceNotSupported.title=无法访问市场	#
+updateScreen.commerceNotSupported.title=无法访问商城	#
 updateScreen.commerceNotSupported.body=该版本的Minecraft无法再访问Minecraft商城。更新至最新版本以恢复商城的访问。	#
-updateScreen.packs.updateRequired=请更新到最新版本，以下载您在我的世界市场购买的包。	#
+updateScreen.packs.updateRequired=请更新到最新版本，以下载您在Minecraft商城购买的包。	#
 updateScreen.patchVersion=%s版本更新日志：	#
 
 hostOption.codeBuilder=Code Builder	#
@@ -6541,7 +6541,7 @@ store.realmsPlus.errorNoOffer=错误：未发现优惠	#
 store.realmsPlus.manageSubscription=管理订阅	#
 store.realmsPlus.viewAllPacksTitle=超值——所有包价值超过§g$150美元！§r	#
 
-store.realmsPlus.nowActive=该设备上的Realms Plus现已激活。现在您无需花费额外的费用，即可访问来自市场的50多个内容包。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
+store.realmsPlus.nowActive=该设备上的Realms Plus现已激活。现在您无需花费额外的费用，即可访问来自商城的50多个内容包。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
 
 store.realmsPlus.buyNow.buttonText=为%s购买	#
 store.realmsPlus.buyNow.viewTerms=条款和条件	#
@@ -6549,15 +6549,15 @@ store.realmsPlus.buyNow.viewPrivacyPolicy=隐私政策	#
 
 store.realmsPlus.buyNow.title=开始您的Realms Plus订阅	#
 store.realmsPlus.startTrial.title=立即开始您的免费30天试用！	#
-store.realmsPlus.startTrial.description=您的Realm和50多个市场包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！首月免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
-store.realmsPlus.noTrial.description=您的Realm和50多个市场包将立即可用。至多10名玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s:minecoin:。	#
-store.realmsPlus.noTrial.description.iap=您的Realm和50多个市场包将立即可用。至多10名玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
+store.realmsPlus.startTrial.description=您的Realm和50多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！首月免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
+store.realmsPlus.noTrial.description=您的Realm和50多个商城包将立即可用。至多10名玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s:minecoin:。	#
+store.realmsPlus.noTrial.description.iap=您的Realm和50多个商城包将立即可用。至多10名玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
 store.realmsPlus.realmName.placeholder=%s的Realm		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
 
-store.realmsPlus.recurring.offerTrial=您的Realm和50多个市场包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！首月免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
-store.realmsPlus.recurring.withoutTrial=您的Realm和50多个市场包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您需支付%s/月的费用，并且您可以随时取消。	#
-store.realmsPlus.consumable.offerTrial=您的Realm和50多个市场包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！前30天免费，之后您可以按%s/30天续期。	#
-store.realmsPlus.consumable.withoutTrial=您的Realm和50多个市场包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
+store.realmsPlus.recurring.offerTrial=您的Realm和50多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！首月免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
+store.realmsPlus.recurring.withoutTrial=您的Realm和50多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您需支付%s/月的费用，并且您可以随时取消。	#
+store.realmsPlus.consumable.offerTrial=您的Realm和50多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！前30天免费，之后您可以按%s/30天续期。	#
+store.realmsPlus.consumable.withoutTrial=您的Realm和50多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
 
 store.realmsPlus.landing.header=订阅包含：	#
 
@@ -6578,7 +6578,7 @@ store.realmsPlus.faq.answer2=您无需在线享受Realms Plus。您可以使用�
 store.realmsPlus.faq.question3=我的好友是不是需要有Realms Plus才能在我的Realm上玩？	#
 store.realmsPlus.faq.answer3=您的好友无需Realms Plus订阅即可加入一个Realm。您可以邀请任何能够访问Realms的好友免费加入您的Realm。	#
 store.realmsPlus.faq.question4=我可以在我自己的Realm上托管我的Realms Plus世界、材质包、皮肤和混搭包吗？	#
-store.realmsPlus.faq.answer4=可以！您可以将来自Realms Plus目录的任何世界、材质包、皮肤和混搭包，或者您在Minecraft商城的购买上传到您的Realm，并邀请您的好友免费加入。	#
+store.realmsPlus.faq.answer4=可以！您可以将来自Realms Plus目录的任何世界、材质包、皮肤、混搭包，或者您在Minecraft商城购买的内容上传到您的Realm，并邀请您的好友免费加入。	#
 store.realmsPlus.faq.question5=Realms Plus订阅的费用是多少？	#
 store.realmsPlus.faq.answer5=每月%s。与Realms升级为Realms Plus之前的价格相同！	#
 store.realmsPlus.faq.question6=Realms Plus多久添加一次新的包？	#
@@ -6608,7 +6608,7 @@ store.realmsPlus.content.mashupDescription=尝试新玩法——尽在混搭包�
 
 store.realmsPlus.content.popularPacks=Realms Plus中的热门包:	#
 store.realmsPlus.content.viewAllPacks=查看所有的包	#
-store.realmsPlus.content.contentDescription=畅享精彩的Minecraft内容！有了Realms Plus，您可以立即访问50多个市场物品，例如混搭包、世界、皮肤包和史诗级冒险——而且每月都会添加新的内容。您的内容将存储在您专属的个人服务器上，并且可以在任何您有Realms和Minecraft商城的平台上进行使用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
+store.realmsPlus.content.contentDescription=畅享精彩的Minecraft内容！有了Realms Plus，您可以立即访问50多个商城物品，例如混搭包、世界、皮肤包和史诗级冒险——而且每月都会添加新的内容。您的内容将存储在您专属的个人服务器上，并且可以在任何您有Realms和Minecraft商城的平台上进行使用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
 
 
 store.realmsPlus.freeTrial=开始为期一个月的免费试用	#
@@ -6784,7 +6784,7 @@ store.ratings.signIn.description2=你需要先使用微软账户登录，然后�
 store.purchase.success.realMoney1=你刚才解锁了: %s，耗用了 %s 	#
 store.purchase.success.realMoney2=+%s:minecoin:	#
 store.purchase.signIn=用大量精彩内容扩充你的游戏。	#
-store.purchase.signInPart2=使用微软账户登录，开始使用市场！	#
+store.purchase.signInPart2=使用微软账户登录，开始使用商城！	#
 store.purchase.realmoney.disclaimer=购买%sMinecoin（需要%s）并兑换此%sMinecoin包，还剩下%sMinecoin。	#
 store.purchase.notAvailable=当前不可用	#
 
@@ -7925,7 +7925,7 @@ trial.tabbed_upsell.buttonAlternate=解锁Minecraft完整版	#
 trial.tabbed_upsell.minecraft.title=Minecraft 	#
 trial.tabbed_upsell.minecraft.description=无限探索你自己的独特世界，建造你能想象到的一切——从最简单的住宅，到最宏伟的城堡！你可以在创造模式中利用无限资源建造奇迹，也可以在生存模式中进行挖掘，合成武器和盔甲，抵御各种危险生物并在夜晚幸存下来。另外还可以在线与好友一起畅玩！立即解锁完整游戏！	#
 trial.tabbed_upsell.xbl.title=微软账户	#
-trial.tabbed_upsell.xbl.description=你可以借助完整的Minecraft体验获得创造模式、成就等等，另外你还可以借助微软账户在Minecraft社区中结识其他玩家！你可以加入你好友的世界，在服务器上结识新的好友，并将你的市场购买同步到你玩Minecraft的任何地方。	#
+trial.tabbed_upsell.xbl.description=你可以借助完整的Minecraft体验获得创造模式、成就等等，另外你还可以借助微软账户在Minecraft社区中结识其他玩家！你可以加入你好友的世界，在服务器上结识新的好友，并将你的商城购买同步到你玩Minecraft的任何地方。	#
 trial.tabbed_upsell.xbl.description.line2=*（在带有商城的版本中）	#
 trial.tabbed_upsell.achievements.title=成就	#
 trial.tabbed_upsell.achievements.description=除了获得带有创造模式、多人游戏等等的完整Minecraft游戏体验，你还将获得成就和玩家点数。它们记录了你的Minecraft进度，并向你的微软账户好友展示你的成就。立即获得完整游戏来开始获得它们！	#
@@ -7934,7 +7934,7 @@ trial.tabbed_upsell.multiplayer.description=完整的Minecraft游戏体验能够
 trial.tabbed_upsell.server.title=服务器	#
 trial.tabbed_upsell.server.description=服务器提供了一些享受Minecraft的最有创意的方式！玩精彩的小游戏，邂逅Minecraft社区并结识新的好友。立即解锁完整的Minecraft游戏体验以尝试服务器！	#
 trial.tabbed_upsell.store.title=商店	#
-trial.tabbed_upsell.store.description=访问我们的游戏内商店——Minecraft商城。用新的皮肤让自己焕然一新，更改你的世界，或者探索来自最佳的社区创创造者的神奇新地图！立即获得完整游戏！	#
+trial.tabbed_upsell.store.description=访问我们的游戏内商店——Minecraft商城。用新的皮肤让自己焕然一新，更改你的世界，或者探索来自最佳的社区创创作者的神奇新地图！立即获得完整游戏！	#
 trial.tabbed_upsell.creative.title=创造	#
 trial.tabbed_upsell.creative.description=购买Minecraft并获得创造模式！访问整个物品栏——唯一能限制你建造的东西的只有你的想象力！飞遍你的世界，用任何东西、一切东西建造你的梦想之家，或者干脆用无限量的TNT炸掉一座山！ 	#
 trial.tabbed_upsell.addon.title=附加包	#
@@ -7953,9 +7953,9 @@ trial.master.collection.button=购买大师系列	#
 trial.starter.offer=获得Minecraft、700个Minecoin、2个皮肤包、1个材质包和1个混搭包。	#
 trial.master.offer=获得Minecraft、1000个Minecoin、4个皮肤包、2个材质包、3张地图和1个混搭包。	#
 trial.collection.1.title=1000个Minecoin	#
-trial.collection.1.description=在市场购买皮肤、材质和存档！	#
+trial.collection.1.description=在商城购买皮肤、材质和存档！	#
 trial.collection.2.title=700个Minecoin	#
-trial.collection.2.description=在市场购买皮肤、材质和存档！	#
+trial.collection.2.description=在商城购买皮肤、材质和存档！	#
 trial.collection.3.title=野生动物：热带草原	#
 trial.collection.3.description=乘坐一辆四座越野车进行游览！	#
 trial.collection.4.title=冒险者的梦想	#
@@ -8297,11 +8297,11 @@ tips.game.25=访问mixer.com/minecraft，观看最新的Minecraft直播。	#
 tips.game.26=你可以用一个干海带块作为燃料，在熔炉里烧炼20个物品。	#
 tips.game.27=被骷髅的箭杀死的怪物有机会掉落音乐唱片。	#
 tips.game.28=正是像你这样的玩家创造了商城中的内容！	#
-tips.game.29=你知道吗？有几个社区创造者靠商城上的内容为生。	#
+tips.game.29=你知道吗？有几个社区创作者靠商城上的内容为生。	#
 tips.game.30=你可以查找皮肤来自定义你的游戏内体验，或在所选择的平台上使用你自己的皮肤！	#
 tips.game.31=材质包会改变游戏中方块、物品甚至菜单的外观。试试吧！	#
 tips.game.32=访问商城，发现新的世界和冒险。	#
-tips.game.33=申请成为一名市场创造者！	#
+tips.game.33=申请成为一名商城创作者！	#
 tips.game.34=混搭包包含了可供探索的世界、多种皮肤、材质乃至新的音乐。	#
 tips.game.35=你知道吗？商城内由社区制作的包有五百多种，并且每周都有新内容加入其中。	#
 tips.game.36=加入discord.gg/Minecraft上的讨论	#
@@ -8437,7 +8437,7 @@ dr.classic_skins.see_pack_in_store=在商店中查看包	#
 dr.classic_skins.realms_plus_button=Realms Plus	#
 dr.classic_skins.select_skin=为您的皮肤选择正确的模型类型	#
 dr.classic_skins.select_skin.title=皮肤类型	#
-dr.classic_skins.upsellWithoutStore=您必须购买皮肤包才能使用此皮肤，但我们无法连接到市场。	#
+dr.classic_skins.upsellWithoutStore=您必须购买皮肤包才能使用此皮肤，但我们无法连接到商城。	#
 dr.collect_achievement_item=收集	#
 dr.emotes.play_again=重新播放	#
 dr.header.animation=表情	#
