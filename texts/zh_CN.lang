@@ -1826,6 +1826,9 @@ networkWorld.join=加入	#
 networkWorld.joinByCode=加入Realm	#
 networkWorld.realmsHashPlaceholder=邀请码…	#
 networkWold.joinByCodeHelpText=如果你已收到Realm邀请链接，输入代码即可加入。	#
+networkWorld.highPingWarning.title=加入服务器？
+networkWorld.highPingWarning.line1=当前你与所选服务器连接不稳定。你的体验可能会受到影响。
+networkWorld.highPingWarning.line2=是否仍要加入该服务器？
 
 ## The following text is placed on in-game signs, which have a 4-line, 15-character-per-line limit.
 ## The intent of the message is to convey to the reader that the sign author's chat permissions are
