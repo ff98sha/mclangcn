@@ -7,7 +7,7 @@
         "version": [1, 16, 060],
         "platform_locked" : false,
  
-        "min_engine_version": [1, 16, 060]
+        "min_engine_version": [1, 16, 0]
     },
     "modules": [
         {
