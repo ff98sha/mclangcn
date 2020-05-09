@@ -686,7 +686,7 @@ commands.clear.failure.no.items=无法清空%1$s的物品栏，没有可清空�
 commands.clear.success=清空了%1$s的物品栏，删除了%2$d个物品	#
 commands.clear.tagError=数据标签解析失败：%1$s	#
 commands.clear.testing=%1$s有%2$d个与条件匹配的物品	#
-commands.clearfixedinv.description=移除所有固定物品栏栏位。	#
+commands.clearfixedinv.description=移除所有固定物品栏槽位。	#
 commands.clearfixedinv.success=已清除固定物品栏	#
 commands.clone.description=将一个区域的方块复制到另一个区域。	#
 commands.clone.failed=未复制方块	#
@@ -934,12 +934,12 @@ commands.querytarget.success=目标数据：%1$s	#
 commands.reload.description=从所有行为包中重新加载所有函数文件。	#
 commands.reload.success=现有函数文件已重新加载。重启Minecraft以加载新函数。	#
 commands.replaceitem.description=替换物品栏中的物品。	#
-commands.replaceitem.failed=无法将%s栏位的物品%d替换为%d*%s	#
-commands.replaceitem.keepFailed=已有物品占用了%s的%d栏位。	#
+commands.replaceitem.failed=无法将%s槽位的物品%d替换为%d*%s	#
+commands.replaceitem.keepFailed=已有物品占用了%s槽位%d。	#
 commands.replaceitem.noContainer=位于%s的方块不是容器	#
-commands.replaceitem.badSlotNumber=无法替换%d栏位，必须是%d和%d之间的值。	#
-commands.replaceitem.success=已将%s栏位的物品%d替换为%d*%s	#
-commands.replaceitem.success.entity=已将%s的%s栏位中的%d替换为%d*%s	#
+commands.replaceitem.badSlotNumber=无法替换%d槽位，必须是%d和%d之间的值。	#
+commands.replaceitem.success=已将%s槽位的物品%d替换为%d*%s	#
+commands.replaceitem.success.entity=已将%s的槽位%s中的%d替换为%d*%s	#
 commands.replaceitem.tagError=数据标签解析失败：%1$s	#
 commands.save.description=控制或检查游戏数据保存到磁盘的方式。	#
 commands.save.disabled=世界自动保存已关闭	#
@@ -1043,8 +1043,8 @@ commands.setblock.outOfWorld=无法在世界外放置方块	#
 commands.setblock.success=方块已放置	#
 commands.setblock.tagError=数据标签解析失败：%1$s	#
 commands.setidletimeout.success=成功地将空闲时间设为%1$d分钟。	#
-commands.setfixedinvslots.description=设置服务器的固定物品栏栏位。	#
-commands.setfixedinvslots.success=固定物品栏栏位已设置为%1$d	#
+commands.setfixedinvslots.description=设置服务器的固定物品栏槽位。	#
+commands.setfixedinvslots.success=固定物品栏槽位已设置为%1$d	#
 commands.setfixedinvslot.description=已将固定物品格设置为特定物品。	#
 commands.setfixedinvslot.success=固定物品栏栏位%1$d设置为%2$s	#
 commands.globalpause.description=设置或取得所有玩家的全游戏暂停状态。	#
@@ -1395,7 +1395,7 @@ course.edu.joinLessonIntro=与同学一起加入同一个课程，或如果没�
 course.edu.joinLessonIntroTeacher=选择你想加入的小组，或如果没有出现在列表中，则输入他们的IP地址。	#
 course.edu.noLessonFoundJoinIp=输入IP地址	#
 course.edu.portTooltipText=端口号决定需要使用的特定服务器程序。除非服务器房主指定，端口无需改变。	#
-course.edu.searching=正在查找世界……	#
+course.edu.searching=正在查找世界...	#
 
 crafting.badCombination=该物品无有效输出	#
 crafting.cannotCreate=你没有全部的原料	#
@@ -1618,7 +1618,7 @@ realmsInvitationScreen.loadingFriends=正在加载好友和成员...	#
 realmsInvitationScreen.loadingProfiles=正在加载档案（%s/%s）	#
 realmsInvitationScreen.noInvites=未找到任何玩家。	#
 realmsInvitationScreen.removed=已移除	#
-realmsInvitationScreen.savingChanges=保存更改中…	#
+realmsInvitationScreen.savingChanges=保存更改中...	#
 realmsInvitationScreen.sendingInvitesFailed=出错了。我们无法将你所选的玩家添加到你的Realm。请稍后再试。	#
 realmsInvitationScreen.title=添加成员	#
 realmsInvitationScreen.undo=撤消	#
@@ -4781,7 +4781,7 @@ joincode.entry_popup.icon_button=%1加入代码按钮		# Example: Apple join cod
 joincode.entry_popup.icon_entry=%3加入代码记录，第%1/%2条	# Example: Apple join code entry 2 of 5	#
 joincode.entry_popup.title=输入加入代码	#
 joincode.connecting.title=加入世界	#
-joincode.connecting.lower_text=正在搜索世界……	#
+joincode.connecting.lower_text=正在搜索世界...	#
 joincode.error.title=加入错误	#
 joincode.error.message.no_match=您输入的加入代码无法匹配目前可用的任何世界。	#
 joincode.error.message.no_response=连接到加入代码服务时出现了问题。请重试。	#
@@ -5060,7 +5060,7 @@ lanServer.title=局域网世界	#
 lanServer.restart=该服务器已重启！	#
 
 library.prompt.inGameLink=此操作将保存并退出你当前的游戏和多人游戏连接，是否确定退出？	#
-library.fetchingItem=正在连接图书馆……	#
+library.fetchingItem=正在连接图书馆...	#
 library.fetchingItem.failed=抱歉，我们无法在图书馆中找到该物品。	#
 library.welcome.1=欢迎来到Minecraft教育版图书馆！	#
 library.welcome.2=这个图书馆是我们打造的一个新功能，可以让教师和学生们方便地在游戏中找到和导入教育内容。在这个版本中，你将在我们的网站上看到我们的一些可供你导入和使用的最受欢迎的世界，以及访问完整的世界图书馆的链接。	#
@@ -5144,7 +5144,7 @@ merchant.deprecated=交易一些别的东西来解锁！	#
 mount.onboard=按下%1$s来脱离	#
 
 multiplayer.connect=连接	#
-multiplayer.downloadingStats=正在下载统计数据和成就中…	#
+multiplayer.downloadingStats=正在下载统计数据和成就...	#
 multiplayer.downloadingTerrain=下载地形中	#
 multiplayer.info1=Minecraft多人模式还未完成，但我们	#
 multiplayer.info2=正在进行一些早期测试。	#
@@ -5671,7 +5671,7 @@ options.viewSubscriptions.realmsPlus.header=Realms Plus订阅	#
 options.viewSubscriptions.realmsPlus.detail=50多项内容和您专属的Realm服务器	#
 options.viewSubscriptions.realms.header=额外的订阅	#
 options.viewSubscriptions.realms.detail=可让至多%d位玩家同时访问您自己的Realm服务器	#
-options.viewSubscriptions.loadingSubscriptions=正在加载您的订阅……	#
+options.viewSubscriptions.loadingSubscriptions=正在加载您的订阅...	#
 options.viewSubscriptions.loadingSubscriptionsFailed=加载订阅失败	#
 options.viewSubscriptions.purchasedPlatformDiffers=此内容是在%s中购买的，您必须使用该设备来管理它。	#
 options.viewSubscriptions.noActiveSubscriptions=您没有生效的订阅	#
@@ -6072,17 +6072,17 @@ profileScreen.manage_button_create_text=创建角色	#
 progressScreen.cantConnect=无法连接到世界。请检查你的互联网连接并重试。	#
 progressScreen.generating=生成世界中	#
 progressScreen.saving=正在保存世界	#
-progressScreen.loading=加载中…	#
+progressScreen.loading=加载中...	#
 progressScreen.title.downloading=正在下载资源包 %1	#
 progressScreen.title.applyingPacks=正在加载资源包	#
-progressScreen.title.searchingForSession=正在搜索游戏会话…	#
+progressScreen.title.searchingForSession=正在搜索游戏会话...	#
 progressScreen.title.waitingForStorageProvider=正在同步用户数据	#
 progressScreen.title.connectingLocal=正在启动世界	#
 progressScreen.title.connectingLAN=正在连接多人游戏	#
 progressScreen.title.connectingExternal=正在连接外部服务器	#
 progressScreen.title.connectingRealms=正在连接Realm	#
 progressScreen.title.copyingWorld=复制世界	#
-progressScreen.message.copyingWorld=正在复制世界… %d%%	#
+progressScreen.message.copyingWorld=正在复制世界... %d%%	#
 progressScreen.message.tts.copyingWorld=正在复制世界	#
 progressScreen.message.building=生成地形中	#
 progressScreen.message.done=完成！	#
@@ -6260,7 +6260,7 @@ storageManager.dependency.noItems=没有待删除的其他项目。	#
 storageManager.dependency.breakItem=需要你删除的内容：	#
 storageManager.dependency.removeDependencies=移除该项目的依赖项	#
 storageManager.dependency.breakPack=确定要删除此资源包吗?	#
-storageManager.share.compress=正在压缩选中的资源…	#
+storageManager.share.compress=正在压缩选中的资源...	#
 storageManager.share.totalPercent=100%	#
 storageManager.dependency.continue=继续	#
 storageManager.dependency.continue.scroll=滚动继续	#
@@ -6387,12 +6387,12 @@ selectWorld.trustPlayers=信任玩家：	#
 selectWorld.cheats=启用作弊	#
 selectWorld.conversion=必须进行转换！	#
 selectWorld.convertInProgress.title=世界转换	#
-selectWorld.convertInProgress.msg=正在转换世界… %d%%	#
+selectWorld.convertInProgress.msg=正在转换世界... %d%%	#
 selectWorld.convertInProgress.tts.msg=正在转换世界	#
-selectWorld.convertInProgress.download_msg=正在下载资源包…… %d%%	#
-selectWorld.convertInProgress.import_msg=正在导入资源包…… %d%%	#
+selectWorld.convertInProgress.download_msg=正在下载资源包... %d%%	#
+selectWorld.convertInProgress.import_msg=正在导入资源包... %d%%	#
 selectWorld.uploadInProgress.title=正在上传旧世界	#
-selectWorld.uploadInProgress.msg=正在将旧世界上传到Minecraft… %d%%	#
+selectWorld.uploadInProgress.msg=正在将旧世界上传到Minecraft... %d%%	#
 selectWorld.convertFailed.msg=糟糕! 出错了。	#
 selectWorld.create=创建新的世界	#
 selectWorld.createNew=新建	#
@@ -6783,10 +6783,10 @@ store.purchase.bundle.unowned=你将获得	#
 store.createdBy=作者：%s	#
 store.seeMoreBy=查看由%s提供的更多内容	#
 store.seeMoreBy.multiCreatorBundle=按捆绑包作者查看更多	#
-store.fetchingItem=正在连接到商城…	#
+store.fetchingItem=正在连接到商城...	#
 
-store.invalidAccount.title=请选择Microsoft帐户	#
-store.invalidAccount.description=您正在使用两个不同的Microsoft帐户登录到Minecraft和Microsoft Store。我们需要您使用同一个帐户登录。	#
+store.invalidAccount.title=请选择微软帐户	#
+store.invalidAccount.description=您正在使用两个不同的微软帐户登录到Minecraft和Microsoft Store。我们需要您使用同一个帐户登录。	#
 store.invalidAccount.getHelp=获取帮助以修复此问题	#
 
 store.timer.daysAbbreviated=%s天		### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
@@ -7923,7 +7923,7 @@ structure_block.rotation.none=不旋转	#
 structure_block.rotation.90=90	#
 structure_block.rotation.180=180	#
 structure_block.rotation.270=270	#
-structure_block.progress.generating=正在生成你的模型…	#
+structure_block.progress.generating=正在生成你的模型...	#
 structure_block.extensionDescription=结构文件	#
 structure_block.exportFileTitle=导出结构	#
 structure_block.exportFailedTitle=导出失败	#
@@ -7977,7 +7977,7 @@ worldConversionErrorReport.terms.viewTerms=查看条款	#
 
 
 worldConversionErrorReport.sending.title=正在发送旧世界	#
-worldConversionErrorReport.sending.description=正在将旧世界发送到Minecraft…	#
+worldConversionErrorReport.sending.description=正在将旧世界发送到Minecraft...	#
 
 worldConversionErrorReport.sending.complete=发送已完成	#
 worldConversionErrorReport.sending.completeMessage.part1=非常感谢！我们正致力于修复一些内容，因此未能及时就此特定世界给予回复。下面是你的回执，用以确认我们已收到它：	#
@@ -8125,9 +8125,9 @@ xbox.signin.error=请登录至微软账户，与好友畅玩，获取玩家点�
 xbox.signin.error.pocket.line1=感谢测试Realm！这些功能不是最终版，你可能遇到漏洞。请向我们发送反馈！我们乐于倾听。	#
 xbox.signin.error.pocket.line2=	#
 xbox.signin.error.pocket.line3=在此测试中，每个人都必须登录到微软账户，以便将邀请发送给你并添加到Realm中。	#
-xbox.connection.error=已从Microsoft账户断开连接	#
+xbox.connection.error=已从微软账户断开连接	#
 xbox.signin=登录	#
-xbox.signin.beta.blocked=目前无法在Beta版中使用Microsoft帐户登录。	#
+xbox.signin.beta.blocked=目前无法在Beta版中使用微软帐户登录。	#
 xbox.signin.enterCode=输入此代码：	#
 xbox.signin.letsPlay=开始玩游戏吧！	#
 xbox.signin.message=使用你的免费微软账户登录，体验Minecraft的完整世界。	#
@@ -8148,7 +8148,7 @@ xbox.firstsignin.line1=欢迎来到Minecraft！使用微软账户连接到Minecr
 xbox.firstsignin.line2=它完全免费！	#
 xbox.firstsignin.line3=还没有账户？马上创建一个以获得成就，并加入Realm和服务器吧！	#
 xbox.firstsignin.line3.norealmsOrServers=没有账户？立即创建一个以赢取成就并与你的跨平台好友一起畅玩！	#
-xbox.failedsignin.line1=我们尝试过登录你的Microsoft帐户，但出现了错误。	#
+xbox.failedsignin.line1=我们尝试过登录你的微软帐户，但出现了错误。	#
 xbox.failedsignin.line2=如果你没有登录便开始游戏，将无法看到好友列表，获得成就，加入Realm，或在Xbox Live上进行在线游戏。	#
 xbox.dev_wrongSandboxSigninFailed.title=出错了	#
 xbox.dev_wrongSandboxSigninFailed.line1=无法登录至%s沙盒。请更改沙盒并重新启动Minecraft，或者使用另一个账号登录。重新启动时沙盒将为%s。 	#
@@ -8173,7 +8173,7 @@ xbox.genericsignin.line2=免费！	#
 xbox.genericsignin.line3=你可以随时随地使用它来玩Minecraft。	#
 
 xbox.disconectionscreen.notSignedIn=使用微软账户登录，与好友畅玩。	#
-xbox.disconectionscreen.multiplayerNotAllowed=此 Microsoft 帐户没有权限加入多人游戏。	#
+xbox.disconectionscreen.multiplayerNotAllowed=此微软帐户没有权限加入多人游戏。	#
 xbox.disconectionscreen.accessDenied=你必须与本游戏中某人是好友才能加入。	#
 
 xbox.friendfinder.enterGamertag=输入玩家代号	#
@@ -8534,7 +8534,7 @@ dr.rarity.legendary=传奇	#
 dr.rarity.rare=稀有	#
 dr.rarity.uncommon=罕见	#
 key.emote=表情	#
-dr.loading=加载中……	#
+dr.loading=加载中...	#
 dr.classic_skins.addition_skin_count=+%s	#
 dr.classic_skins.choose_custom_skin=选择新皮肤	#
 dr.classic_skins.custom_skin_title=导入皮肤	#
@@ -8738,6 +8738,646 @@ dynamicPackage.download.android.kilobytesPerSecond=%1$s KB/s	#					## %1$s is th
 dynamicPackage.download.android.timeRemainingNotification=剩余%1$s	#				## %1$s is the time remaining
 dynamicPackage.download.android.notificationChannelName=更新状态	#
 dynamicPackage.download.android.NotificationChannelDescription=显示更新状态和进度	#
+
+##
+## Chemistry Strings
+## comment on the same line, use TABs.
+## Comments can be added anywhere on a valid line by starting with '##'
+## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
+action.interact.balloon=连接	#
+action.interact.unballoon=分离	#
+compoundcreator.title=化合物创建器	#
+createWorldScreen.chemistryenabled=化学已启用	#
+elementconstructor.title=元素构造器	#
+entity.balloon.name=气球	#
+entity.ice_bomb.name=冰弹	#
+item.balloon.white.name=白色气球	#
+item.balloon.orange.name=橙色气球	#
+item.balloon.magenta.name=品红色气球	#
+item.balloon.lightBlue.name=淡蓝色气球	#
+item.balloon.yellow.name=黄色气球	#
+item.balloon.lime.name=黄绿色气球	#
+item.balloon.pink.name=粉红色气球	#
+item.balloon.gray.name=灰色气球	#
+item.balloon.silver.name=银色气球	#
+item.balloon.cyan.name=青色气球	#
+item.balloon.purple.name=紫色气球	#
+item.balloon.blue.name=蓝色气球	#
+item.balloon.brown.name=棕色气球	#
+item.balloon.green.name=绿色气球	#
+item.balloon.red.name=红色气球	#
+item.balloon.black.name=黑色气球	#
+item.bleach.name=漂白剂	#
+item.compound.aluminumoxide.formula=Al₂O₃	#
+item.compound.aluminumoxide.name=氧化铝	#
+item.compound.ammonia.formula=NH₃	#
+item.compound.ammonia.name=氨	#
+item.compound.bariumsulfate.formula=BaSO₄	#
+item.compound.bariumsulfate.name=硫酸钡	#
+item.compound.benzene.formula=C₆H₆	#
+item.compound.benzene.name=苯	#
+item.compound.borontrioxide.formula=B₂O₃	#
+item.compound.borontrioxide.name=三氧化硼	#
+item.compound.calciumbromide.formula=CaBr₂	#
+item.compound.calciumbromide.name=溴化钙	#
+item.compound.calciumchloride.formula=CaCl₂	#
+item.compound.calciumchloride.name=氯化钙	#
+item.compound.ceriumchloride.formula=CeCl₃	#
+item.compound.ceriumchloride.name=氯化铈	#
+item.compound.charcoal.formula=C₇H₄O	#
+item.compound.charcoal.name=木炭	#
+item.compound.crudeoil.formula=C₉H₂₀	#
+item.compound.crudeoil.name=原油	#
+item.compound.garbage.name=废物	#
+item.compound.glue.formula=C₅H₅NO₂	#
+item.compound.glue.name=黏合剂	#
+item.compound.hydrogenperoxide.formula=H₂O₂	#
+item.compound.hydrogenperoxide.name=过氧化氢	#
+item.compound.hypochlorite.formula=ClO	#
+item.compound.hypochlorite.name=次氯酸盐	#
+item.compound.ink.formula=FeSO₄	#
+item.compound.ironsulfide.formula=FeS	#
+item.compound.ironsulfide.name=硫化铁	#
+item.compound.latex.formula=C₅H₈	#
+item.compound.latex.name=乳液	#
+item.compound.lithiumhydride.formula=LiH	#
+item.compound.lithiumhydride.name=氢化锂	#
+item.compound.luminol.formula=C₈H₇N₃O₂	#
+item.compound.luminol.name=鲁米诺	#
+item.compound.magnesiumnitrate.formula=Mg(NO₃)₂	#
+item.compound.magnesiumnitrate.name=硝酸镁	#
+item.compound.magnesiumoxide.formula=MgO	#
+item.compound.magnesiumoxide.name=氧化镁	#
+item.compound.magnesiumsalts.formula=MgSO₄	#
+item.compound.magnesiumsalts.name=镁盐	#
+item.compound.mercuricchloride.formula=HgCl₂	#
+item.compound.mercuricchloride.name=氯化汞	#
+item.compound.polyethylene.formula=(C₂H₄)₅	#
+item.compound.polyethylene.name=聚乙烯	#
+item.compound.potassiumchloride.formula=KCl	#
+item.compound.potassiumchloride.name=氯化钾	#
+item.compound.potassiumiodide.formula=KI	#
+item.compound.potassiumiodide.name=碘化钾	#
+item.compound.salt.formula=NaCl	#
+item.compound.salt.name=盐	#
+item.compound.soap.formula=C₁₈H₃₅NaO₂	#
+item.compound.soap.name=肥皂	#
+item.compound.sodiumacetate.formula=C₂H₃NaO₂	#
+item.compound.sodiumacetate.name=乙酸钠	#
+item.compound.sodiumfluoride.formula=NaF	#
+item.compound.sodiumfluoride.name=氟化钠	#
+item.compound.sodiumhydride.formula=NaH	#
+item.compound.sodiumhydride.name=氢化钠	#
+item.compound.sodiumhydroxide.formula=NaOH	#
+item.compound.sodiumhydroxide.name=碱	#
+item.compound.sodiumhypochlorite.formula=NaClO	#
+item.compound.sodiumhypochlorite.name=次氯酸钠	#
+item.compound.sodiumoxide.formula=Na₂O	#
+item.compound.sodiumoxide.name=氧化钠	#
+item.compound.sugar.formula=C₆H₁₂O₆	#
+item.compound.sulfate.formula=SO₄	#
+item.compound.sulfate.name=硫酸盐	#
+item.compound.tungstenchloride.formula=WCl₆	#
+item.compound.tungstenchloride.name=氯化钨	#
+item.compound.water.formula=H₂O	#
+item.compound.water.name=水	#
+item.glow_stick.blue.name=蓝色荧光棒	#
+item.glow_stick.brown.name=棕色荧光棒	#
+item.glow_stick.cyan.name=青色荧光棒	#
+item.glow_stick.gray.name=灰色荧光棒	#
+item.glow_stick.green.name=绿色荧光棒	#
+item.glow_stick.lightBlue.name=淡蓝色荧光棒	#
+item.glow_stick.lime.name=黄绿色荧光棒	#
+item.glow_stick.magenta.name=品红色荧光棒	#
+item.glow_stick.orange.name=橙色荧光棒	#
+item.glow_stick.pink.name=粉红色荧光棒	#
+item.glow_stick.purple.name=紫色荧光棒	#
+item.glow_stick.red.name=红色荧光棒	#
+item.glow_stick.white.name=白色荧光棒	#
+item.glow_stick.yellow.name=黄色荧光棒	#
+item.ice_bomb.name=冰弹	#
+item.rapid_fertilizer.name=超级肥料	#
+item.medicine.blindness.name=眼药水	#
+item.medicine.nausea.name=补药	#
+item.medicine.poison.name=解毒剂	#
+item.medicine.weakness.name=灵药	#
+item.sparkler.blue.name=蓝色烟花	#
+item.sparkler.green.name=绿色烟花	#
+item.sparkler.orange.name=橙色烟花	#
+item.sparkler.purple.name=紫色烟花	#
+item.sparkler.red.name=红色烟花	#
+itemGroup.name.chemistrytable=化学设备	#
+itemGroup.name.element=元素	#
+labtable.combine=合成	#
+labtable.inuse=此实验台正在使用	#
+labtable.title=实验台	#
+materialreducer.title=材料分解器	#
+pack.name=化学	#
+pack.description=在《Minecraft》中探索化学的世界！	#
+tile.chemical_heat.name=加热块	#
+tile.colored_torch.blue.name=蓝色彩色火把	#
+tile.colored_torch.green.name=绿色彩色火把	#
+tile.colored_torch.purple.name=紫色彩色火把	#
+tile.colored_torch.red.name=红色彩色火把	#
+tile.compoundcreator.name=化合物创建器	#
+tile.element.ac.name=锕	#
+tile.element.ag.name=银	#
+tile.element.al.name=铝	#
+tile.element.am.name=镅	#
+tile.element.ar.name=氩	#
+tile.element.as.name=砷	#
+tile.element.at.name=砹	#
+tile.element.au.name=金	#
+tile.element.b.name=硼	#
+tile.element.ba.name=钡	#
+tile.element.be.name=铍	#
+tile.element.bh.name=𬭛	#
+tile.element.bi.name=铋	#
+tile.element.bk.name=锫	#
+tile.element.br.name=溴	#
+tile.element.c.name=碳	#
+tile.element.ca.name=钙	#
+tile.element.cd.name=镉	#
+tile.element.ce.name=铈	#
+tile.element.cf.name=锎	#
+tile.element.cl.name=氯	#
+tile.element.cm.name=锔	#
+tile.element.cn.name=鿔	#
+tile.element.co.name=钴	#
+tile.element.cr.name=铬	#
+tile.element.cs.name=铯	#
+tile.element.cu.name=铜	#
+tile.element.db.name=𬭊	#
+tile.element.ds.name=𫟼	#
+tile.element.dy.name=镝	#
+tile.element.er.name=铒	#
+tile.element.es.name=锿	#
+tile.element.eu.name=铕	#
+tile.element.f.name=氟	#
+tile.element.fe.name=铁	#
+tile.element.fl.name=𫓧	#
+tile.element.fm.name=镄	#
+tile.element.fr.name=钫	#
+tile.element.ga.name=镓	#
+tile.element.gd.name=钆	#
+tile.element.ge.name=锗	#
+tile.element.h.name=氢	#
+tile.element.he.name=氦	#
+tile.element.hf.name=铪	#
+tile.element.hg.name=汞	#
+tile.element.ho.name=钬	#
+tile.element.hs.name=𬭶	#
+tile.element.i.name=碘	#
+tile.element.in.name=铟	#
+tile.element.ir.name=铱	#
+tile.element.k.name=钾	#
+tile.element.kr.name=氪	#
+tile.element.la.name=镧	#
+tile.element.li.name=锂	#
+tile.element.lr.name=铹	#
+tile.element.lu.name=镥	#
+tile.element.lv.name=𫟷	#
+tile.element.mc.name=镆	#
+tile.element.md.name=钔	#
+tile.element.mg.name=镁	#
+tile.element.mn.name=锰	#
+tile.element.mo.name=钼	#
+tile.element.mt.name=鿏	#
+tile.element.n.name=氮	#
+tile.element.na.name=钠	#
+tile.element.nb.name=铌	#
+tile.element.nd.name=钕	#
+tile.element.ne.name=氖	#
+tile.element.nh.name=鉨	#
+tile.element.ni.name=镍	#
+tile.element.no.name=锘	#
+tile.element.np.name=镎	#
+tile.element.o.name=氧	#
+tile.element.og.name=Oganesson	#
+tile.element.os.name=锇	#
+tile.element.p.name=磷	#
+tile.element.pa.name=镤	#
+tile.element.pb.name=铅	#
+tile.element.pd.name=钯	#
+tile.element.pm.name=钷	#
+tile.element.po.name=钋	#
+tile.element.pr.name=镨	#
+tile.element.pt.name=铂	#
+tile.element.pu.name=钚	#
+tile.element.ra.name=镭	#
+tile.element.rb.name=铷	#
+tile.element.re.name=铼	#
+tile.element.rf.name=𬬻	#
+tile.element.rg.name=𬬭	#
+tile.element.rh.name=铑	#
+tile.element.rn.name=氡	#
+tile.element.ru.name=钌	#
+tile.element.s.name=硫	#
+tile.element.sb.name=锑	#
+tile.element.sc.name=钪	#
+tile.element.se.name=硒	#
+tile.element.sg.name=𬭳	#
+tile.element.si.name=硅	#
+tile.element.sm.name=钐	#
+tile.element.sn.name=锡	#
+tile.element.sr.name=锶	#
+tile.element.ta.name=钽	#
+tile.element.tb.name=铽	#
+tile.element.tc.name=锝	#
+tile.element.te.name=碲	#
+tile.element.th.name=钍	#
+tile.element.ti.name=钛	#
+tile.element.tl.name=铊	#
+tile.element.tm.name=铥	#
+tile.element.ts.name=Tennessine	#
+tile.element.u.name=铀	#
+tile.element.unknown.name=？？？	#
+tile.element.v.name=钒	#
+tile.element.w.name=钨	#
+tile.element.xe.name=氙	#
+tile.element.y.name=钇	#
+tile.element.yb.name=镱	#
+tile.element.zn.name=锌	#
+tile.element.zr.name=锆	#
+tile.elementconstructor.name=元素构造器	#
+tile.hard_glass.name=强化玻璃	#
+tile.hard_glass_pane.name=强化玻璃板	#
+tile.hard_stained_glass.black.name=强化黑色玻璃	#
+tile.hard_stained_glass.blue.name=强化蓝色玻璃	#
+tile.hard_stained_glass.brown.name=强化棕色玻璃	#
+tile.hard_stained_glass.cyan.name=强化青色玻璃	#
+tile.hard_stained_glass.gray.name=强化灰色玻璃	#
+tile.hard_stained_glass.green.name=强化绿色玻璃	#
+tile.hard_stained_glass.light_blue.name=强化淡蓝色玻璃	#
+tile.hard_stained_glass.lime.name=强化黄绿色玻璃	#
+tile.hard_stained_glass.magenta.name=强化品红色玻璃	#
+tile.hard_stained_glass.orange.name=强化橙色玻璃	#
+tile.hard_stained_glass.pink.name=强化粉红色玻璃	#
+tile.hard_stained_glass.purple.name=强化紫色玻璃	#
+tile.hard_stained_glass.red.name=强化红色玻璃	#
+tile.hard_stained_glass.silver.name=强化淡灰色玻璃	#
+tile.hard_stained_glass.white.name=强化白色玻璃	#
+tile.hard_stained_glass.yellow.name=强化黄色玻璃	#
+tile.hard_stained_glass_pane.black.name=强化黑色玻璃板	#
+tile.hard_stained_glass_pane.blue.name=强化蓝色玻璃板	#
+tile.hard_stained_glass_pane.brown.name=强化棕色玻璃板	#
+tile.hard_stained_glass_pane.cyan.name=强化青色玻璃板	#
+tile.hard_stained_glass_pane.gray.name=强化灰色玻璃板	#
+tile.hard_stained_glass_pane.green.name=强化绿色玻璃板	#
+tile.hard_stained_glass_pane.light_blue.name=强化淡蓝色玻璃板	#
+tile.hard_stained_glass_pane.lime.name=强化黄绿色玻璃板	#
+tile.hard_stained_glass_pane.magenta.name=强化品红色玻璃板	#
+tile.hard_stained_glass_pane.orange.name=强化橙色玻璃板	#
+tile.hard_stained_glass_pane.pink.name=强化粉红色玻璃板	#
+tile.hard_stained_glass_pane.purple.name=强化紫色玻璃板	#
+tile.hard_stained_glass_pane.red.name=强化红色玻璃板	#
+tile.hard_stained_glass_pane.silver.name=强化淡灰色玻璃板	#
+tile.hard_stained_glass_pane.white.name=强化白色玻璃板	#
+tile.hard_stained_glass_pane.yellow.name=强化黄色玻璃板	#
+tile.labtable.name=实验台	#
+tile.materialreducer.name=材料分解器	#
+tile.underwater_tnt.name=水下 TNT	#
+tile.underwater_torch.name=水下火把	#
+
+##
+## Education Strings
+commands.codebuilder.description=为一个玩家设置Code Builder。	#
+commands.codebuilder.invalidurl=此URL已失效或是指向一个不支持的网站。	#
+commands.takepicture.description=拍摄用户的照片或从用户的角度拍照片。	#
+commands.takepicture.cameranotfound=无法找到摄像机。	#
+commands.takepicture.cameranotspawned=无法生成摄像机。	#
+
+library.connection.failed.body=我们无法连接到图书馆。这可能是由于您的计算机处于脱机状态或者其无法访问图书馆目录。	#
+library.connection.failed.help=获取帮助	#
+library.connection.noWorldFound.title=未找到世界	#
+library.connection.noWorldFound.body=似乎这个类别中没有世界。	#
+library.findMoreWorlds=发现更多的世界	#
+library.leaveFeedback=留下反馈	#
+library.title=图书馆	#
+library.item.createdBy=作者：%s	#
+library.item.age=年龄：%1	#
+
+## Example for how the duration section will be used:
+## Duration: 10 Minutes (this is a combination of library.item.duration, library.item.duration.multipleMinutes, and the number 10)
+## Duration: 1 Hour (this is a combination of library.item.duration, library.item.duration.hour, and the number 1)
+library.item.duration=持续时间：%1	#
+library.item.duration.minute=%1分钟	#
+library.item.duration.multipleMinutes=%1分钟	#
+library.item.duration.hour=%1小时	#
+library.item.duration.multipleHours=%1小时	#
+
+library.item.difficulty=难度：%1	#
+library.item.difficulty.beginner=初级	#
+library.item.difficulty.intermediate=中级	#
+library.item.difficulty.advanced=高级	#
+
+library.item.tags=标签：	#
+library.item.button.create=创建世界	#
+library.item.button.share=分享链接	#
+library.item.button.plan=课程计划	#
+library.item.button.resources=资源	#
+library.item.progress.body=准备进入新世界，这可能需要几分钟时间。	#
+library.item.description=说明	#
+library.item.overview=概览	#
+library.item.expandable.readLess=收起	#
+library.item.expandable.readMore=阅读更多	#
+
+library.item.section.languages=支持的语言	#
+library.item.section.languages.tip=如果此课程不能以您的首选语言提供，则沉浸式阅读器可用于翻译课程内文本，包括书籍、告示牌、黑板和NPC对话。	#
+library.item.section.questions=基本问题	#
+library.item.section.generic_objectives=目标	#
+library.item.section.objectives=探索目标	#
+library.item.section.prep=教师准备和笔记	#
+library.item.section.activities=用户活动	#
+library.item.section.assessment=评估	#
+library.item.section.extensions=延伸	#
+
+library.category.label.biomes=生物群系和世界	#
+library.category.title.biomes=生物群系和世界	#
+library.category.description.biomes=使用这个世界和生物群系的集合，以帮助在Minecraft教育版中开始创建课程。	#
+
+library.category.label.biomes.biome=生物群系	#
+library.category.title.biomes.biome=生物群系	#
+library.category.description.biomes.biome=在Minecraft中，生物群系是以独特的地貌、植物和动物为特征的区域。	#
+
+library.category.label.biomes.featured=精选世界	#
+library.category.title.biomes.featured=精选世界	#
+
+library.category.label.buildChallenges=每月建造挑战	#
+library.category.title.buildChallenges=每月建造挑战	#
+library.category.description.buildChallenges=通过这些易于实施的课堂活动，激发用户的创造力，加强 21 世纪技能。	#
+
+library.category.label.howToPlay=游戏指南	#
+library.category.description.howToPlay=这些世界和活动都是作为入门级探索而创建的，旨在帮助您探索如何在课堂上使用Minecraft教育版。	#
+
+library.category.label.howToPlay.startHere=从这里开始	#
+library.category.title.howToPlay.startHere=从这里开始	#
+library.category.description.howToPlay.startHere=每个教程世界都旨在帮助您探索不同的技能，以支持在您的课堂中使用Minecraft教育版。	#
+
+library.category.label.howToPlay.additional=附加教程	#
+library.category.title.howToPlay.additional=附加教程	#
+
+library.category.label.lessons=课程	#
+library.category.title.lessons=课程	#
+
+library.category.label.lessons.genericAdditional=附加课程	#
+library.category.title.lessons.genericAdditional=附加课程	#
+
+library.category.label.languageArts=语言艺术学科	#
+library.category.title.languageArts=语言艺术学科	#
+
+library.category.label.languageArts.litStudies=文学研究	#
+library.category.title.languageArts.litStudies=文学研究	#
+
+library.category.label.languageArts.litStudies.treasureIsland=金银岛	#
+library.category.title.languageArts.litStudies.treasureIsland=金银岛	#
+library.category.description.languageArts.litStudies.treasureIsland=这一系列课程旨在通过对罗伯特·路易斯·史蒂文森的《金银岛》的研究，帮助教授英语语言艺术概念。	#
+
+library.category.label.languageArts.litStudies.kensukesKingdom=岛王	#
+library.category.title.languageArts.litStudies.kensukesKingdom=岛王	#
+library.category.description.languageArts.litStudies.kensukesKingdom=这一系列课程旨在通过对迈克尔·莫普尔戈的《岛王》的研究，帮助教授英语语言艺术概念。	#
+
+library.category.label.languageArts.litStudies.swissFamily=海角乐园	#
+library.category.title.languageArts.litStudies.swissFamily=海角乐园	#
+library.category.description.languageArts.litStudies.swissFamily=这一系列课程旨在通过对《鲁宾逊漂流记》和《海角乐园》的研究，帮助教授英语语言艺术概念。	#
+
+library.category.label.science=科学	#
+library.category.title.science=科学	#
+
+library.category.label.science.chemistry=化学	#
+library.category.title.science.chemistry=化学	#
+
+library.category.label.science.biology=生物学	#
+library.category.title.science.biology=生物学	#
+
+library.category.label.science.rangers=我们是多面手	#
+library.category.title.science.rangers=我们是多面手	#
+library.category.description.science.rangers=这五个课程和独特的Minecraft的世界跨越了多个主题领域和年龄段。通过所提供的课程，用户们可以穿越非洲平原进行冒险、调查运转的港口、犀牛孤儿院和护林员站，并一路上解决问题和探索技能。	#
+
+library.category.label.science.extinction=生物多样性灭绝危机	#
+library.category.title.science.extinction=生物多样性灭绝危机	#
+library.category.description.science.extinction=我们与世界野生动物基金会合作开发了这个内容包，其中包含一个沉浸式的Minecraft的世界和多个基于标准的课程。探索这些资源，对生态系统、保护和生物多样性进行实践探索。	#
+
+library.category.label.history=历史与文化	#
+library.category.title.history=历史与文化	#
+
+library.category.label.history.oregonTrail=俄勒冈小道	#
+library.category.title.history.oregonTrail=俄勒冈小道	#
+library.category.description.history.oregonTrail=通过与哈考特出版社合作，Minecraft教育版为您带来了俄勒冈小道探索。使用这些贯穿了您整个课程的俄勒冈小道探索活动，开始一场伟大的冒险——在穿越了北美崎岖地形的俄勒冈小道上旅行。	#
+
+library.category.label.computerScience=计算机科学	#
+library.category.title.computerScience=计算机科学	#
+
+library.category.label.computerScience.hourOfCode=编程一小时	#
+library.category.title.computerScience.hourOfCode=编程一小时	#
+library.category.description.computerScience.hourOfCode=本课程是为期一小时的计算机科学介绍，旨在揭开AI的神秘面纱，在Minecraft中引入编码，以及扩大对计算机科学领域的参与。	#
+
+library.category.label.computerScience.codeSTEM=探索STEM的代码	#
+library.category.title.computerScience.codeSTEM=探索STEM的代码	#
+library.category.description.computerScience.codeSTEM=使用这些符合标准的数学、科学和工程学课程和世界，将计算机科学融入校园生活的方方面面。	#
+
+library.category.label.computerScience.courseOne=编码课程1	#
+library.category.title.computerScience.courseOne=编码课程1	#
+library.category.description.computerScience.courseOne=使用这些基于CSTA标准的计算机科学课程建造您自己的城市。探索基本的计算机科学概念，包括循环、算法、条件、调试、迭代等等。	#
+
+library.category.label.computerScience.courseTwo=编码课程2	#
+library.category.title.computerScience.courseTwo=编码课程2	#
+library.category.description.computerScience.courseTwo=通过这些基于CSTA标准的计算机科学课程探索条件、函数、坐标、AI等等。	#
+
+library.category.label.math=数学	#
+library.category.title.math=数学	#
+
+library.category.label.math.fractions=分数	#
+library.category.title.math.fractions=分数	#
+library.category.description.math.fractions=尝试探索这些课程资源来帮助用户探索分数。	#
+library.category.label.art=艺术设计	#
+library.category.title.art=艺术设计	#
+
+library.category.label.commonCore=共同核心，%1 级	#
+library.category.title.commonCore=共同核心，%1 级	#
+library.category.description.commonCoreMath=这些引人入胜的活动旨在为数学教育提供支持，并且符合每一项共同核心数学标准。	#
+
+signin.acceptTerms=接受条款	#
+signin.leftPanel.header=探索Minecraft教育版 	#
+signin.leftPanel.body=用您的学校账户登录以访问Minecraft教育版的完整版本。	#
+signin.rightPanel.header=尝试探索演示课程	#
+signin.rightPanel.body=在Minecraft教育版中使用这个对所有用户可用的演示课程探索编程。	#
+
+joincode.invalid.title=加入代码不正确	#
+joincode.invalid.body=您输入的 %1 个加入代码不正确。请与主机确认，以确保您拥有正确的代码，或者您也可以尝试通过 IP 地址加入。 	#
+joincode.invalid.button.tryagain=再试一次	#
+joincode.invalid.button.enterip=输入IP地址	#
+
+joincode.invalid.abuse.body=您输入的%1个加入代码不正确。请尝试使用IP地址加入世界	#
+
+##
+## Education demo Strings
+deathScreen.quit.secondaryClient.confirmLeaveWarning=感谢您的探索！这是一个演示课程，因此您的进度不会被保存。	#
+
+edu_demo.tip.1=雨林是地球上一半以上的陆生动物的家园。	#
+edu_demo.tip.2=超过 25% 的世界人口以森林为生。	#
+edu_demo.tip.3=保持火的燃烧需要三样东西：燃料、氧气和热源。	#
+edu_demo.tip.4=火灾，尤其是在泥炭地区和茂密森林地区的火灾，会释放出大量的碳排放。	#
+edu_demo.tip.5=类似于用户，计算机只有通过被教授，才能学到东西！	#
+edu_demo.tip.6=AI 将被用于收集和分析森林数据，这比手动统计树木要快！	#
+
+menu.quit.edu=退出课程	#
+menu.quit.edu.title=退出演示课程	#
+
+start_screen.start_demo=开始课程	#
+
+upsell.tab.1.title=Minecraft的校园版本！	#
+upsell.tab.1.body=通过免费课程和教程、评估工具、课堂用户课程、安全登录和技术支持，让用户跨主题参与。立即探索Minecraft教育版的免费试用版！	#
+upsell.tab.1.button=了解更多	#
+
+upsell.tab.2.title=用Minecraft教授编程	#
+upsell.tab.2.body=使用Minecraft中的沉浸式课程和超过50小时的免费课程教用户编程。用户可以编写基于方块的代码和JavaScript，并看到他们的代码在课程中被赋予生命！	#
+upsell.tab.2.button=探索编程	#
+
+upsell.tab.3.title=海量的免费课程	#
+upsell.tab.3.body=探索从历史和化学到计算机科学和数学主题的数以百计的Minecraft的世界和课程。使用这些课程作为起点，或者创建您自己的课程！	#
+upsell.tab.3.button=前往课程	#
+
+upsell.tab.4.title=构建社会情感技能	#
+upsell.tab.4.body=用户们正在探索如何与他人协作、解决问题，并相互理解进行沟通。Minecraft教育版包含了诸如沉浸式阅读器这样的功能，能够帮助老师接触到每一种类型的探索者。	#
+upsell.tab.4.button=了解更多	#
+
+upsell.tab.5.title=加入社区	#
+upsell.tab.5.body=参加教师培训，在社交媒体上建立联系，并加入我们的全球社区，请教其他教育者。超过115个国家的教育者正在他们的课堂上使用Minecraft，您可以成为下一个！	#
+upsell.tab.5.button=获得连接	#
+
+lesson.finished=我完成了	#
+
+lesson.end.dialog.title=课程完成！	#
+lesson.end.dialog.body.title=恭喜	#
+lesson.end.dialog.body.wimages=您获得了结业证书。查看本课程中的照片并保存副本。	#
+lesson.end.dialog.body.checkport=查看本课程中的照片并保存副本。	#
+lesson.end.dialog.body.noimages=您获得了结业证书。	#
+lesson.end.dialog.button.morecoding=更多编程	#
+lesson.end.dialog.button.getcert=获取证书	#
+lesson.end.dialog.button.exit=退出课程	#
+lesson.end.dialog.button.export=保存	#
+
+lesson.end.access.imagespreview=课程照片 第%1/%2张	#
+lesson.end.access.export=导出课程照片	#
+
+##
+## VR strings
+xblLogin.LoginMessageGearVR=请将手机从头盔上取下，登录至Xbox Live。	#
+xblLogin.AddFriendMessageGearVR=请将手机从头盔上取下，添加Xbox Live好友。	#
+xblLogin.LoginMessageRift=请取下头盔，登录至Xbox Live。	#
+xblLogin.AddFriendMessageRift=请取下头盔，添加Xbox Live好友。	#
+xblLogin.ShowGamerCardMessageRift=请取下头盔，查看玩家卡。	#
+
+LostFocus.Rift=鼠标丢失！如果想用的话，在桌面选择Minecraft即可。	#
+
+vr.controls.HandControllerTracked=已获取Oculus Touch跟踪	#
+vr.controls.HandControllerTrackingLost=已丢失Oculus Touch跟踪	#
+
+FileBrowser.Rift.Skin=请取下头盔，选择自定义皮肤。	#
+FileBrowser.Rift.Export=请取下头盔，导出你的世界。	#
+FileBrowser.Rift.Import=请取下头盔，导入你的世界。	#
+FileBrowser.Rift.ExportBook=请取下头盔导出你的书。	#
+FileBrowser.Rift.ExportPortfolio=请取下头盔，导出你的公文包。	#
+FileBrowser.Rift.FileChooser=选择文件	#
+FileBrowser.Rift.ExportWorld=导出世界	#
+FileBrowser.Rift.ExportResourcesPrompt=请取下耳机，导出这些资源。	#
+FileBrowser.Rift.ExportResources=导出资源	#
+FileBrowser.Rift.SkinChooser=选择皮肤	#
+
+
+options.group.vr=VR	#
+options.group.vrTitle=VR设置	#
+options.vrHideHud=隐藏HUD	#
+options.vrHideHand=隐藏手	#
+options.comfortControls=VR舒适度控制	#
+options.vrHideGUI=在VR中隐藏GUI	#
+options.vrGamma=VR亮度	#
+options.vrMsaa=VR抗锯齿	#
+options.vrRenderDistance=VR能见度	#
+options.vrParticleRenderDistance=VR粒子能见度距离	#
+options.vrResetPlayerAlignment=重置VR校准	#
+options.vrHMDdisplacement=使用HMD位移进行移动	#
+options.vrHeadSteering=VR 头部转向	#
+options.vrTurningOptions=转头选项	#
+options.StutterTurn=VR转头	#
+options.StutterTurnSound=VR 转头声音	#
+options.StutterConstantAngleOrTime=VR转头定时模式	#
+options.3DRendering=3D渲染	#
+options.vrHudAtTop=HUD置顶	#
+options.vrAutojump=VR自动跳跃	#
+options.vrLinearJump=VR线性跳跃	#
+options.vrLinearMotion=VR线性动作	#
+options.stickyMining=粘性开采	#
+options.stickyMiningHand=VR手柄粘性开采	#
+options.vrMovingBackwardsHardStop=逆向硬停	#
+options.ShowComfortSelectScreen=显示控制选择屏幕	#
+options.vrHudDrifts=HUD漂浮	#
+options.vrLivingRoomCursorCentered=开启VR起居室光标居中	#
+options.vrTapTurn=触摸转头	#
+options.vrTapTurnSensitivity=触摸转头灵敏度	#
+options.vrRollTurning=滚轮转头	#
+options.vrRollTurnSensitivity=滚轮转头灵敏度	#
+options.vrHandControlsItem=VR手柄控制项	#
+options.vrHandControlsHUD=VR手柄控制 HUD	#
+options.vrHandPointer=VR手柄指针可见	#
+options.vrHandsVisible=手可见	#
+options.vr180Turning=反转 180	#
+options.vrMirrorTexture=启用VR镜子纹理	#
+options.vrSensitivity=VR灵敏度	#
+options.vrUIMouseSensitivity=VR UI灵敏度	#
+
+## VR control Scheme Strings
+vr.controls.title=VR控制	#
+
+vr.controls.title.classic=经典控制-不适	#
+vr.controls.title.experimental=VR控制-舒适	#
+vr.controls.classicDescription=经典跳跃和转头，未经过VR调整。对于大多数人舒适程度较低。	#
+vr.controls.experimentalDescription=转头按段发生。光标和跳跃已经过 VR 调整，可提高大多数人在移动中的舒适程度（开发测试中）。	#
+vr.controls.sharedDescription=控制项也可在游戏中通过选项菜单更改。	#
+vr.moreOptions=更多选项…	#
+vr.moreInformation=更多信息…	#
+vr.detailedInformation=为提供更加舒适的VR体验，已调整数项游戏功能。例如：VR转头是一项将转头动作分成数段的功能，能避免迷失方向。	#
+vr.detailedInformationLink=如需更多有关VR控制和幕后外观的信息，请前往minecraft.net/vr	#
+
+vr.pausescreen.recenterDevice=重定位设备	#
+vr.pausescreen.recenterDeviceKeyboard=按下“N”可重新置中设备	#
+vr.warning.controllerRequired=需要游戏手柄	#
+vr.warning.controllerRecommended=建议使用游戏手柄配合VR	#
+vr.warning.controllerOrMouseRecommended=建议使用游戏手柄或鼠标配合VR	#
+vr.warning.exitGameWarning=是否要退出Minecraft？	#
+vr.alignscreen.pressButtonX=请按下手柄上的“X”键以继续	#
+vr.alignscreen.pressButtonXOrMouse=请点击或在手柄上按任意键以继续	#
+vr.alignscreen.pressButtonAOrSelectTrigger=请按下手柄上的“A”键，或者选择Windows Mixed Reality手柄上的触发键以继续	#
+vr.alignscreen.pressAnyButton=将您的头对准中间位置，然后按任意键	#
+vr.alignscreen.info=注意：这是开发中的功能。VR可能对某些人引起不适。切记根据需要经常休息，或点击触控板使用客厅模式，以降低激烈视感冲击。	#
+vr.alignscreen.info_viewbutton=注意：这是开发中的功能。VR 可能对某些人造成不适。切记根据需要经常休息，或按向上键使用客厅模式，以降低激烈视感冲击。	#
+
+## Oculus Rift Installer
+ori.confirm.exit=你确定要退出游戏吗？	#
+ori.confirm.update=更新Minecraft？	#
+ori.pending=正在等待Windows更新完成。	#
+ori.installing=正在安装...	#
+ori.updating=正在更新...	#
+ori.launching=正在启动！	#
+ori.check_for_update=正在检查更新...	#
+ori.error.unavailable=Minecraft不可用。请确保你已连接到互联网并登录商店。	#
+ori.error.unknown=发生未知错误。请稍后重试。	#
+ori.error.not_supported=此系统上不支持Minecraft。	#
+ori.error.launch_failure=启动Minecraft失败。	#
+ori.error.version=你的Minecraft版本已过期。请更新后再开始游戏。	#
+ori.error.win10=需要Windows 10 1607或更新版本。	#
+ori.error.install_error=我们遇到一个错误。错误代码：0x	#
+ori.error.low_storage=无法安装。可用存储空间不足。	#
+ori.error.no_internet=无法连接。请检查您的互联网连接。	#
+ori.error.winUpdateDisabled=必须启用Windows更新。	#
+ori.confirm.controls.controller.confirm=确认	#
+ori.confirm.controls.controller.cancel=取消	#
+ori.confirm.controls.keyboard.confirm=确认：[Enter]	#
+ori.confirm.controls.keyboard.cancel=取消：[Esc]	#
+ori.exit.controls.controller=退出	#
+ori.exit.controls.keyboard=退出：[Enter]	#
+ori.cancelling=正在取消...	#
 
 ## Custom strings
 tips.game.57=本译名修正包由ff98sha制作。	#
