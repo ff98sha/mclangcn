@@ -8753,8 +8753,8 @@ dynamicPackage.download.android.notificationChannelName=更新状态	#
 dynamicPackage.download.android.NotificationChannelDescription=显示更新状态和进度	#
 
 ## Custom strings
-tips.game.57=本译名修正包由ff98sha制作。	#
-tips.game.58=本译名修正包发布于http://www.mcbbs.net/thread-682370-1-1.html。	#
-tips.game.59=在Github搜索mclangcn可查看本译名修正包项目。	#
-tips.game.60=关注微博@Minecraft中文Wiki，获取译名信息。	#
-tips.game.61=中文Minecraft Wiki提醒您：译名千万条，准确第一条。翻译不规范，玩家两行泪。
+tips.game.63=本译名修正包由ff98sha制作。	#
+tips.game.64=本译名修正包发布于http://www.mcbbs.net/thread-682370-1-1.html。	#
+tips.game.65=在Github搜索mclangcn可查看本译名修正包项目。	#
+tips.game.66=关注微博@Minecraft中文Wiki，获取译名信息。	#
+tips.game.67=中文Minecraft Wiki提醒您：译名千万条，准确第一条。翻译不规范，玩家两行泪。
