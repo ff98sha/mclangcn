@@ -5068,9 +5068,14 @@ library.fetchingItem.failed=抱歉，我们无法在图书馆中找到该物品�
 library.welcome.1=欢迎来到Minecraft教育版图书馆！	#
 library.welcome.2=这个图书馆是我们打造的一个新功能，可以让教师和学生们方便地在游戏中找到和导入教育内容。在这个版本中，你将在我们的网站上看到我们的一些可供你导入和使用的最受欢迎的世界，以及访问完整的世界图书馆的链接。	#
 library.welcome.3=我们正致力于在接下来的几个月中为更多类型的内容和功能添加支持。请通过点击反馈按钮让我们知道你的想法。	#
-library.item.sharepopup.title=分享链接	#
+library.item.sharepopup.title=分享	#
+library.item.sharepopup.shareLink=分享链接	#
 library.item.sharepopup.body=分享通向这个世界的链接。	#
+library.item.sharepopup.copy=复制	#
+library.item.sharepopup.copyButton=复制链接	#
+library.item.sharepopup.shareButton=分享到Teams	#
 library.item.share.toast.title=链接已复制到您的剪贴板。	#
+library.item.teams.msgTxt=在Minecraft教育版中查看%1世界。	#
 
 licensed_content.goBack=返回	#
 licensed_content.viewLicensedContent=如你希望查看授权协议的内容，请使用任意网络浏览器访问https://minecraft.net/licensed-content/。	#
@@ -6791,10 +6796,6 @@ store.seeMoreBy=查看由%s提供的更多内容	#
 store.seeMoreBy.multiCreatorBundle=按捆绑包作者查看更多	#
 store.fetchingItem=正在连接到商城…	#
 
-store.invalidAccount.title=请选择Microsoft帐户	#
-store.invalidAccount.description=您正在使用两个不同的Microsoft帐户登录到Minecraft和Microsoft Store。我们需要您使用同一个帐户登录。	#
-store.invalidAccount.getHelp=获取帮助以修复此问题	#
-
 store.timer.daysAbbreviated=%s天		### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
 store.timer.hoursAbbreviated=%s小时		### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
 store.timer.minutesAbbreviated=%s分		### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
@@ -7132,8 +7133,8 @@ tile.deny.name=拒绝方块	#
 tile.border_block.name=边界方块	#
 tile.anvil.intact.name=铁砧	#
 tile.anvil.name=铁砧	#
-tile.anvil.slightlyDamaged.name=轻微损坏的铁砧	#
-tile.anvil.veryDamaged.name=严重损坏的铁砧	#
+tile.anvil.slightlyDamaged.name=开裂的铁砧	#
+tile.anvil.veryDamaged.name=损坏的铁砧	#
 tile.barrier.name=屏障	#
 tile.beacon.name=信标	#
 tile.beacon.primary=主效果	#
