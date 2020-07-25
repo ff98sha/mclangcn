@@ -1311,6 +1311,8 @@ controller.buttonTip.select.item=选择物品	#
 controller.buttonTip.select.slot=选择转移物品槽	#
 controller.buttonTip.select=选择	#
 controller.buttonTip.selectRecipe=选择配方	#
+controller.buttonTip.deselectRecipe=取消选择配方	#
+controller.buttonTip.clearRecipe=清除配方	#
 controller.buttonTip.tab=标签	#
 controller.buttonTip.take.half=拿起一半	#
 controller.buttonTip.take.one=拿起一个	#
@@ -5438,6 +5440,11 @@ options.dev.windowsStore.auto=自动	#
 options.dev.windowsStore.v6=旧版Windows Store - V6	#
 options.dev.windowsStore.v8=OneStore - V8	#
 options.dev.stores=当前激活的商店:	#
+options.dev_sunset_overrides=启用落后淘汰	#
+options.dev_sunset_status=将设备视为完全淘汰	#
+options.dev_sunsetting_tier=淘汰等级	#
+options.dev_sunsetting_tier.one=等级1	#
+options.dev_sunsetting_tier.not_pending=非待定	#
 options.difficulty=难度	#
 options.difficulty.easy=简单	#
 options.difficulty.hard=困难	#
@@ -5695,6 +5702,8 @@ options.viewSubscriptions.personalRealmServer=您专属的Realm服务器可以�
 options.viewSubscriptions.twoPlayers=2位玩家的Realm服务器	#
 options.viewSubscriptions.startedInStore=在商店打开：%s	#
 options.viewSubscriptions.boughtOnAnotherDevice=已在另一台设备上购买	#
+options.viewSubscriptions.deviceSunsetting=你的版本可能即将无法访问Realms	#
+options.viewSubscriptions.deviceSunset=你的版本无法访问Realms	#
 options.swapJumpAndSneak=交换跳跃和潜行	#
 options.swapGamepadAB=交换A/B按钮	#
 options.swapGamepadXY=交换X/Y按钮	#
@@ -5786,6 +5795,30 @@ patchNotes.error.noInternet.title=已从互联网断开连接	#
 patchNotes.error.noInternet.msg=槽糕！出错了。是否检查你的互联网连接？	#
 patchNotes.error.notFound.title=补丁说明%1	#
 patchNotes.error.notFound.msg=我们在本次发布中修复了几个漏洞。当我们有更多的信息需要告知你的时候，我们会向你发送新的补丁说明。	#
+
+sunsetting.popup.title=此设备不再受到支持。	#
+sunsetting.popup.moreInfo=更多信息	#
+sunsetting.popup.dontshow=不再提示	#
+
+sunsetting.popup.moreInfo.gearVR=了解更多信息，请在任意浏览器中访问https://aka.ms/MinecraftSunsetting。	#
+
+sunsetting.popup.pendingSunset.ios_android=我们即将结束对该设备的支持。直至秋季，您还会继续收到更新，届时您将会收到此设备的最终更新。对于由此带来的不便，我们深表歉意。%s收到最终更新后，您仍然可以在自己的世界上游玩，或者在商城进行购买（包括Minecoin）。此设备管理的Realm可以继续使用，除非Realm所有者在其他设备上更新。您将无法收到最新更新、无法与继续接收更新的设备或Realm进行多人游戏、并且无法连接到某些服务器。%s点击按钮可获取更多信息，包括将世界移动到新设备的方法。	#
+sunsetting.popup.sunset.ios_android=此设备不再受到支持。您已收到此设备的最终更新。从现在开始，您可以继续在自己的世界建造，而且您购买的商城内容（包括Minecoin）仍然可用。你的Realm可以继续使用，除非Realm所有者在其他设备上更新。您将无法收到最新更新、无法与继续接收更新的设备或Realm进行多人游戏、并且无法连接到某些服务器。%s点击按钮可获取更多信息，包括将世界移动到新设备的方法。我们知道这给您带来了不便，非常感谢您对本游戏的的游玩与支持。	#
+sunsetting.popup.pendingSunset.gearvr_win10=我们即将结束对该设备的支持。直至秋季，您还会继续收到更新，届时您将会收到此设备的最终更新。对于由此带来的不便，我们深表歉意。%s收到最终更新后，您仍然可以在自己的世界上游玩，或者在商城进行购买（包括Minecoin）。然而，您将无法通过此设备访问多人游戏或Realm。您将无法收到最新更新、无法与继续接收更新的设备或Realm进行多人游戏、并且无法连接到某些服务器。%s点击按钮可获取更多信息，包括将世界移动到新设备的方法。	#
+sunsetting.popup.sunset.gearvr_win10=此设备不再受到支持。您已收到此设备的最终更新。从现在开始，您可以继续在自己的世界建造，而且您购买的商城内容（包括Minecoin）仍然可用。然而，您将无法通过此设备访问多人游戏或Realm。您将无法收到最新更新、无法与继续接收更新的设备或Realm进行多人游戏、并且无法连接到某些服务器。	#
+sunsetting.popup.pendingSunset.dx10=我们即将结束对该设备的支持。直至秋季，您还会继续收到更新，届时您将会收到此设备的最终更新。对于由此带来的不便，我们深表歉意。%s收到最终更新后，您仍然可以在自己的世界上游玩，或者在商城进行购买（包括Minecoin）。此设备管理的Realm可以继续使用，除非Realm所有者在其他设备上更新。您将无法收到最新更新、无法与继续接收更新的设备或Realm进行多人游戏、并且无法连接到某些服务器。%s点击按钮可获取更多信息，包括将世界移动到新设备的方法。	#
+sunsetting.popup.sunset.dx10=此显示设备不再受到支持。您已收到此设备的最终更新。从现在开始，您可以继续在自己的世界建造，而且您购买的商城内容（包括Minecoin）仍然可用。你的Realm可以继续使用，除非Realm所有者在其他设备上更新。您将无法收到最新更新、无法与继续接收更新的设备或Realm进行多人游戏、并且无法连接到某些服务器。%s点击按钮可获取更多信息，包括将世界移动到新设备的方法。我们知道这给您带来了不便，非常感谢您对本游戏的的游玩与支持。	#
+
+sunsetting.banner.play.worldTab.pending=你的版本可能即将无法进行多人游戏	#
+sunsetting.banner.play.friendsTab.pending=你的版本可能即将无法进行多人游戏	#
+sunsetting.banner.play.serverTab.pending=你的版本可能即将无法进行多人游戏	#
+
+sunsetting.banner.play.worldTab=你的版本可能无法进行多人游戏	#
+sunsetting.banner.play.friendsTab=你的版本可能无法进行多人游戏	#
+sunsetting.banner.play.serverTab=你的版本可能无法进行多人游戏	#
+
+sunsetting.store.incompatible=不兼容	#
+sunsetting.store.incompatiblePopup=此内容与你的设备不兼容，请查看https://aka.ms/MinecraftSunsetting	#
 
 pauseScreen.back=回到游戏	#
 pauseScreen.currentWorld=当前世界	#
@@ -5893,6 +5926,7 @@ playscreen.realmExpired=已过期	#
 playscreen.realmFull=满	#
 playscreen.realmClientOutdated=所有Realm已更新。你必须更新游戏才能继续在Realm中游戏。	#
 playscreen.realms=Realm	#
+playscreen.realmsWarning.moreinfo=更多信息	#
 playscreen.realmsCompatibilityFailure=目前无法连接至Realm。我们会稍后再试。	#
 playscreen.worlds=世界	#
 playscreen.dontSeeLegacyWorlds=看不到你的世界？	#
