@@ -9220,7 +9220,7 @@ signin.rightPanel.header=尝试探索演示课程	#
 signin.rightPanel.body=在Minecraft教育版中使用这个对所有用户可用的演示课程探索编程。	#
 
 joincode.invalid.title=加入代码不正确	#
-joincode.invalid.body=您输入的%1个加入代码不正确。请与主机确认，以确保您拥有正确的代码，或者您也可以尝试通过 IP 地址加入。 	#
+joincode.invalid.body=您输入的%1个加入代码不正确。请与房主确认，以确保您拥有正确的代码，或者您也可以尝试通过IP地址加入。 	#
 joincode.invalid.button.tryagain=再试一次	#
 joincode.invalid.button.enterip=输入IP地址	#
 
@@ -9231,11 +9231,11 @@ joincode.invalid.abuse.body=您输入的%1个加入代码不正确。请尝试�
 deathScreen.quit.secondaryClient.confirmLeaveWarning=感谢您的探索！这是一个演示课程，因此您的进度不会被保存。	#
 
 edu_demo.tip.1=雨林是地球上一半以上的陆生动物的家园。	#
-edu_demo.tip.2=超过 25% 的世界人口以森林为生。	#
+edu_demo.tip.2=超过25%的世界人口以森林为生。	#
 edu_demo.tip.3=保持火的燃烧需要三样东西：燃料、氧气和热源。	#
-edu_demo.tip.4=火灾，尤其是在泥炭地区和茂密森林地区的火灾，会释放出大量的碳排放。	#
+edu_demo.tip.4=火灾，尤其是泥炭地和茂密森林的火灾，会释放出大量的碳排放。	#
 edu_demo.tip.5=类似于用户，计算机只有通过被教授，才能学到东西！	#
-edu_demo.tip.6=AI 将被用于收集和分析森林数据，这比手动统计树木要快！	#
+edu_demo.tip.6=AI将被用于收集和分析森林数据，这比手动统计树木要快！	#
 
 menu.quit.edu=退出课程	#
 menu.quit.edu.title=退出演示课程	#
@@ -9260,7 +9260,7 @@ upsell.tab.4.button=了解更多	#
 
 upsell.tab.5.title=加入社区	#
 upsell.tab.5.body=参加教师培训，在社交媒体上建立联系，并加入我们的全球社区，请教其他教育者。超过115个国家的教育者正在他们的课堂上使用Minecraft，您可以成为下一个！	#
-upsell.tab.5.button=获得连接	#
+upsell.tab.5.button=链接	#
 
 lesson.finished=我完成了	#
 
@@ -9367,7 +9367,7 @@ vr.alignscreen.pressButtonXOrMouse=请点击或在手柄上按任意键以继续
 vr.alignscreen.pressButtonAOrSelectTrigger=请按下手柄上的“A”键，或者选择Windows Mixed Reality手柄上的触发键以继续	#
 vr.alignscreen.pressAnyButton=将您的头对准中间位置，然后按任意键	#
 vr.alignscreen.info=注意：这是开发中的功能。VR可能对某些人引起不适。切记根据需要经常休息，或点击触控板使用客厅模式，以降低激烈视感冲击。	#
-vr.alignscreen.info_viewbutton=注意：这是开发中的功能。VR 可能对某些人造成不适。切记根据需要经常休息，或按向上键使用客厅模式，以降低激烈视感冲击。	#
+vr.alignscreen.info_viewbutton=注意：这是开发中的功能。VR可能对某些人造成不适。切记根据需要经常休息，或按向上键使用客厅模式，以降低激烈视感冲击。	#
 
 ## Oculus Rift Installer
 ori.confirm.exit=你确定要退出游戏吗？	#
