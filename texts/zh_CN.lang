@@ -8229,7 +8229,7 @@ xbox.friendfinder.gamertagNotFound=未找到玩家代号	#
 
 xbox.profile.addFriend=添加好友	#
 xbox.profile.addFriend.success=成功！%s已被添加到你的好友列表。	#
-xbox.profile.block=方块	#
+xbox.profile.block=屏蔽	#
 xbox.profile.currentlyPlaying=目前正在玩%s	#
 xbox.profile.favorite=收藏	#
 xbox.profile.favoriteHelperText=收藏的好友会出现在好友列表的最前面。无论他们何时上线或开始直播，你都会看见他们。	#
