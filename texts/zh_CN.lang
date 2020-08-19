@@ -1,4 +1,4 @@
-21## Comments can be added anywhere on a valid line by starting with '##'
+## Comments can be added anywhere on a valid line by starting with '##'
 ## Minecraft译名修正
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
@@ -1773,12 +1773,12 @@ realmsWorld.ownerPay=拥有人每月需要付费，其好友可以免费加入�
 realmsWorld.realmsDescription=Realm是Minecraft里的私人世界，可供你和你的好友随时游玩。	#
 realmsWorld.realmsDescription.paragraph2=即使Realm的主人离线，你仍然可以进入该Realm并使用任何运行Minecraft的设备玩游戏！	#
 realmsWorld.realmsDescription.paragraph3=今天就开始探索你的Realm！	#
-realmsWorld.realmsDescription.Beta.line1=Realm是种简单安全的方法，能与好友分享Minecraft中的世界，但在使用Minecraft测试版时无法使用。	#
-realmsWorld.realmsDescription.Beta.line2=如果你想停止使用测试版，并获得进入Realm的权限，请点击下方查看说明。	#
+realmsWorld.realmsDescription.Beta.line1=Realm是种简单安全的方法，能与好友分享Minecraft中的世界，但在使用Minecraft Beta版时无法使用。	#
+realmsWorld.realmsDescription.Beta.line2=如果你想停止使用Beta版，并获得进入Realm的权限，请点击下方查看说明。	#
 realmsWorld.newRealm=新Realm	#
 realmsWorld.connectLive=注册即可免费试玩！	#
 realmsWorld.owner=所有人	#
-realmsWorld.leaveBeta=退出测试版？	#
+realmsWorld.leaveBeta=退出Beta版？	#
 realmsWorld.newRealmTrial=开始30天免费试玩%s（首月后，每月%s）	#
 realmsWorld.creatingWorld=正在创建世界	#
 
@@ -2802,7 +2802,7 @@ howtoplay.banners.header.1=应用一个图案	#
 howtoplay.banners.text.3=可以使用你的染料创造许多不同的图案，如：	#
 howtoplay.banners.text.4=  - 摆放一个三角形将获得一个V字形图案。	#
 howtoplay.banners.text.5=  - 摆放一个十字将获得一个十字图案。	#
-howtoplay.banners.text.6=  - 添加一朵牛眼菊将获得一个花朵图案。	#
+howtoplay.banners.text.6=  - 添加一朵滨菊将获得一个花朵图案。	#
 howtoplay.banners.text.7=尝试不同组合可获得更多图案！	#
 howtoplay.banners.header.2=多层次	#
 howtoplay.banners.text.8=旗帜也可以有多个层次，因此你可以在旗帜上布置多个图案。如果你不喜欢画在旗帜上的最后一个图案，则可以在炼药锅中洗掉最后一层。	#
@@ -5842,7 +5842,7 @@ pauseScreen.ipAddress=IP：%1	#
 pauseScreen.error.noIpAddress=找不到IP地址	#
 pauseScreen.error.noPort=未找到端口	#
 pauseScreen.title=游戏暂停	#
-pauseScreen.betaFeedback=测试版反馈	#
+pauseScreen.betaFeedback=Beta版反馈	#
 pauseScreen.xboxLiveDisconnect=糟糕！你的微软账户断开了连接。你需要在主菜单中登录，重新打开你的世界，才能邀请更多的玩家。	#
 pauseScreen.joinCode.Label=加入代码	#
 pauseScreen.joinCode.Icon=%3加入代码图标，第%1/%2个	# Example: Apple join code icon, 2 of 5	#
@@ -6498,7 +6498,7 @@ selectWorld.newWorld.educationCopyOf=[EDU]%s	#
 selectWorld.newWorld.experimentalCopyOf=[EX]%s	#
 ## NOTE: "Realms" is the name of a service and doesn't get localized.
 selectWorld.realmsComingSoon=Realm即将推出！	#
-selectWorld.realmsBeta=Realm测试版	#
+selectWorld.realmsBeta=Realm Beta版	#
 selectWorld.learnMore=了解更多	#
 selectWorld.recreate=重建	#
 selectWorld.rename=重命名	#
@@ -6666,7 +6666,7 @@ stat.workbenchInteraction=与工作台互动次数	#
 stats.tooltip.type.achievement=成就	#
 stats.tooltip.type.statistic=统计	#
 
-start.beta.icon=Beta 版	#
+start.beta.icon=Beta版	#
 
 store.title=商城	#
 store.allStores=全部商店	#
@@ -8244,7 +8244,7 @@ xbox.friendfinder.gamertagNotFound=未找到玩家代号	#
 
 xbox.profile.addFriend=添加好友	#
 xbox.profile.addFriend.success=成功！%s已被添加到你的好友列表。	#
-xbox.profile.block=方块	#
+xbox.profile.block=屏蔽	#
 xbox.profile.currentlyPlaying=目前正在玩%s	#
 xbox.profile.favorite=收藏	#
 xbox.profile.favoriteHelperText=收藏的好友会出现在好友列表的最前面。无论他们何时上线或开始直播，你都会看见他们。	#
