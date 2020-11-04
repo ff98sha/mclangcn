@@ -8,6 +8,9 @@ accessibility.enableTTS=文本转语音已启用	#
 ## Translator note:
 ## This section of phrases will be given audibly to the user using text to speech
 
+accessibility.chat.tts.gamepad.back=按%s返回	#
+accessibility.chat.tts.gamepad.exitChat=按%s退出聊天	#
+accessibility.chat.tts.gamepad.sendMessage=按%s发送消息	#
 accessibility.chat.tts.says=%s说%s	#
 accessibility.chat.tts.hideChat=隐藏聊天界面	#
 accessibility.chat.tts.keyboard=键盘	#
@@ -100,6 +103,7 @@ accessibility.screenName.settings=游戏设置界面	#
 accessibility.screenName.skinPicker=选择皮肤界面	#
 accessibility.screenName.start=主菜单	#
 accessibility.screenName.vrAlignment=VR校准界面 	#
+accessibility.screenName.emoteWheel=表情界面	#
 
 accessibility.settings.reset=重置	#
 accessibility.settings.chooseSeed=选择种子	#
@@ -189,6 +193,13 @@ accessibility.gamepad.bumper.left=左肩键	#
 accessibility.keyboard.leftBracket=左方括号键			### left square bracket means '[' on the english keyboard
 accessibility.keyboard.rightBracket=右方括号键		### right square bracket means ']' on the english keyboard
 
+accessibility.emotes.hovered=%s，%s按钮%d	#
+accessibility.emotes.buttonName=表情	#
+accessibility.emotes.assigned=%s表情已指定	#
+accessibility.emotes.unassigned=未指定	#
+accessibility.emotes.playSuccess=播放表情	#
+accessibility.emotes.playFailed=此按钮未指定表情，点击下箭头进入更改表情菜单	#
+accessibility.emotes.instruction.keyboard=按下右或左循环显示表情按钮。按下箭头进入更改表情按钮。	#
 
 ## End of audible phrases section
 
@@ -407,8 +418,6 @@ authentication.store.confirmPurchase=确认购买	#
 authentication.store.intro=你的Minecraft教育版试用机会已用完。你需要购买许可，才能继续使用Minecraft教育版。	#
 authentication.store.popup.purchaseFailed.title=出错了	#
 authentication.store.popup.purchaseFailed.msg=抱歉，无法完成购买。请检查网络连接？	#
-authentication.store.purchase.info1=款项会在确认购买后向你的iTunes账户收取，除非在当前订阅期结束前至少24小时关闭自动续期，否则订阅会自动续期。在当前订阅期结束之前24小时内，续期费用会根据你此前选择的订阅价格选项，向你的账户收取。	#
-authentication.store.purchase.info2=购买之后你可以访问iTunes账户，管理你的订阅，关闭自动续期。如果你在订阅激活后取消，订阅剩余有效期间将不予退款。此订阅会让你的iTunes账户将与你的Office 365教育账户关联，因此你将失去资格，无法使用iTunes账户购买额外的Minecraft教育版许可。	#
 authentication.store.purchase.button=购买许可（%s/年）	#
 authentication.store.terms=使用条款	#
 authentication.store.viewTermsAndConditions=条款和条件	#
@@ -1225,6 +1234,7 @@ commands.time.stop=时间%1$s	#
 commands.title.description=控制屏幕标题。	#
 commands.title.success=标题命令执行成功	#
 commands.titleraw.description=使用JSON消息控制屏幕标题。	#
+commands.titleraw.success=Titleraw命令成功执行	#
 commands.toggledownfall.description=切换天气。	#
 commands.tp.description=传送实体（玩家、生物等）。	#
 commands.tp.notSameDimension=无法传送，因为目标玩家不存在于同一个维度	#
@@ -2041,7 +2051,7 @@ realmsSettingsScreen.dev_prev_page_label=上一个	#
 realmsSettingsScreen.dev_next_page_label=下一个	#
 realmsSettingsScreen.uploadConfirmationMessage=本操作将从你的Realm中移除当前的世界，并允许你替换上一个新的世界。你Realm的成员将无法再进入当前的世界。想要继续吗？	#
 realmsSettingsScreen.uploadConfirmationTitle=替换世界吗？	#
-realmsSettingsScreen.whitelist_invite=邀请	#
+realmsSettingsScreen.allowlist_invite=邀请	#
 realmsSettingsScreen.searchBox=搜索…	#
 realmsSettingsScreen.unknownPackName=未知名称	#
 realmsSettingsScreen.viewSubscriptionsButton=查看订阅	#
@@ -7584,7 +7594,7 @@ tile.furnace.name=熔炉	#
 tile.glass.name=玻璃	#
 tile.golden_rail.name=充能铁轨	#
 tile.grass.name=草方块	#
-tile.grass_path.name=草径	#
+tile.grass_path.name=Dirt Path	#
 tile.gravel.name=沙砾	#
 tile.hay_block.name=干草块	#
 tile.netherrack.name=下界岩	#
@@ -8954,6 +8964,7 @@ dr.color.warm_bisque=暖橘黄色	#
 
 emotes.change_emotes=更改表情	#
 emotes.execute=执行	#
+emotes.header_text=表情	#
 
 ## Dynamic Package Manager
 ## Google Play APK Expansion file downloader notification
@@ -8979,6 +8990,13 @@ dynamicPackage.download.android.kilobytesPerSecond=%1$s KB/s	#					## %1$s is th
 dynamicPackage.download.android.timeRemainingNotification=剩余%1$s	#				## %1$s is the time remaining
 dynamicPackage.download.android.notificationChannelName=更新状态	#
 dynamicPackage.download.android.NotificationChannelDescription=显示更新状态和进度	#
+
+##
+## Experimental Caves and Cliffs
+entity.goat.name=山羊	#
+item.goat_horn.name=山羊角	#
+item.spawn_egg.entity.goat.name=山羊刷怪蛋	#
+tile.powder_snow.name=Powder Snow	#
 
 ##
 ## Chemistry Strings
