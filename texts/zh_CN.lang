@@ -193,7 +193,7 @@ accessibility.gamepad.bumper.left=左肩键	#
 accessibility.keyboard.leftBracket=左方括号键			### left square bracket means '[' on the english keyboard
 accessibility.keyboard.rightBracket=右方括号键		### right square bracket means ']' on the english keyboard
 
-accessibility.emotes.hovered=%s，%s按钮%d	#
+accessibility.emotes.hovered=%s，%s按钮%d，第%d个，共%d个	#
 accessibility.emotes.buttonName=表情	#
 accessibility.emotes.assigned=%s表情已指定	#
 accessibility.emotes.unassigned=未指定	#
@@ -1879,6 +1879,8 @@ realmsPlusUpgradeNotice.body=您的Realms订阅已升级为Realms Plus。现在�
 realmsPlusUpgradeNotice.continue=继续	#
 realmsPlusUpgradeNotice.viewpacks=查看Realms Plus包	#
 
+raytracing.RTX.name=RTX##Brand name, don't localize
+
 network.onlinePlay.title=与好友一起玩	#
 network.onlinePlay.msg=你可以邀请好友加入你的世界、查看好友的作品，并在各自的世界中制作物品。	#
 network.onlinePlay.instruction=通过“游戏”菜单，你可以加入好友的世界，也可以邀请他们加入你的世界和Realm。	#
@@ -2316,6 +2318,7 @@ disconnectionScreen.outdatedClientRealms=你必须更新游戏才能继续在此
 disconnectionScreen.outdatedClientRealms.title=Realm已更新	#
 disconnectionScreen.outdatedServerRealms=你的游戏是最新版本，但此Realm不是。	#
 disconnectionScreen.outdatedServerRealms.title=Realm更新在48小时内待处理	#
+disconnectionScreen.outdatedServerRealmsNonOwner.title=你尝试访问的Realm处于不同的游戏版本。请与Realm的所有者联系以解决此问题。	#
 disconnectionScreen.realmsServerUpdateIncoming=你的Realm即将更新。你也需要进行更新。	#
 disconnectionScreen.realmsServerUpdateIncoming.title=马上检查游戏更新？	#
 disconnectionScreen.realmsWorldUnassigned=在开发选项中指定版本。	#
@@ -2337,6 +2340,7 @@ disconnectionScreen.incompatiblePack.memory=你无法加入此世界，因为你
 disconnectionScreen.incompatiblePack.graphics.raytracing=你无法加入此世界，因为你的硬件设备不支持光线追踪	#
 disconnectionScreen.worldCorruption.message=尝试重新打开世界或从之前的备份中还原	#
 disconnectionScreen.worldCorruption=由于世界遭到损坏，所以连接被断开	#
+disconnectionScreen.hostSuspended=因服务器不可用断开连接	#
 
 storageSpaceWarningScreen.frontend=你的存储空间即将不足！Minecraft已限制了该功能的访问，直至你清理出额外的存储空间为止。	#
 storageSpaceWarningScreen.lowduringgameplay=你的设备空间不足，Minecraft无法在此设备上存储世界和设置。请删除一些你不需要的旧东西，便于你保存新内容。	#
@@ -3668,6 +3672,7 @@ invite.sendUnnumbered=发送邀请	#
 invite.title=邀请好友加入你的游戏	#
 invite.error.message=你的部分邀请可能发送失败。	#
 invite.noFriends=你尚未添加任何人到你的好友列表中！	#
+invite.noRealmFriends=你还没有将任何人添加到你的Realm！	#
 invite.OnlineFriends=在线好友	#
 invite.OfflineFriends=离线好友	#
 invite.SuggestedFriends=推荐好友	#
@@ -5604,6 +5609,9 @@ options.graphics=精美图像	#
 options.transparentleaves=透明树叶	#
 options.bubbleparticles=绚丽气泡柱	#
 options.smooth_lighting=平滑光照	#
+options.upscaling=高帧率	#
+options.raytracing=光线追踪	#
+options.raytracing.disabled.upsell=此功能仅在支持光线跟踪的世界中可用。在商城中寻找，或者创建自己的光线追踪资源包。	#
 options.graphics.fancy=高品质	#
 options.graphics.fast=流畅	#
 options.renderingProfile=图形	#
@@ -5694,7 +5702,10 @@ options.qualityVideoTitle=视频质量设置	#
 options.reducedDebugInfo=简化调试信息	#
 options.renderClouds=云	#
 options.renderDistance=能见度	#
+options.raytracing.renderDistance=光线追踪渲染距离	#
+options.raytracing.renderDistanceFormat=%个区块	#
 options.renderDistanceFormat=%s个区块	#
+options.raytracing.renderdistance.warning=此设置可能会在游玩时产生性能问题。	#
 options.resetSettings=重置为默认值	#
 options.resetSettings.popUp=是否确实要重置设置？	#
 options.maxFramerate=最大帧率（实验性）	#
@@ -5796,6 +5807,8 @@ options.uiprofile.pocket=携带版	#
 options.usetouchpad=分离控制	#
 options.viewSubscriptions=订阅	#
 options.viewSubscriptions.button.info=信息	#
+options.viewSubscriptions.button.price=%s	#
+options.viewSubscriptions.button.pricePerMonth=%s/月	#
 options.viewSubscriptions.button.manage=管理	#
 options.viewSubscriptions.renew=每30天续期一次	#
 options.viewSubscriptions.daysRemaining=剩余%d天	#
@@ -6457,7 +6470,8 @@ storageManager.mcpack=Minecraft资源包	#
 storageManager.mcaddon=Minecraft附加包	#
 storageManager.mcworld=Minecraft世界	#
 
-
+raycasting.purchase.error=我们检测到您的设备不符合运行此资源包的系统要求，因此您无法下载此资源包。您可以查看以下最低系统要求：%s+ GPU：硬件支持光线跟踪的GPU，如NVIDIA GeForce RTX 2060或更高版本。在minecraft.net查看常见问题解答了解更多细节。%s+ RAM：8GB或更高。%s+ CPU：Intel Core i5或同等产品	#
+raycasting.purchase.error.title=系统需求警告	#
 
 resourcepack.City=城市材质包	#
 resourcepack.Plastic=塑料材质包	#
@@ -6792,6 +6806,8 @@ store.realmsPlus.content=内容	#
 store.realmsPlus.faq=常见问题解答	#
 store.realmsPlus.buyFor=为%s购买	#
 store.realmsPlus.buyNow=立即购买	#
+store.realmsPlus.buyNowPerMonth=以%s/月的价格购买	#
+store.realmsPlus.buyNowTrialPerMonth=开始免费试用（之后%s/月）	#
 store.realmsPlus.errorNoOffer=错误：未发现优惠	#
 store.realmsPlus.manageSubscription=管理订阅	#
 store.realmsPlus.viewAllPacksTitle=超值——所有包价值超过§g$150美元！§r	#
@@ -6809,8 +6825,8 @@ store.realmsPlus.noTrial.description=您的Realm和100多个商城包将立即�
 store.realmsPlus.noTrial.description.iap=您的Realm和100多个商城包将立即可用。至多10名玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
 store.realmsPlus.realmName.placeholder=%s的Realm		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
 
-store.realmsPlus.recurring.offerTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！首月免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
-store.realmsPlus.recurring.withoutTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您需支付%s/月的费用，并且您可以随时取消。	#
+store.realmsPlus.recurring.offerTrial=Realms Plus是一种持续性订阅，每月会自动收取订阅费，直到取消订阅为止。%s您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容！前30天免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
+store.realmsPlus.recurring.withoutTrial=Realms Plus是一种持续性订阅，每月会自动收取订阅费，直到取消订阅为止。%s您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容！您需支付%s/月的费用，并且您可以随时取消。	#
 store.realmsPlus.consumable.offerTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！前30天免费，之后您可以按%s/30天续期。	#
 store.realmsPlus.consumable.withoutTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
 
@@ -6823,7 +6839,8 @@ store.realmsPlus.landing.info1.line3=- 好友可以在您的Realm中免费玩	#
 store.realmsPlus.landing.info2.line1=- 安全云存储	#
 store.realmsPlus.landing.info2.line2=- 在任何带有Realms和Minecraft商城的设备上玩	#
 store.realmsPlus.landing.info2.line3=- 支持Minecraft社区	#
-store.realmsPlus.landing.info2.line4=- 为期1个月的免费试用	#
+store.realmsPlus.landing.info2.line4=- 为期30天的免费试用，之后每月%s	#
+store.realmsPlus.landing.info2.line5=- 每月%s	#
 
 store.realmsPlus.faq.header=常见问题	#
 store.realmsPlus.faq.question1=Realms Plus是什么？	#
@@ -6866,7 +6883,7 @@ store.realmsPlus.content.viewAllPacks=查看所有的包	#
 store.realmsPlus.content.contentDescription=畅享精彩的Minecraft内容！有了Realms Plus，您可以立即访问100多个商城物品，例如混搭包、世界、皮肤包和史诗级冒险——而且每月都会添加新的内容。您的内容将存储在您专属的个人服务器上，并且可以在任何您有Realms和Minecraft商城的平台上进行使用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
 
 
-store.realmsPlus.freeTrial=开始为期一个月的免费试用	#
+store.realmsPlus.freeTrial=开始免费试用（之后%s/月）	#
 
 store.inventory.button=物品栏	#
 store.inventory.title=物品栏	#
