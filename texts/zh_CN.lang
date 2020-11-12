@@ -6968,7 +6968,7 @@ store.popup.trialUpgradeFail.msg=你似乎登录了一个与你最初下载Minec
 store.popup.downloaded.unOwnedTemplate.title=是否购买世界模板？	#
 store.popup.downloaded.unOwnedTemplate.msg=你未拥有此模板，必须先购买它才能解锁。你想购买该模板吗？	#
 store.popup.rtx.title=下载光线追踪资源包？	#
-store.popup.rtx.msg=此世界已经应用了启用光线跟踪的资源包。你的设备与高级的光影与材质功能不兼容，因此你将会看到没有这些高级效果的世界。你想在加入之前下载它们吗？	#
+store.popup.rtx.msg=此世界已经应用了启用光线跟踪的资源包，你必须下载才能游玩。但你的设备与光线追踪不兼容，因此下载后你只会看到基础材质。你想下载此资源包吗？	#
 store.purchase.success=你刚刚购买了：%s	#
 store.purchase.bundle=解锁%d个包（共%d个）？	#
 store.purchase.bundle.confirm=立即解锁！	#
@@ -7611,7 +7611,7 @@ tile.furnace.name=熔炉	#
 tile.glass.name=玻璃	#
 tile.golden_rail.name=充能铁轨	#
 tile.grass.name=草方块	#
-tile.grass_path.name=Dirt Path	#
+tile.grass_path.name=土径	#
 tile.gravel.name=沙砾	#
 tile.hay_block.name=干草块	#
 tile.netherrack.name=下界岩	#
@@ -9013,7 +9013,7 @@ dynamicPackage.download.android.NotificationChannelDescription=显示更新状�
 entity.goat.name=山羊	#
 item.goat_horn.name=山羊角	#
 item.spawn_egg.entity.goat.name=山羊刷怪蛋	#
-tile.powder_snow.name=Powder Snow	#
+tile.powder_snow.name=细雪	#
 
 ##
 ## Chemistry Strings
