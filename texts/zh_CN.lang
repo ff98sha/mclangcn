@@ -8,12 +8,17 @@ accessibility.enableTTS=文本转语音已启用	#
 ## Translator note:
 ## This section of phrases will be given audibly to the user using text to speech
 
+accessibility.chat.tts.gamepad.back=按%s返回	#
+accessibility.chat.tts.gamepad.exitChat=按%s退出聊天	#
+accessibility.chat.tts.gamepad.sendMessage=按%s发送消息	#
 accessibility.chat.tts.says=%s说%s	#
 accessibility.chat.tts.hideChat=隐藏聊天界面	#
 accessibility.chat.tts.keyboard=键盘	#
 accessibility.chat.tts.muteChatToggle=全部静音	#
 accessibility.chat.tts.sendChatMessage=发送	#
 accessibility.chat.tts.textboxTitle=聊天	#
+
+accessibility.game.playerView=玩家视角	#
 
 accessibility.loading.done=完成	#
 accessibility.saving.done=完成	#
@@ -75,6 +80,7 @@ accessibility.play.tabRight=按%s向右切换选项卡	#
 accessibility.play.legacyWorldsDelete=删除旧的世界	#
 
 accessibility.pause.permissions=权限	#
+accessibility.pause.profile=选择个人资料	#
 
 accessibility.start.buttonHelper=%s：%s	## Used for on-screen gamepad helpers (eg. "Y Button : Change User")
 
@@ -82,18 +88,22 @@ accessibility.screenName.achievements=成就界面	#
 accessibility.screenName.chat=聊天界面	#
 accessibility.screenName.createNew=创建新存档界面	#
 accessibility.screenName.createWorld=创建世界设置界面	#
+accessibility.screenName.editCharacter=编辑角色界面	#
 accessibility.screenName.editWorldSettings=编辑世界设置界面	#
 accessibility.screenName.error=错误界面	#
 accessibility.screenName.howToPlay=游戏指南界面	#
+accessibility.screenName.inviteToGame=邀请游戏界面	#
 accessibility.screenName.modalDialog=弹窗	#
 accessibility.screenName.patchNotes=补丁说明界面	#
-accessibility.screenName.pauase=暂停界面	#
+accessibility.screenName.pause=暂停界面	#
 accessibility.screenName.play=游戏界面	#
+accessibility.screenName.profile=个人资料界面	#
 accessibility.screenName.realmSettings=Realm设置界面	#
 accessibility.screenName.settings=游戏设置界面	#
 accessibility.screenName.skinPicker=选择皮肤界面	#
 accessibility.screenName.start=主菜单	#
 accessibility.screenName.vrAlignment=VR校准界面 	#
+accessibility.screenName.emoteWheel=表情界面	#
 
 accessibility.settings.reset=重置	#
 accessibility.settings.chooseSeed=选择种子	#
@@ -183,6 +193,13 @@ accessibility.gamepad.bumper.left=左肩键	#
 accessibility.keyboard.leftBracket=左方括号键			### left square bracket means '[' on the english keyboard
 accessibility.keyboard.rightBracket=右方括号键		### right square bracket means ']' on the english keyboard
 
+accessibility.emotes.hovered=%s，%s按钮%d，第%d个，共%d个	#
+accessibility.emotes.buttonName=表情	#
+accessibility.emotes.assigned=%s表情已指定	#
+accessibility.emotes.unassigned=未指定	#
+accessibility.emotes.playSuccess=播放表情	#
+accessibility.emotes.playFailed=此按钮未指定表情，点击下箭头进入更改表情菜单	#
+accessibility.emotes.instruction.keyboard=按下右或左循环显示表情按钮。按下箭头进入更改表情按钮。	#
 
 ## End of audible phrases section
 
@@ -401,8 +418,6 @@ authentication.store.confirmPurchase=确认购买	#
 authentication.store.intro=你的Minecraft教育版试用机会已用完。你需要购买许可，才能继续使用Minecraft教育版。	#
 authentication.store.popup.purchaseFailed.title=出错了	#
 authentication.store.popup.purchaseFailed.msg=抱歉，无法完成购买。请检查网络连接？	#
-authentication.store.purchase.info1=款项会在确认购买后向你的iTunes账户收取，除非在当前订阅期结束前至少24小时关闭自动续期，否则订阅会自动续期。在当前订阅期结束之前24小时内，续期费用会根据你此前选择的订阅价格选项，向你的账户收取。	#
-authentication.store.purchase.info2=购买之后你可以访问iTunes账户，管理你的订阅，关闭自动续期。如果你在订阅激活后取消，订阅剩余有效期间将不予退款。此订阅会让你的iTunes账户将与你的Office 365教育账户关联，因此你将失去资格，无法使用iTunes账户购买额外的Minecraft教育版许可。	#
 authentication.store.purchase.button=购买许可（%s/年）	#
 authentication.store.terms=使用条款	#
 authentication.store.viewTermsAndConditions=条款和条件	#
@@ -1219,6 +1234,7 @@ commands.time.stop=时间%1$s	#
 commands.title.description=控制屏幕标题。	#
 commands.title.success=标题命令执行成功	#
 commands.titleraw.description=使用JSON消息控制屏幕标题。	#
+commands.titleraw.success=Titleraw命令成功执行	#
 commands.toggledownfall.description=切换天气。	#
 commands.tp.description=传送实体（玩家、生物等）。	#
 commands.tp.notSameDimension=无法传送，因为目标玩家不存在于同一个维度	#
@@ -1863,6 +1879,8 @@ realmsPlusUpgradeNotice.body=您的Realms订阅已升级为Realms Plus。现在�
 realmsPlusUpgradeNotice.continue=继续	#
 realmsPlusUpgradeNotice.viewpacks=查看Realms Plus包	#
 
+raytracing.RTX.name=RTX##Brand name, don't localize
+
 network.onlinePlay.title=与好友一起玩	#
 network.onlinePlay.msg=你可以邀请好友加入你的世界、查看好友的作品，并在各自的世界中制作物品。	#
 network.onlinePlay.instruction=通过“游戏”菜单，你可以加入好友的世界，也可以邀请他们加入你的世界和Realm。	#
@@ -2035,7 +2053,7 @@ realmsSettingsScreen.dev_prev_page_label=上一个	#
 realmsSettingsScreen.dev_next_page_label=下一个	#
 realmsSettingsScreen.uploadConfirmationMessage=本操作将从你的Realm中移除当前的世界，并允许你替换上一个新的世界。你Realm的成员将无法再进入当前的世界。想要继续吗？	#
 realmsSettingsScreen.uploadConfirmationTitle=替换世界吗？	#
-realmsSettingsScreen.whitelist_invite=邀请	#
+realmsSettingsScreen.allowlist_invite=邀请	#
 realmsSettingsScreen.searchBox=搜索…	#
 realmsSettingsScreen.unknownPackName=未知名称	#
 realmsSettingsScreen.viewSubscriptionsButton=查看订阅	#
@@ -2080,7 +2098,7 @@ xbl.transferEntitlements.error.error1=错误编号	#
 xbl.transferEntitlements.error.error2=ID编号	#
 
 playfab.account.banned.title=被封禁	#
-playfab.account.banned.body=您已被封禁Minecraft的联机功能。您将无法在服务器上游玩、加入Realm、创建与加入多人游戏或使用商城。如果您购买了Realm，则需要在其购买商店中取消订阅。	#
+playfab.account.banned.body=您已在Minecraft中被封禁。在封禁期间，您将无法在你的世界上游玩（某些平台）、在服务器上游玩、加入Realm、创建与加入多人游戏或使用商城。如果您购买了Realm，则需要在其购买商店中取消订阅。	#
 playfab.account.banned.body.button=更多信息	#
 
 store.sign_in_warning.no_xbl_and_local_content=重要提示！你所购买的资源包和Minecoin只能在此设备上使用，并且可能会由于设备故障、丢失或卸载Minecraft而丢失！使用微软账户（免费）登录并将你的资源包权限和Minecoin转移到该账户，以便在你登录的任何设备上保护和使用它们。	#
@@ -2146,6 +2164,7 @@ dayOneExperience.world_picker_skip=暂时跳过	#
 death.attack.anvil=%1$s被坠落的铁砧压扁了	#
 death.attack.arrow=%1$s被%2$s射杀	#
 death.attack.arrow.item=%1$s被%2$s用%3$s射杀	#
+death.attack.bullet=%1$s被%2$s射杀	#
 death.attack.cactus=%1$s被戳死了	#
 death.attack.cactus.player=%1$s在试图逃离%2$s时撞上了仙人掌	#
 death.attack.drown=%1$s淹死了	#
@@ -2176,10 +2195,12 @@ death.attack.onFire.player=%1$s在试图与%2$s战斗时被烤的酥脆	#
 death.attack.outOfWorld=%1$s掉出了这个世界	#
 death.attack.player=%1$s被%2$s杀死了	#
 death.attack.player.item=%1$s被%2$s用%3$s杀死了	#
+death.attack.spit=%1$s被%2$s的口水淹死了	#
 death.attack.starve=%1$s饿死了	#
 death.attack.thorns=%1$s在试图伤害%2$s时被杀	#
 death.attack.thrown=%1$s被%2$s给砸死了	#
 death.attack.thrown.item=%1$s被%2$s用%3$s给砸死了	#
+death.attack.trident=%1$s被%2$s刺死了	#
 death.attack.wither=%1$s凋零了	#
 death.fell.accident.generic=%1$s从高处摔了下来	#
 death.fell.accident.ladder=%1$s从梯子上摔了下来	#
@@ -2297,6 +2318,7 @@ disconnectionScreen.outdatedClientRealms=你必须更新游戏才能继续在此
 disconnectionScreen.outdatedClientRealms.title=Realm已更新	#
 disconnectionScreen.outdatedServerRealms=你的游戏是最新版本，但此Realm不是。	#
 disconnectionScreen.outdatedServerRealms.title=Realm更新在48小时内待处理	#
+disconnectionScreen.outdatedServerRealmsNonOwner.title=你尝试访问的Realm处于不同的游戏版本。请与Realm的所有者联系以解决此问题。	#
 disconnectionScreen.realmsServerUpdateIncoming=你的Realm即将更新。你也需要进行更新。	#
 disconnectionScreen.realmsServerUpdateIncoming.title=马上检查游戏更新？	#
 disconnectionScreen.realmsWorldUnassigned=在开发选项中指定版本。	#
@@ -2318,6 +2340,7 @@ disconnectionScreen.incompatiblePack.memory=你无法加入此世界，因为你
 disconnectionScreen.incompatiblePack.graphics.raytracing=你无法加入此世界，因为你的硬件设备不支持光线追踪	#
 disconnectionScreen.worldCorruption.message=尝试重新打开世界或从之前的备份中还原	#
 disconnectionScreen.worldCorruption=由于世界遭到损坏，所以连接被断开	#
+disconnectionScreen.hostSuspended=因服务器不可用断开连接	#
 
 storageSpaceWarningScreen.frontend=你的存储空间即将不足！Minecraft已限制了该功能的访问，直至你清理出额外的存储空间为止。	#
 storageSpaceWarningScreen.lowduringgameplay=你的设备空间不足，Minecraft无法在此设备上存储世界和设置。请删除一些你不需要的旧东西，便于你保存新内容。	#
@@ -3645,9 +3668,11 @@ level.import.failed.incompatibleEdition=存档导入失败：出现了不支持�
 invite.clear=清除已选择	#
 invite.send=发送%d份邀请	#
 invite.sendOne=发送1份邀请	#
+invite.sendUnnumbered=发送邀请	#
 invite.title=邀请好友加入你的游戏	#
 invite.error.message=你的部分邀请可能发送失败。	#
 invite.noFriends=你尚未添加任何人到你的好友列表中！	#
+invite.noRealmFriends=你还没有将任何人添加到你的Realm！	#
 invite.OnlineFriends=在线好友	#
 invite.OfflineFriends=离线好友	#
 invite.SuggestedFriends=推荐好友	#
@@ -4398,7 +4423,7 @@ item.tropicalBodyBlockfishMulti.name=%1$s-%2$s 方身鱼	#
 item.tropicalBodyBettyMulti.name=%1$s-%2$s 背蒂鱼	#
 item.tropicalBodyClayfishMulti.name=%1$s-%2$s 陶鱼	#
 item.tropicalSchoolAnemone.name=海葵鱼	#
-item.tropicalSchoolBlackTang.name=黑刺尾鲷鱼	#
+item.tropicalSchoolBlackTang.name=黑刺尾鲷	#
 item.tropicalSchoolBlueDory.name=蓝色多莉	#
 item.tropicalSchoolButterflyFish.name=蝴蝶鱼	#
 item.tropicalSchoolCichlid.name=丽鱼	#
@@ -5584,6 +5609,9 @@ options.graphics=精美图像	#
 options.transparentleaves=透明树叶	#
 options.bubbleparticles=绚丽气泡柱	#
 options.smooth_lighting=平滑光照	#
+options.upscaling=画质提升	#
+options.raytracing=光线追踪	#
+options.raytracing.disabled.upsell=此功能仅在支持光线跟踪的世界中可用。在商城中寻找，或者创建自己的光线追踪资源包。	#
 options.graphics.fancy=高品质	#
 options.graphics.fast=流畅	#
 options.renderingProfile=图形	#
@@ -5674,7 +5702,10 @@ options.qualityVideoTitle=视频质量设置	#
 options.reducedDebugInfo=简化调试信息	#
 options.renderClouds=云	#
 options.renderDistance=能见度	#
+options.raytracing.renderDistance=光线追踪渲染距离	#
+options.raytracing.renderDistanceFormat=%个区块	#
 options.renderDistanceFormat=%s个区块	#
+options.raytracing.renderdistance.warning=此设置可能会在游玩时产生性能问题。	#
 options.resetSettings=重置为默认值	#
 options.resetSettings.popUp=是否确实要重置设置？	#
 options.maxFramerate=最大帧率（实验性）	#
@@ -5776,6 +5807,8 @@ options.uiprofile.pocket=携带版	#
 options.usetouchpad=分离控制	#
 options.viewSubscriptions=订阅	#
 options.viewSubscriptions.button.info=信息	#
+options.viewSubscriptions.button.price=%s	#
+options.viewSubscriptions.button.pricePerMonth=%s/月	#
 options.viewSubscriptions.button.manage=管理	#
 options.viewSubscriptions.renew=每30天续期一次	#
 options.viewSubscriptions.daysRemaining=剩余%d天	#
@@ -5871,6 +5904,7 @@ options.managePrivacy=若要管理隐私设置，请在任意网络浏览器中�
 options.unlink_msa.button=取消关联微软账户	#
 options.unlink_msa.confirm.title=确认取消关联微软账户？	#
 options.unlink_msa.confirm.warning=警告：取消关联后，您将无法在您的账户%s上存储您在PlayStation 4设备上完成的进度或进行的购买。	#
+options.unlink_msa.confirm.warning.2=从此游戏中取消关联您的微软帐户将影响该平台所有使用此微软帐户的Minecraft游戏。	#
 options.unlink_msa.confirm.checkbox1=当我在其他平台上玩游戏时，我将不再能够访问任何游戏内商店内容。	#
 options.unlink_msa.confirm.checkbox2=我将不再能够与我的好友在其他平台上玩跨平台游戏。	#
 options.unlink_msa.confirm.checkbox3=我将不再能够访问Realms，包括当前处于可用状态的Realms订阅。	#
@@ -6436,7 +6470,8 @@ storageManager.mcpack=Minecraft资源包	#
 storageManager.mcaddon=Minecraft附加包	#
 storageManager.mcworld=Minecraft世界	#
 
-
+raycasting.purchase.error=我们检测到您的设备不符合运行此资源包的系统要求，因此您无法下载此资源包。您可以查看以下最低系统要求：%s+ GPU：硬件支持光线跟踪的GPU，如NVIDIA GeForce RTX 2060或更高版本。在minecraft.net查看常见问题解答了解更多细节。%s+ RAM：8GB或更高。%s+ CPU：Intel Core i5或同等产品	#
+raycasting.purchase.error.title=系统需求警告	#
 
 resourcepack.City=城市材质包	#
 resourcepack.Plastic=塑料材质包	#
@@ -6771,6 +6806,8 @@ store.realmsPlus.content=内容	#
 store.realmsPlus.faq=常见问题解答	#
 store.realmsPlus.buyFor=为%s购买	#
 store.realmsPlus.buyNow=立即购买	#
+store.realmsPlus.buyNowPerMonth=以%s/月的价格购买	#
+store.realmsPlus.buyNowTrialPerMonth=开始免费试用（之后%s/月）	#
 store.realmsPlus.errorNoOffer=错误：未发现优惠	#
 store.realmsPlus.manageSubscription=管理订阅	#
 store.realmsPlus.viewAllPacksTitle=超值——所有包价值超过§g$150美元！§r	#
@@ -6788,8 +6825,8 @@ store.realmsPlus.noTrial.description=您的Realm和100多个商城包将立即�
 store.realmsPlus.noTrial.description.iap=您的Realm和100多个商城包将立即可用。至多10名玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
 store.realmsPlus.realmName.placeholder=%s的Realm		#The string passed in here is the gamertag of the player to indicate the name of the player's world.	#
 
-store.realmsPlus.recurring.offerTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！首月免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
-store.realmsPlus.recurring.withoutTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您需支付%s/月的费用，并且您可以随时取消。	#
+store.realmsPlus.recurring.offerTrial=Realms Plus是一种持续性订阅，每月会自动收取订阅费，直到取消订阅为止。%s您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容！前30天免费，之后将按%s/月的价格自动续费，并且您可以随时取消。	#
+store.realmsPlus.recurring.withoutTrial=Realms Plus是一种持续性订阅，每月会自动收取订阅费，直到取消订阅为止。%s您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以免费访问您的Realm内的所有订阅内容！您需支付%s/月的费用，并且您可以随时取消。	#
 store.realmsPlus.consumable.offerTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！前30天免费，之后您可以按%s/30天续期。	#
 store.realmsPlus.consumable.withoutTrial=您的Realm和100多个商城包将立即可用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！您的订阅期为30天，价格为%s。	#
 
@@ -6802,7 +6839,8 @@ store.realmsPlus.landing.info1.line3=- 好友可以在您的Realm中免费玩	#
 store.realmsPlus.landing.info2.line1=- 安全云存储	#
 store.realmsPlus.landing.info2.line2=- 在任何带有Realms和Minecraft商城的设备上玩	#
 store.realmsPlus.landing.info2.line3=- 支持Minecraft社区	#
-store.realmsPlus.landing.info2.line4=- 为期1个月的免费试用	#
+store.realmsPlus.landing.info2.line4=- 为期30天的免费试用，之后每月%s	#
+store.realmsPlus.landing.info2.line5=- 每月%s	#
 
 store.realmsPlus.faq.header=常见问题	#
 store.realmsPlus.faq.question1=Realms Plus是什么？	#
@@ -6845,7 +6883,7 @@ store.realmsPlus.content.viewAllPacks=查看所有的包	#
 store.realmsPlus.content.contentDescription=畅享精彩的Minecraft内容！有了Realms Plus，您可以立即访问100多个商城物品，例如混搭包、世界、皮肤包和史诗级冒险——而且每月都会添加新的内容。您的内容将存储在您专属的个人服务器上，并且可以在任何您有Realms和Minecraft商城的平台上进行使用。至多10位玩家可以同时游玩，他们还可以访问您的Realm内的所有订阅内容——而且免费！	#
 
 
-store.realmsPlus.freeTrial=开始为期一个月的免费试用	#
+store.realmsPlus.freeTrial=开始免费试用（之后%s/月）	#
 
 store.inventory.button=物品栏	#
 store.inventory.title=物品栏	#
@@ -6929,6 +6967,8 @@ store.popup.trialUpgradeFail.title=解锁游戏错误	#
 store.popup.trialUpgradeFail.msg=你似乎登录了一个与你最初下载Minecraft试用版的账户不同的微软账户。请登录那个账户后再试一次。	#
 store.popup.downloaded.unOwnedTemplate.title=是否购买世界模板？	#
 store.popup.downloaded.unOwnedTemplate.msg=你未拥有此模板，必须先购买它才能解锁。你想购买该模板吗？	#
+store.popup.rtx.title=下载光线追踪资源包？	#
+store.popup.rtx.msg=此世界已经应用了启用光线跟踪的资源包，你必须下载才能游玩。但你的设备与光线追踪不兼容，因此下载后你只会看到基础材质。你想下载此资源包吗？	#
 store.purchase.success=你刚刚购买了：%s	#
 store.purchase.bundle=解锁%d个包（共%d个）？	#
 store.purchase.bundle.confirm=立即解锁！	#
@@ -7571,7 +7611,7 @@ tile.furnace.name=熔炉	#
 tile.glass.name=玻璃	#
 tile.golden_rail.name=充能铁轨	#
 tile.grass.name=草方块	#
-tile.grass_path.name=草径	#
+tile.grass_path.name=土径	#
 tile.gravel.name=沙砾	#
 tile.hay_block.name=干草块	#
 tile.netherrack.name=下界岩	#
@@ -8857,6 +8897,11 @@ dr.default.steve.skin=Steve	#
 dr.default.steve.top=Steve的衬衫	#
 dr.emotes.slot=表情%d	#
 
+gfxDriverOutdated.title=驱动程序过时！	#
+gfxDriverOutdated.message=你的计算机图形驱动程序有新的更新可用。若不进行更新，世界可能会出现一些问题或漏洞。请安装更新以充分享受Minecraft的乐趣。在http://aka.ms/ray-tracing-FAQ了解更多	#
+gfxDriverOutdated.doNotShowAgain=不再提示	#
+gfxDriverOutdated.close=关闭	#
+
 onlinePlay.notRated=在线游戏未评级	#
 onlinePlay.message=在线游戏期间，您可能会接触到聊天信息或其他类型的未评级用户内容，可能不适合所有年龄段的用户。	#
 onlinePlay.doNotShowAgain=不再提示	#
@@ -8936,6 +8981,7 @@ dr.color.warm_bisque=暖橘黄色	#
 
 emotes.change_emotes=更改表情	#
 emotes.execute=执行	#
+emotes.header_text=表情	#
 
 ## Dynamic Package Manager
 ## Google Play APK Expansion file downloader notification
@@ -8961,6 +9007,13 @@ dynamicPackage.download.android.kilobytesPerSecond=%1$s KB/s	#					## %1$s is th
 dynamicPackage.download.android.timeRemainingNotification=剩余%1$s	#				## %1$s is the time remaining
 dynamicPackage.download.android.notificationChannelName=更新状态	#
 dynamicPackage.download.android.NotificationChannelDescription=显示更新状态和进度	#
+
+##
+## Experimental Caves and Cliffs
+entity.goat.name=山羊	#
+item.goat_horn.name=山羊角	#
+item.spawn_egg.entity.goat.name=山羊刷怪蛋	#
+tile.powder_snow.name=细雪	#
 
 ##
 ## Chemistry Strings
