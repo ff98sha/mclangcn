@@ -194,12 +194,14 @@ accessibility.gamepad.bumper.left=左肩键	#
 accessibility.keyboard.leftBracket=左方括号键			### left square bracket means '[' on the english keyboard
 accessibility.keyboard.rightBracket=右方括号键		### right square bracket means ']' on the english keyboard
 
-accessibility.emotes.hovered=%s，%s按钮%d，第%d个，共%d个	#
-accessibility.emotes.buttonName=表情	#
+accessibility.emotes.hovered=%s，表情按钮%d，第%d个，共%d个	#
 accessibility.emotes.assigned=%s表情已指定	#
 accessibility.emotes.unassigned=未指定	#
 accessibility.emotes.playSuccess=播放表情	#
-accessibility.emotes.playFailed=此按钮未指定表情，点击下箭头进入更改表情菜单	#
+accessibility.emotes.playFailed=此按钮未指定表情，点击%s更改表情菜单	#
+accessibility.emotes.changeEmotesInstruction.button=%s进入	#
+accessibility.emotes.keyboard.arrow=箭头	#
+
 accessibility.emotes.instruction.keyboard=按下右或左循环显示表情按钮。按下箭头进入更改表情按钮。	#
 
 ## End of audible phrases section
@@ -5929,6 +5931,7 @@ options.unlink_msa.success.body=您的账户已取消关联。	#
 options.unlink_msa.failure.title=出错了	#
 options.unlink_msa.failure.body=您的账户无法取消关联。请检查您的互联网连接？	#
 
+patchNotes.loading=正在加载补丁说明	#
 patchNotes.continue=继续	#
 patchNotes.unlock=解锁	#
 patchNotes.error.noInternet.title=已从互联网断开连接	#
@@ -8907,7 +8910,7 @@ dr.default.steve.top=Steve的衬衫	#
 dr.emotes.slot=表情%d	#
 
 gfxDriverOutdated.title=驱动程序过时！	#
-gfxDriverOutdated.message=你的计算机图形驱动程序有新的更新可用。若不进行更新，世界可能会出现一些问题或漏洞。请安装更新以充分享受Minecraft的乐趣。在http://aka.ms/ray-tracing-FAQ了解更多	#
+gfxDriverOutdated.message=你的计算机图形驱动程序有新的更新可用。若不进行更新，世界可能会出现一些问题或漏洞。请安装更新以充分享受Minecraft的乐趣。前往http://aka.ms/mcupdatedrivers了解更多	#
 gfxDriverOutdated.doNotShowAgain=不再提示	#
 gfxDriverOutdated.close=关闭	#
 
