@@ -86,6 +86,7 @@ accessibility.start.buttonHelper=%s：%s	## Used for on-screen gamepad helpers (
 
 accessibility.screenName.achievements=成就界面	#
 accessibility.screenName.chat=聊天界面	#
+accessibility.screenName.chatSettings=聊天设置界面	#
 accessibility.screenName.createNew=创建新存档界面	#
 accessibility.screenName.createWorld=创建世界设置界面	#
 accessibility.screenName.editCharacter=编辑角色界面	#
@@ -2353,8 +2354,8 @@ disconnectionScreen.incompatiblePack=你无法加入此世界，因为你有以�
 disconnectionScreen.incompatiblePack.memory=你无法加入此世界，因为你的设备内存不足，无法运行以下包：%s	#
 disconnectionScreen.incompatiblePack.graphics.raytracing=你无法加入此世界，因为你的硬件设备不支持光线追踪	#
 disconnectionScreen.worldCorruption.message=尝试重新打开世界或从之前的备份中还原	#
-disconnectionScreen.worldCorruption=由于世界遭到损坏，所以连接被断开	#
-disconnectionScreen.hostSuspended=因服务器不可用断开连接	#
+disconnectionScreen.worldCorruption=因世界遭到损坏而断开连接	#
+disconnectionScreen.hostSuspended=因服务器不可用而断开连接	#
 
 storageSpaceWarningScreen.frontend=你的存储空间即将不足！Minecraft已限制了该功能的访问，直至你清理出额外的存储空间为止。	#
 storageSpaceWarningScreen.lowduringgameplay=你的设备空间不足，Minecraft无法在此设备上存储世界和设置。请删除一些你不需要的旧东西，便于你保存新内容。	#
@@ -5309,7 +5310,9 @@ multiplayer.title=多人游戏	#
 multiplayer.inBedOpenChat=打开聊天栏	#
 multiplayer.joincode.refreshed=该游戏的加入代码已更新。	#
 
+notification.lock.noCraft=该物品已锁定，无法被合成	#
 notification.lock.noDrop=该物品已锁定，无法掉落	#
+notification.lock.noRemove=该物品已锁定，无法从物品栏移除	#
 
 npcscreen.action.buttonmode=按钮模式	#
 npcscreen.action.buttonname=按钮名称	#
@@ -5631,7 +5634,8 @@ options.bubbleparticles=绚丽气泡柱	#
 options.smooth_lighting=平滑光照	#
 options.upscaling=高帧率	#
 options.raytracing=光线追踪	#
-options.raytracing.disabled.upsell=此功能仅在支持光线追踪的世界中可用。在商城中寻找，或者创建自己的光线追踪资源包。	#
+options.raytracing.disabled.upsell.supported_platform=此选项只能在游玩支持光线追踪的世界时更改。在商城中寻找，或者创建自己的光线追踪资源包。	#
+options.raytracing.disabled.upsell.unsupported_platform=你需要一个特殊的设备来使用这个功能，前往http://aka.ms/ray-tracing-FAQ了解更多	#
 options.graphics.fancy=高品质	#
 options.graphics.fast=流畅	#
 options.renderingProfile=图形	#
@@ -8413,7 +8417,6 @@ xbox.report.optionalText=在此处输入文本（可选）	#
 xbox.report.toast=你已举报%s	#
 xbox.report.toastError=无法发送你的举报。请稍后再试。	#
 
-xbox.report.bioOrLocation=个人简介或位置	#
 xbox.report.cheating=作弊	#
 xbox.report.nameOrGamertag=玩家名称或玩家代号	#
 xbox.report.quittingEarly=提前退出	#
@@ -8916,11 +8919,6 @@ dr.default.steve.shoes=Steve的鞋子	#
 dr.default.steve.skin=Steve	#
 dr.default.steve.top=Steve的衬衫	#
 dr.emotes.slot=表情%d	#
-
-gfxDriverOutdated.title=驱动程序过时！	#
-gfxDriverOutdated.message=你的计算机图形驱动程序有新的更新可用。若不进行更新，世界可能会出现一些问题或漏洞。请安装更新以充分享受Minecraft的乐趣。前往http://aka.ms/mcupdatedrivers了解更多	#
-gfxDriverOutdated.doNotShowAgain=不再提示	#
-gfxDriverOutdated.close=关闭	#
 
 onlinePlay.notRated=在线游戏未评级	#
 onlinePlay.message=在线游戏期间，您可能会接触到聊天信息或其他类型的未评级用户内容，可能不适合所有年龄段的用户。	#
