@@ -44,7 +44,7 @@ accessibility.checkbox.tts.title=复选框	#
 accessibility.checkbox.tts.status=状态%s			### Status will be checked or unchecked
 accessibility.dropdown.tts.title=下拉	#
 accessibility.slider.tts.title=滑块	#
-accessibility.tab.tts.title=标签	#
+accessibility.tab.tts.title=选项卡	#
 accessibility.textbox.tts.title=文本框	#
 accessibility.toggle.tts.title=开关	#
 
@@ -115,7 +115,7 @@ accessibility.start.new=新	#
 accessibility.start.profile=选择个人资料	#
 accessibility.start.skinPicker=选择皮肤	#
 
-accessibility.store.tag=标签	#
+accessibility.store.tag=选项卡	#
 
 accessibility.textbox.editing=正在编辑	#
 
@@ -1390,7 +1390,7 @@ controller.buttonTip.select=选择	#
 controller.buttonTip.selectRecipe=选择配方	#
 controller.buttonTip.deselectRecipe=取消选择配方	#
 controller.buttonTip.clearRecipe=清除配方	#
-controller.buttonTip.tab=标签	#
+controller.buttonTip.tab=选项卡	#
 controller.buttonTip.take.half=拿取一半	#
 controller.buttonTip.take.one=拿取一个	#
 controller.buttonTip.take=拿取	#
@@ -8740,7 +8740,7 @@ hbui.TabBar.notSelected=未选择	#
 hbui.TabBar.open=开启	#
 hbui.TabBar.selected=已选择	#
 hbui.TabBar.selectedTab=%1$s/%2$s	#
-hbui.TabBar.tab=标签	#
+hbui.TabBar.tab=选项卡	#
 hbui.TextField.deselect=取消选择	#
 hbui.TextField.select=选择	#
 hbui.Toggle.count=第%1$s个，共%2$s个	#
@@ -9062,6 +9062,7 @@ hudScreen.tooltip.wax=涂蜡	#
 item.glow_ink_sac.name=荧光墨囊	#
 item.glow_frame.name=荧光物品展示框	#
 item.spawn_egg.entity.glow_squid.name=发光鱿鱼刷怪蛋	#
+entity.glow_squid.name=发光鱿鱼	#
 
 
 ##
