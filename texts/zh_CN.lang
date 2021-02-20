@@ -360,7 +360,7 @@ apple.iCloudDisabled.message=你的存档没有保存妥当。当你下次玩Min
 apple.iCloudDisabled.button.turnOnICloud=开启iCloud	#
 apple.iCloudNoSpace.message=你的iCloud可用空间不足，无法妥当保存存档。当你下次玩Minecraft时，可能就找不到它了。请释放iCloud账户上的空间，确保所有存档保存完好。	#
 apple.iCloudNoSpace.button.manageICloud=管理iCloud	#
-apple.iCloudNoInternet.message=你需要互联网连接才能妥当保存存档。当你下次玩Minecraft时，可能就找不到它了。请重新连接到互联网，确保所有存档保存完好。	#
+apple.iCloudNoInternet.message=你需要网络连接才能妥当保存存档。当你下次玩Minecraft时，可能就找不到它了。请重新连接到互联网，确保所有存档保存完好。	#
 apple.iCloudSignInRequired.title=登录	#
 apple.iCloudSignInRequired.message=你必须登录iCloud才能玩Minecraft。请转到Apple TV设置并打开iCloud。	#
 apple.iCloudUserChanged.message=你已经登录新的iCloud账户。你将需要重新启动Minecraft才能进入游戏。	#
@@ -408,7 +408,7 @@ authentication.trialEndedTitle=试用版已到期	#
 authentication.clickToPurchaseMessage=请你的教育负责人在此为你购买许可：	#
 authentication.clickToPurchaseStudent=http://aka.ms/meestore	#
 authentication.clickToPurchaseTeacher=购买许可	#
-authentication.adalException=我们无法连接到你当前所需的服务。请检查你的互联网连接，然后再试一次。	#
+authentication.adalException=我们无法连接到你当前所需的服务。请检查你的网络连接，然后再试一次。	#
 authentication.buyMinecraft=前往App Store	#
 authentication.edu.leaveGame.title=您已被注销	#
 authentication.edu.leaveGame.body=另一个设备已使用您的账户登录。	#
@@ -525,7 +525,7 @@ codeScreen.editor.description.tynker=使用Tynker建造自己的世界！使用�
 codeScreen.memoryWarning=此设备的内存不符合推荐要求。编辑器可能无法正常工作。	#
 codeScreen.memoryError=编辑器进程出错，请检查你的设备是否有足够的内存。	#
 codeScreen.needCheats=必须开启当前存档中的作弊选项才能写代码！	#
-codeScreen.networkError=无法连接网络。请检查你的互联网设置。	#
+codeScreen.networkError=无法连接网络。请检查你的网络设置。	#
 codeScreen.resetWarning=你确定要重置Code Builder吗？所有未保存的工作将会丢失…	#
 codeScreen.title=Code Builder	#
 codeScreen.buttonTTS.splitLeft=向左移动	#
@@ -1422,7 +1422,7 @@ course.edu.byLessonsEndOrdered=第%d节课结束时，你将学习到以下内�
 course.edu.collaborativeLesson=协作课程	#
 course.edu.collaborativeLessonAndQuiz=协作课程与测验	#
 course.edu.connectionFailed=糟糕！你似乎已经断开了网络连接。请检查你的网络连接并重试！	#
-course.edu.connectionProblem.courseList=连接到课程列表时出现问题。请检查你的互联网连接并再试一次。	#
+course.edu.connectionProblem.courseList=连接到课程列表时出现问题。请检查你的网络连接并再试一次。	#
 course.edu.connectionProblem.quiz=连接到测验时出现问题。请重试。	#
 course.edu.continueButton=继续	#
 course.edu.courses=课程	#
@@ -1795,16 +1795,16 @@ realmsCreateScreen.errorRealmNameAndTOS=你的Realm名称不能为空，而且�
 realmsCreateScreen.errorTOS=必须接受条款和条件才能创建Realm。	#
 realmsCreateScreen.goBack=返回	#
 realmsCreateScreen.createFailed.title=出错了	#
-realmsCreateScreen.purchaseFailed=抱歉，无法完成Realm购买。请检查互联网连接？	#
+realmsCreateScreen.purchaseFailed=抱歉，无法完成Realm购买。请检查网络连接？	#
 realmsCreateScreen.createFailed.content=购买成功，但现在无法创建你的Realm。我们会尽快创建你的Realm。请稍后在此设备上查看。	#
 realmsCreateScreen.createFailed.profanity=不允许的Realm名称%s。	#
 realmsCreateScreen.createFailed.generic=无法验证俱乐部名称。请稍后重试。	#
 realmsCreateScreen.maxRealms.title=订阅数已达到最大	#
 realmsCreateScreen.maxRealms.content=你在该平台上已达到最大活跃订阅数，现在无法创建新的订阅。	#
 realmsCreateScreen.offerNotFound.title=商店连接已丢失	#
-realmsCreateScreen.offerNotFound.content=你的设备失去了与商店的连接，我们无法确认此价格是否仍可用。请检查你的互联网连接或者稍后再试。	#
+realmsCreateScreen.offerNotFound.content=你的设备失去了与商店的连接，我们无法确认此价格是否仍可用。请检查你的网络连接或者稍后再试。	#
 realmsCreateScreen.offerNotAvailable.title=商店连接已丢失	#
-realmsCreateScreen.offerNotAvailable.content=你的设备失去了与商店的连接，我们无法确认此价格是否仍可用。请检查你的互联网连接或者稍后再试。	#
+realmsCreateScreen.offerNotAvailable.content=你的设备失去了与商店的连接，我们无法确认此价格是否仍可用。请检查你的网络连接或者稍后再试。	#
 realmsCreateScreen.maxRealms.content=你已拥有最大有效Realm数量，现在无法创建新Realm。	#
 realmsCreateScreen.usersTwo=2位玩家	#
 realmsCreateScreen.usersTen=10位玩家	#
@@ -1904,7 +1904,7 @@ networkWorld.servers_label=服务器	#
 networkWorld.friends_label=好友	#
 networkWorld.joinable_friends_label=可加入的好友	#
 networkWorld.no_joinable_friends_label=你的好友现在没在玩Minecraft。	#
-networkWorld.check_internet_connection=哎呀！要不检查一下你的互联网连接？我们找不到你朋友的世界。	#
+networkWorld.check_internet_connection=哎呀！要不检查一下你的网络连接？我们找不到你朋友的世界。	#
 networkWorld.connect_to_xbl=用微软账户登录，与好友畅玩。	#
 networkWorld.memberOfTooManyRealms=你的Realm成员已经到达了上限。	#
 networkWorld.multiplayerPrivilegesBlocked=由于你微软账户的设置问题，你无法进行在线多人游戏。请在aka.ms/MCMultiplayerHelp查看说明以检查并更改你的隐私设置。	#
@@ -2307,7 +2307,7 @@ disconnectionScreen.multiplayerLockedSkin=你配备的皮肤来自多人游戏�
 disconnectionScreen.loggedinOtherLocation=已从其他地点登录	#
 disconnectionScreen.multiplayerDisabled=世界已设置为单人游戏模式。	#
 disconnectionScreen.noReason=你已断开连接	#
-disconnectionScreen.noInternet=请检查你的互联网连接并重试。	#
+disconnectionScreen.noInternet=请检查你的网络连接并重试。	#
 disconnectionScreen.notAllowed=你并未获邀在此服务器上进行游戏。	#
 disconnectionScreen.notAuthenticated=你必须通过Microsoft服务身份验证。	#
 disconnectionScreen.outdatedClient=无法连接：过期的客户端！	#
@@ -2798,7 +2798,7 @@ gui.resourcepacks=资源包…	#
 gui.submit=提交	#
 gui.playOffline=离线游戏	#
 gui.signIn=登录	#
-gui.genericNetworkError=出错了。尝试检查你的互联网连接。	#
+gui.genericNetworkError=出错了。尝试检查你的网络连接。	#
 
 gui.edu.exitGameWarningCaption=Minecraft教育版		### Use Minecraft 教育版 in zh_CN translation
 gui.edu.exitGameWarningMessage=离开Minecraft教育版？		### Use 离开 Minecraft 教育版? in zh_CN translation
@@ -3427,7 +3427,7 @@ howtoplay.multiplayer.header.3=加入在线游戏	#
 howtoplay.multiplayer.text.4=要加入多人游戏，请转到“好友”选项卡。所有可加入的Realm、好友和局域网游戏都将在此处显示。选择某个游戏并选中它来加入。	#
 howtoplay.multiplayer.text.4.norealms=要加入多人游戏，请转到“好友”选项卡。所有可加入的Realm、好友和局域网游戏都将在此处显示。选择某个游戏并选中它来加入。	#
 howtoplay.multiplayer.text.5=当你开始或加入在线游戏时，游戏将在你的“好友”选项卡中对大家可见。如果你的好友已加入，游戏将立即对这些好友的好友可见。	#
-howtoplay.multiplayer.text.6=注意：你必须具有互联网连接并且必须登录微软账户才能玩多人游戏。	#
+howtoplay.multiplayer.text.6=注意：你必须具有网络连接并且登录微软账户才能进行多人游戏。	#
 howtoplay.multiplayer.header.4=玩家权限	#
 howtoplay.multiplayer.text.7=如果你想要管理各个玩家的权限，玩家权限使其变得非常容易。打开暂停菜单，你会在右侧看到当前在世界中的玩家列表。选择其权限图标可调整该玩家的权限。	#
 
@@ -5909,13 +5909,13 @@ options.unlink_msa.progress.body=正在取消关联您的账户…	#
 options.unlink_msa.success.title=取消关联成功	#
 options.unlink_msa.success.body=您的账户已取消关联。	#
 options.unlink_msa.failure.title=出错了	#
-options.unlink_msa.failure.body=您的账户无法取消关联。请检查您的互联网连接？	#
+options.unlink_msa.failure.body=您的账户无法取消关联。请检查您的网络连接？	#
 
 patchNotes.loading=正在加载补丁说明	#
 patchNotes.continue=继续	#
 patchNotes.unlock=解锁	#
 patchNotes.error.noInternet.title=已从互联网断开连接	#
-patchNotes.error.noInternet.msg=槽糕！出错了。是否检查你的互联网连接？	#
+patchNotes.error.noInternet.msg=槽糕！出错了。是否检查你的网络连接？	#
 patchNotes.error.notFound.title=补丁说明%1	#
 patchNotes.error.notFound.msg=我们在本次发布中修复了几个漏洞。当我们有更多的信息需要告知你的时候，我们会向你发送新的补丁说明。	#
 
@@ -6244,7 +6244,7 @@ profileScreen.manage_button_create_text=创建角色	#
 profileScreen.delete_button=删除角色	#
 profileScreen.settings_button=游戏设置	#
 
-progressScreen.cantConnect=无法连接到世界。请检查你的互联网连接并重试。	#
+progressScreen.cantConnect=无法连接到世界。请检查你的网络连接并重试。	#
 progressScreen.generating=生成世界中	#
 progressScreen.saving=正在保存世界	#
 progressScreen.loading=加载中…	#
@@ -6682,7 +6682,7 @@ skinpack.Education=教育版皮肤	#
 skins.browse=浏览	#
 skins.buy.buyButton=购买	#
 skins.buy.cancelButton=取消	#
-skins.buy.noConnection=无法连接至商城。请检查你的互联网连接？	#
+skins.buy.noConnection=无法连接至商城。请检查你的网络连接？	#
 skins.information.ingame=抱歉，你不能在游戏内更改皮肤。请从主菜单中访问选项。	#
 skins.information.invalidCustomSkin=选择的图像不能作为Minecraft的皮肤	#
 skins.information.upsellWithoutStore=你必须购买皮肤包才能使用此皮肤，但我们无法连接到商城。	#
@@ -6934,7 +6934,7 @@ store.popup.download.unOwned.title=是否购买资源包？	#
 store.popup.download.unOwned.msg=是否要购买这个世界所用的资源包？	#
 store.popup.download.unOwnedTemplate.title=是否购买世界模板？	#
 store.popup.download.unOwnedTemplate.msg=这个世界使用你未解锁的模板所创建。你必须购买模板才能解锁该世界。是否要购买这个世界所用的模板？	#
-store.popup.downloadWorldTemplate.noInternet.title=需要互联网连接才能获得模板	#
+store.popup.downloadWorldTemplate.noInternet.title=需要网络连接才能获得模板	#
 store.popup.downloadWorldTemplate.noInternet.msg=我们无法连接商城以下载用于创建这个世界的模板。该模板包含你用来继续玩此世界所必须的加载项。重新联网并下载此模板以继续。	#
 store.popup.downloadWorldTemplate.noSpace.msg=我们没有足够的空间来下载用于创建这个世界的模板。该模板包含你用来继续玩此世界所必须的加载项。请清理设备空间，然后继续。	#
 store.popup.downloadWorldTemplate.title.KB=下载缺失的模板？- %s KB	#
@@ -7102,7 +7102,7 @@ store.3pserverItem.alreadyPurchased=已拥有	#
 store.restore.description=正在恢复你的购买！	#
 store.restore.failed=抱歉，无法恢复你的购买。请检查你的网络连接？	#
 store.connection.failed.title=出错了	#
-store.connection.failed.body=我们无法连接至商城。请检查你的互联网连接？	#
+store.connection.failed.body=我们无法连接至商城。请检查你的网络连接？	#
 store.featured.createdBy=作者：%s	#
 store.downloading=正在下载…	#
 store.downloading.title=正在下载：%s	#
@@ -8512,7 +8512,7 @@ eduTemplateWorld.blocksOfGrass.name=草方块	#
 worldConversion.feedback.done.title=世界已提交	#
 worldConversion.feedback.failed.title=世界提交失败	#
 worldConversion.feedback.done.msg=非常感谢你向我们发送你的世界的副本，这将帮助我们找到错误！我们正致力于修复一些内容，因此未能及时就此特定世界给予回复。下面是你的回执，以确认我们已收到它：%s	#
-worldConversion.feedback.failed.msg=糟糕！我们未能收到你的世界。请尝试检查你的互联网连接，或者稍后重新发送它。	#
+worldConversion.feedback.failed.msg=糟糕！我们未能收到你的世界。请尝试检查你的网络连接，或者稍后重新发送它。	#
 worldConversion.feedback.prompt.title=提交世界	#
 worldConversion.feedback.prompt.msg=你的旧世界未按预期方式显示或运行？向我们发送你的世界，这将帮助我们找到错误！	#
 
@@ -9017,7 +9017,6 @@ dynamicPackage.download.android.timeRemainingNotification=剩余%1$s	#				## %1$
 dynamicPackage.download.android.notificationChannelName=更新状态	#
 dynamicPackage.download.android.NotificationChannelDescription=显示更新状态和进度	#
 
-##
 ## Experimental Caves and Cliffs
 entity.goat.name=山羊	#
 item.goat_horn.name=山羊角	#
@@ -9064,8 +9063,6 @@ item.glow_frame.name=荧光物品展示框	#
 item.spawn_egg.entity.glow_squid.name=发光鱿鱼刷怪蛋	#
 entity.glow_squid.name=发光鱿鱼	#
 
-
-##
 ## Chemistry Strings
 ## comment on the same line, use TABs.
 ## Comments can be added anywhere on a valid line by starting with '##'
@@ -9365,8 +9362,6 @@ tile.materialreducer.name=材料分解器	#
 tile.underwater_tnt.name=水下TNT	#
 tile.underwater_torch.name=水下火把	#
 
-
-##
 ## VR strings
 xblLogin.LoginMessageGearVR=请将手机从头盔上取下，登录至Xbox Live。	#
 xblLogin.AddFriendMessageGearVR=请将手机从头盔上取下，添加Xbox Live好友。	#
@@ -9468,13 +9463,13 @@ ori.launching=正在启动！	#
 ori.check_for_update=正在检查更新…	#
 ori.error.unavailable=Minecraft不可用。请确保你已连接到互联网并登录商店。	#
 ori.error.unknown=发生未知错误。请稍后重试。	#
-ori.error.not_supported=此系统上不支持Minecraft。	#
+ori.error.not_supported=此系统不支持Minecraft。	#
 ori.error.launch_failure=启动Minecraft失败。	#
 ori.error.version=你的Minecraft版本已过期。请更新后再开始游戏。	#
 ori.error.win10=需要Windows 10 1607或更高版本。	#
 ori.error.install_error=我们遇到一个错误。错误代码：0x	#
 ori.error.low_storage=无法安装。可用存储空间不足。	#
-ori.error.no_internet=无法连接。请检查您的互联网连接。	#
+ori.error.no_internet=无法连接。请检查您的网络连接。	#
 ori.error.winUpdateDisabled=必须启用Windows更新。	#
 ori.confirm.controls.controller.confirm=确认	#
 ori.confirm.controls.controller.cancel=取消	#
