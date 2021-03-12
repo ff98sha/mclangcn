@@ -4,7 +4,7 @@
         "description": "No longer need to bear terrible translations.",
         "name": "PE Translation Patch",
         "uuid": "6ab4515c-4f62-352c-aed6-e23022a8ebee",
-        "version": [1, 16, 200],
+        "version": [1, 16, 210],
         "platform_locked" : false,
  
         "min_engine_version": [1, 16, 0]
@@ -14,7 +14,7 @@
             "description": "No longer need to bear terrible translations.",
             "type": "resources",
             "uuid": "6ee9332c-3615-4876-a061-0406d3725a80",
-            "version": [1, 16, 200]
+            "version": [1, 16, 210]
         }
     ]
 }
