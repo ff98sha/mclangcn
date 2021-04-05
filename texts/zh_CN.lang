@@ -1007,6 +1007,7 @@ commands.schedule.delay.negativeTime=时间不能为负。	#
 commands.schedule.description=计划在区域加载或一定时间后执行的操作。	#
 commands.schedule.functionQueued=函数已加入计划队列，当指定区域完全加载时将执行该函数。	#
 commands.schedule.functionRan=在函数%2$s中成功执行了函数项%1$d。	#
+commands.schedule.invalidOrigin=执行此函数所需的源无效。	#
 commands.schedule.name.empty=常加载区域名称不能为空。	#
 commands.schedule.too.many.areas=找到了多个名为％s的常加载区域。请选择一个区域。	#
 
@@ -1266,15 +1267,15 @@ commands.weather.query.rain=下雨	#
 commands.weather.query.thunder=雷阵雨	#
 commands.weather.rain=更换到下雨天	#
 commands.weather.thunder=更换到雷雨天	#
-commands.whitelist.add.failed=无法将%1$s添加到白名单中	#
-commands.whitelist.add.success=已将%1$s加入白名单	#
-commands.whitelist.description=管理服务器允许列表。	#
-commands.whitelist.disabled=白名单验证已关闭	#
-commands.whitelist.enabled=白名单验证已启用	#
-commands.whitelist.list=现在白名单中有%1$d个（于可见的%2$d人中）玩家：	#
-commands.whitelist.reloaded=已从文件重新读取白名单。	#
-commands.whitelist.remove.failed=无法从白名单中移除%1$s	#
-commands.whitelist.remove.success=已将%1$s移出白名单	#
+commands.allowlist.add.failed=无法将%1$s添加到白名单中	#
+commands.allowlist.add.success=已将%1$s加入白名单	#
+commands.allowlist.description=管理服务器允许列表。	#
+commands.allowlist.disabled=白名单验证已关闭	#
+commands.allowlist.enabled=白名单验证已启用	#
+commands.allowlist.list=现在白名单中有%1$d个（于可见的%2$d人中）玩家：	#
+commands.allowlist.reloaded=已从文件重新读取白名单。	#
+commands.allowlist.remove.failed=无法从白名单中移除%1$s	#
+commands.allowlist.remove.success=已将%1$s移出白名单	#
 commands.world_age.description=修改或查询世界的年龄（自创建以来的时间）。	#
 commands.world_age.added=该世界的年龄已增加%1$d	#
 commands.world_age.query=世界年龄为%d	#
@@ -1922,6 +1923,7 @@ networkWold.joinByCodeHelpText=如果你已收到Realm邀请链接，输入代�
 networkWorld.highPingWarning.title=加入服务器？
 networkWorld.highPingWarning.line1=当前你与所选服务器连接不稳定。你的体验可能会受到影响。
 networkWorld.highPingWarning.line2=是否仍要加入该服务器？
+networkWorld.view_offers=查看优惠	#
 
 ## The following text is placed on in-game signs, which have a 4-line, 15-character-per-line limit.
 ## The intent of the message is to convey to the reader that the sign author's chat permissions are
@@ -6809,6 +6811,7 @@ store.allStores=全部商店	#
 store.menu.home=首页	#
 store.itemDetail.back=详情	#
 store.coin.bonus=奖励！	#
+store.disabledOnBeta=当前Beta版已禁用此功能。	#
 
 store.realmsPlus=Realms Plus	#
 store.realmsPlus.content=内容	#
@@ -9114,6 +9117,7 @@ hudScreen.tooltip.scrape=削皮	#
 item.glow_ink_sac.name=荧光墨囊	#
 item.glow_frame.name=荧光物品展示框	#
 item.spawn_egg.entity.glow_squid.name=发光鱿鱼刷怪蛋	#
+tile.glow_lichen.name=发光地衣	#
 
 ## Chemistry Strings
 ## comment on the same line, use TABs.
