@@ -8974,7 +8974,7 @@ hbui.CreateNewWorld.advanced.respawnRadiusPlaceholder=5	#
 hbui.CreateNewWorld.advanced.showCoordinatesDescription=显示你的当前坐标	#
 hbui.CreateNewWorld.advanced.showCoordinatesTitle=显示坐标	#
 hbui.CreateNewWorld.advanced.simulationDistanceDescription=游戏在96×96方块范围内加载并应用更改	#
-%2$s chunks
+hbui.CreateNewWorld.advanced.simulationDistanceOption=%1$s个区块	#
 hbui.CreateNewWorld.advanced.simulationDistanceTitel=模拟距离	#
 hbui.CreateNewWorld.advanced.startWithMapDescription=生成一张空白地图来探索你的世界	#
 hbui.CreateNewWorld.advanced.startWithMapTitle=初始地图	#
@@ -8993,7 +8993,7 @@ hbui.CreateNewWorld.advanced.worldTypeInfiniteLabel=无限	#
 hbui.CreateNewWorld.advanced.worldTypeLimitedDescription=<World type description>	#
 hbui.CreateNewWorld.advanced.worldTypeLimitedLabel=有限	#
 hbui.CreateNewWorld.advanced.worldTypeTitle=世界类型	#
-bui.CreateNewWorld.cheats.commandBlocksDescription=启用命令方块的功能	#
+hbui.CreateNewWorld.cheats.commandBlocksDescription=启用命令方块的功能	#
 hbui.CreateNewWorld.cheats.commandBlocksTitle=命令方块	#
 hbui.CreateNewWorld.cheats.daylightCycleALwaysNoonDescription=已将游戏内时间锁定为中午	#
 hbui.CreateNewWorld.cheats.daylightCycleAlwaysNoonLabel=终为白日	#
