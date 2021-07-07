@@ -9784,6 +9784,7 @@ ori.cancelling=正在取消…	#
 ori.welcome.state=欢迎来到Minecraft Oculus启动器！ 	#
 ori.winstore.state=(1) 更新至Windows 10 1809，并从Windows 10商店获取Minecraft或其试用版。	#
 ori.oculus.state=(2) 在Oculus 应用程序中设定设置 -> 通用 -> 未知源切换至 [开启]	#
+ori.help.state=(?) 如果您遇到了启动错误，请访问https://www.minecraft.net/vr寻求帮助！
 ori.warning.state=按下 [确认] 游玩VR版Minecraft，或按下 [取消] 退出。	#
 
 ## Custom strings
