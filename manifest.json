@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "description": "No longer need to bear terrible translations.",
-        "name": "PE Translation Patch",
+        "name": "BE Translation Patch",
         "uuid": "6ab4515c-4f62-352c-aed6-e23022a8ebee",
         "version": [1, 17, 0],
         "platform_locked" : false,
