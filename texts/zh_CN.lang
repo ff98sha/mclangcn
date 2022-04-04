@@ -9992,13 +9992,13 @@ osk.truncation_warning.body=无法编辑文本。文本超出限制且可能导�
 item.goat_horn.name=山羊角	#
 
 ## Wild Update
-tile.sculk_sensor.name=Sculk Sensor	#
-tile.sculk.name=Sculk	#
-tile.sculk_vein.name=Sculk Vein	#
-tile.sculk_catalyst.name=Sculk Catalyst	#
-tile.sculk_shrieker.name=Sculk Shrieker	#
-itemGroup.name.sculk=Sculk	#
-effect.darkness=Darkness	#
+tile.sculk_sensor.name=幽匿感测体	#
+tile.sculk.name=幽匿块	#
+tile.sculk_vein.name=幽匿脉络	#
+tile.sculk_catalyst.name=幽匿催发体	#
+tile.sculk_shrieker.name=幽匿尖啸体	#
+itemGroup.name.sculk=幽匿	#
+effect.darkness=黑暗	#
 entity.frog.name=青蛙	#
 entity.tadpole.name=蝌蚪	#
 item.bucketTadpole.name=蝌蚪桶	#
