@@ -10151,7 +10151,8 @@ item.chest_boat.mangrove.name=红树木运输船	#
 action.hint.exit.chest_boat=点击“跳跃”离开船	#
 action.hint.exit.console.chest_boat=按下:_input_key.jump:离开船	#
 entity.chest_boat.name=运输船	#
-feature.ancientcity=Ancient City	#
+itemGroup.name.chestboat=运输船	#
+feature.ancientcity=远古城市	#
 
 ## Chemistry Strings
 ## comment on the same line, use TABs.
