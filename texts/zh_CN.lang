@@ -1096,7 +1096,7 @@ commands.schedule.functionQueued=函数已加入计划队列，当指定区域�
 commands.schedule.functionRan=在函数%2$s中成功执行了函数项%1$d。	#
 commands.schedule.invalidOrigin=执行此函数所需的源无效。	#
 commands.schedule.name.empty=常加载区域名称不能为空。	#
-commands.schedule.too.many.areas=找到了多个名为％s的常加载区域。请选择一个区域。	#
+commands.schedule.too.many.areas=找到了多个名为%s的常加载区域。请选择一个区域。	#
 
 ## Scoreboard is composed of several Objectives, which can be displayed to players in 3 different 'slots'	##
 ## An Objective holds the scores that each player has for the Objective. 									##
