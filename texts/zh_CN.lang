@@ -3466,7 +3466,7 @@ howtoplay.gameSettings=游戏设置	#
 howtoplay.gameSettings.title=游戏指南：游戏设置	#
 howtoplay.gameSettings.text.1=创建世界时，你有多个选项。以下是可用来微调你的体验的各种设置。如果你在创建世界时未设置它们，不用担心，你可以随时更改这些设置。	#
 howtoplay.gameSettings.text.2=-世界名称：你可以在此处对你的世界进行命名。	#
-howtoplay.gameSettings.text.3=-默认游戏模式：这是所有新玩家进入世界的初始游戏模式。你可以让玩家从生存模式或创造模式开始。选择创造模式将会开启作弊。	#
+howtoplay.gameSettings.text.3=-默认游戏模式：这是所有新玩家进入世界的初始游戏模式。你可以让玩家从生存模式或创造模式开始。选择创造模式将会启用作弊。	#
 howtoplay.gameSettings.text.4=-难度：该设置会影响世界的难度等级。你可以选择和平、简单、一般或困难。	#
 howtoplay.gameSettings.header.1=世界偏好 	#
 howtoplay.gameSettings.text.5=-初始地图：如果启用该设置，每名玩家都可以在其快捷键中获得一个开始地图。	#
@@ -7468,7 +7468,7 @@ store.mashup.description=简介	#
 
 store.new.icon=新	#
 
-store.offerDescription.title=资源包说明	#
+store.offerDescription.title=包说明	#
 store.offerDescription.tags=标签：	#
 store.offerDescription.genre=类型：	#
 store.offerDescription.players=人数：	#
@@ -9478,7 +9478,7 @@ hbui.CreateNewWorld.cheats.daylightCycleNormalDescription=游戏内时间正常�
 hbui.CreateNewWorld.cheats.daylightCycleNormalLabel=正常	#
 hbui.CreateNewWorld.cheats.daylightCycleTitle=昼夜更替	#
 hbui.CreateNewWorld.cheats.description=使用作弊设置自定义游戏	#
-hbui.CreateNewWorld.cheats.disabledNarrationDaylightCycle=开启作弊以更改设置	#
+hbui.CreateNewWorld.cheats.disabledNarrationDaylightCycle=启用作弊以更改设置	#
 hbui.CreateNewWorld.cheats.educationDescription=针对桌面设备进行了优化	#
 hbui.CreateNewWorld.cheats.educationTitle=教育版	#
 hbui.CreateNewWorld.cheats.entitiesDropLootDescription=非生物实体，例如画，在被摧毁时会掉落物品	#
