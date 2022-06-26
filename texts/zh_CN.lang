@@ -3496,7 +3496,7 @@ howtoplay.gameSettings.text.7.2=  - 超平坦世界中没有任何山丘或树�
 howtoplay.gameSettings.text.7.3=  - 有限世界的大小和高度受限。	#
 howtoplay.gameSettings.text.8=-种子：这是世界的唯一代码。通过在创造新的世界时输入种子，你可以控制它的创建方式。你也可以使用字或词组作为种子，游戏会为你将其转换为数字。	#
 howtoplay.gameSettings.header.2=作弊和游戏规则	#
-howtoplay.gameSettings.text.9=-激活作弊：该设置允许玩家使用命令。如果在创建世界时此设置处于启用状态，则会禁用所有成就。	#
+howtoplay.gameSettings.text.9=-启用作弊：该设置允许玩家使用命令。如果在创建世界时此设置处于启用状态，则会禁用所有成就。	#
 howtoplay.gameSettings.text.10=下面是必须启用作弊才能使用的游戏规则：	#
 howtoplay.gameSettings.text.11=-终为白日：启用该设置时，夜晚永远不会降临。	#
 howtoplay.gameSettings.text.12=-昼夜更替：禁用该设置时，时间将不会流逝。	#
@@ -5826,7 +5826,7 @@ options.dev.windowsStore=选择Windows Store（需要重启）	#
 options.dev.windowsStore.auto=自动	#
 options.dev.windowsStore.v6=旧版Windows Store - V6	#
 options.dev.windowsStore.v8=OneStore - V8	#
-options.dev.stores=当前激活的商店:	#
+options.dev.stores=当前启用的商店:	#
 options.dev_sunset_overrides=启用落后淘汰	#
 options.dev_sunset_status=将设备视为完全淘汰	#
 options.dev_sunsetting_tier=淘汰等级	#
@@ -9735,10 +9735,10 @@ dr.color.warm_bisque=暖橘黄色	#
 emotes.change_emotes=更改表情	#
 emotes.execute=执行	#
 emotes.header_text=表情	#
-emotes.emotes_instructions_general=使用快捷键或鼠标激活表情	#
+emotes.emotes_instructions_general=使用快捷键或鼠标发送表情	#
 emotes.exit_gamepad=%s 退出	#
 emotes.instructions_gamepad=要在游戏中快速播放表情，你可以长按%s以开启快捷菜单	#
-emotes.instructions_keyboard=使用快捷键或鼠标激活表情	#
+emotes.instructions_keyboard=使用快捷键或鼠标发送表情	#
 
 ## Dynamic Package Manager
 ## Google Play APK Expansion file downloader notification
