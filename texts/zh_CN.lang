@@ -10878,11 +10878,6 @@ tile.materialreducer.name=材料分解器	#
 tile.underwater_tnt.name=水下TNT	#
 tile.underwater_torch.name=水下火把	#
 
-##legacy
-hbui.PackTabs.narration.tab=%1$s，选项卡%2$s/%3$s	#
-hbui.TabBar.tab=选项卡	#
-gameTest.error.simulatedPlayerOutOfBounds=模拟玩家“%s”偏离其游戏测试结构太远。	#
-
 ## Custom strings
 tips.game.73=本译名修正包由ff98sha制作。	#
 tips.game.74=本译名修正包发布于http://www.mcbbs.net/thread-682370-1-1.html。	#
