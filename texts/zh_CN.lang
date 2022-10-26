@@ -10029,8 +10029,8 @@ gathering.info.signIn.title=登录后投票	#
 gathering.info.signIn.body=请登录你的Microsoft帐户以参加生物投票。	#
 
 gathering.st.button.minecraftLive=游戏与投票	#
-gathering.st.caption.startsIn=%s开启	#
-gathering.st.caption.endsIn=%s关闭	#
+gathering.st.caption.startsIn=%s后开启	#
+gathering.st.caption.endsIn=%s后关闭	#
 gathering.st.caption.eventOver=活动已结束	#
 gathering.st.info.button.readMore=阅读更多…	#
 gathering.st.info.button.voteNow=游戏与投票	#
