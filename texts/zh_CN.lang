@@ -2771,8 +2771,8 @@ entity.wandering_trader.name=流浪商人	#
 entity.witch.name=女巫	#
 entity.wither.name=凋灵	#
 entity.wither_skeleton.name=凋灵骷髅	#
-entity.wither_skull.name=凋灵头颅	#
-entity.wither_skull_dangerous.name=危险的凋灵头颅	#
+entity.wither_skull.name=凋灵之首	#
+entity.wither_skull_dangerous.name=蓝色凋灵之首	#
 entity.wolf.name=狼	#
 entity.xp_orb.name=经验球	#
 entity.xp_bottle.name=附魔之瓶	#
@@ -3519,7 +3519,7 @@ howtoplay.fishing=钓鱼	#
 howtoplay.fishing.title=游戏指南：钓鱼	#
 howtoplay.fishing.text.1=必须使用钓鱼竿来钓鱼，这是从海里捕获某种鱼或其他炫酷物品的绝佳方式！	#
 howtoplay.fishing.header.1=抛竿	#
-howtoplay.fishing.text.2.notTouch=瞄准水中的某处，在持有钓鱼竿的同时按下 :_input_key.use 即可将饵钩抛进水里。	#
+howtoplay.fishing.text.2.notTouch=瞄准水中的某处，在持有钓鱼竿的同时按下 :_input_key.use: 即可将饵钩抛进水里。	#
 howtoplay.fishing.text.2.touch=瞄准水中的某处，在持有钓鱼竿的同时点击“钓鱼”按钮即可将饵钩抛进水里。	#
 howtoplay.fishing.header.2=开始钓鱼！	#
 howtoplay.fishing.text.3=等待直至你留意到饵钩处出现泡泡的痕迹。	#
@@ -8233,7 +8233,7 @@ tile.red_flower.tulipOrange.name=橙色郁金香	#
 tile.red_flower.tulipPink.name=粉红色郁金香	#
 tile.red_flower.tulipRed.name=红色郁金香	#
 tile.red_flower.tulipWhite.name=白色郁金香	#
-tile.wither_rose.name=凋零玫瑰	#
+tile.wither_rose.name=凋灵玫瑰	#
 tile.furnace.name=熔炉	#
 tile.glass.name=玻璃	#
 tile.golden_rail.name=动力铁轨	#
@@ -11316,11 +11316,6 @@ tile.labtable.name=实验台	#
 tile.materialreducer.name=材料分解器	#
 tile.underwater_tnt.name=水下TNT	#
 tile.underwater_torch.name=水下火把	#
-
-##legacy
-hbui.PackTabs.narration.tab=%1$s，选项卡%2$s/%3$s	#
-hbui.TabBar.tab=选项卡	#
-gameTest.error.simulatedPlayerOutOfBounds=模拟玩家“%s”偏离其游戏测试结构太远。	#
 
 ## Custom strings
 tips.game.72=本译名修正包由ff98sha制作。	#
