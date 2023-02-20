@@ -1149,11 +1149,11 @@ commands.schedule.name.empty=常加载区域名称不能为空。	#
 commands.schedule.too.many.areas=找到了多个名为%s的常加载区域。请选择一个区域。	#
 	
 ## Scoreboard is composed of several Objectives, which can be displayed to players in 3 different 'slots'	##
-## An Objective holds the scores that each player has for the Objective.	##
+## An Objective holds the scores that each player has for the Objective. 	##
 ## Objectives can have different Criteria, which dictate how the scores are updated for this Objective	##
 ## Objectives have two names, one for internal use and the other for Displaying in the UI	##
 	
-## Going overboard on the context but Scoreboards do some weird stuff :D	##
+## Going overboard on the context but Scoreboards do some weird stuff :D 	##
 	
 commands.scoreboard.description=跟踪并显示各计分项的分数。	###
 commands.scoreboard.allMatchesFailed=没有匹配的对象	###
@@ -2178,8 +2178,8 @@ realmsSettingsScreen.closeRealmButton=关闭Realm	#
 realmsSettingsScreen.playRealmButton=开始游戏	#
 realmsSettingsScreen.playDisabledRealmButton=Realm已关闭	#
 realmsSettingsScreen.playExpiredRealmButton=Realm已过期	#
-realmsSettingsScreen.selectorSectionLabel=编辑“%s”	#
 realmsSettingsScreen.selectorSectionLabel.manage=管理“%s”	#
+realmsSettingsScreen.selectorSectionLabel=编辑“%s”	#
 realmsSettingsScreen.selectorSectionLabelRealm=Realm	#
 realmsSettingsScreen.worldSectionTitle=世界	#
 realmsSettingsScreen.gameSectionTitle=游戏设置	#
@@ -5743,7 +5743,7 @@ options.content_log_file=启用内容日志	#
 options.content_log_gui=启用内容日志GUI	#
 options.controller=手柄	#
 options.controllerLayout=手柄布局	#
-permissions.ability.options.controllerSettings=手柄设置	#
+options.controllerSettings=手柄设置	#
 options.controls=控制…	#
 options.control_alt_keybinds_section=以下按键与“CTRL + ALT”一起使用	#
 options.credits=制作团队	#
@@ -6767,8 +6767,8 @@ progressScreen.message.importingContent=2/2步 - 正在导入内容	#
 progressScreen.message.updatingContent=正在更新%1/%2个包	#
 progressScreen.message.locating=定位服务器	#
 progressScreen.message.waitingForRealms=这可能要花一段时间	#
-progressScreen.message.waitingForTickingAreas=正在加载常加载区域	#
 progressScreen.message.waitingForStorageProvider=这可能要花一段时间…	#
+progressScreen.message.waitingForTickingAreas=正在加载常加载区域	#
 progressScreen.message.storageProviderSyncError=无法同步用户数据。	#
 progressScreen.message.waitingForStoreProducts=这可能要花一段时间	#
 progressScreen.message.allDone=全部完成！	#
@@ -7608,7 +7608,7 @@ store.createdBy=作者：%s	#
 store.seeMoreBy=查看由%s提供的更多内容	#
 store.seeMoreBy.multiCreatorBundle=按捆绑包作者查看更多	#
 store.fetchingItem=正在连接到市场…	#
-	
+ 	
 store.timer.daysAbbreviated=%s天	### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
 store.timer.hoursAbbreviated=%s小时	### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
 store.timer.minutesAbbreviated=%s分	### This is to let player know how many days are left in a sale. It needs to be abbreviated with no more than 3 characters
@@ -7852,7 +7852,7 @@ store.search.filter.mashupPacks=混搭包	#
 store.search.filter.andSelectedText=和%s	#
 store.search.filter.pack_type=资源包类型	#
 store.search.filter.pack_type.selectedCount=%d个资源包类型	#
-tore.search.filter.minecoin=Minecoin	#
+store.search.filter.minecoin=Minecoin	#
 store.search.filter.minecoin.selectedCount=%d个Minecoin	#
 store.search.filter.clear.minecoin=清空Minecoin过滤器	#
 store.search.filter.rating=评级	#
@@ -10098,7 +10098,8 @@ gathering.info.modal.title.connectFail=连接失败	#
 gathering.info.modal.body.connectFail=很不幸无法连接。请稍后再试。	#
 gathering.connect.title=正在连接…	#
 	
-## Ore UI	
+	
+## Ore UI strings	
 hbui.Accordion.closeInputLegend=关闭	#
 hbui.Accordion.narrationComponentType=折叠菜单	#
 hbui.Accordion.openInputLegend=打开	#
@@ -11425,7 +11426,8 @@ hbui.BaseSwitch.off=关	#
 hbui.BaseSwitch.on=开	#
 hbui.BaseSwitch.toggle=开关	#
 	
-## Next Major Update	
+	
+## Experimental Next Major Update strings	
 entity.camel.name=骆驼	#
 item.spawn_egg.entity.camel.name=骆驼刷怪蛋	#
 action.hint.exit.camel=点击“潜行”来脱离	#
@@ -11465,7 +11467,8 @@ tile.bamboo_block.name=竹块	#
 tile.stripped_bamboo_block.name=去皮竹块	#
 	
 	
-## Chemistry Strings	
+## Chemistry strings	
+##	
 ## comment on the same line, use TABs.	
 ## Comments can be added anywhere on a valid line by starting with '##'	
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a	
@@ -11764,8 +11767,7 @@ tile.materialreducer.name=材料分解器	#
 tile.underwater_tnt.name=水下TNT	#
 tile.underwater_torch.name=水下火把	#
 	
-##legacy	
-hbui.PackTabs.narration.tab=%1$s，标签页%2$s/%3$s	#
+## Legacy strings	
 hbui.TabBar.tab=标签页	#
 gameTest.error.simulatedPlayerOutOfBounds=模拟玩家“%s”偏离其游戏测试结构太远。	#
 	
