@@ -11427,6 +11427,91 @@ hbui.BaseSwitch.on=开	#
 hbui.BaseSwitch.toggle=开关	#
 	
 	
+## Persona strings	
+	
+menu.character_cast.ftue_page1=在更衣室中查看他们！	#
+menu.character_cast.ftue_page2_left=点击“从角色列表中选择”以创建角色	#
+menu.character_cast.ftue_page2_right=选择你最喜欢的角色并进行自定义！	#
+menu.character_cast.ftue_title=邂逅角色	#
+menu.character_cast.go_to_dressing_room=前往更衣室	#
+menu.character_cast.how_to_title=怎么办！	#
+menu.character_cast.see_how_to_select_one=了解如何进行选择	#
+	
+persona.zuri_Shirt.title=Zuri的衬衫	#
+persona.zuri_hair.title=Zuri的寸头	#
+persona.zuri_pants.title=Zuri的裤子	#
+persona.zuri_shoes.title=Zuri的鞋子	#
+persona.zuri_skin.title=Zuri	#
+persona.zuri_name.title=Zuri	#
+persona.alex_hair.title=Alex的头发	#
+persona.alex_pants.title=Alex的裤子	#
+persona.alex_shirt.title=Alex的衬衫	#
+persona.alex_shoes.title=Alex的靴子	#
+persona.alex_skin.title=Alex	#
+persona.alex_name.title=Alex	#
+persona.efe_shirt.title=Efe的上衣	#
+persona.efe_shoes.title=Efe的靴子	#
+persona.efe_cardigan.title=Efe的开衫	#
+persona.efe_earring.title=Efe的耳环	#
+persona.efe_hair.title=Efe的短发	#
+persona.efe_jewelry.title=Efe的首饰	#
+persona.efe_skin.title=Efe	#
+persona.efe_name.title=Efe	#
+persona.efe_pants.title=Efe的裤子	#
+persona.kai_hair.title=Kai的背头	#
+persona.kai_skin.title=Kai	#
+persona.kai_dress.title=Kai的连衣裙	#
+persona.kai_jacket.title=Kai的夹克衫	#
+persona.kai_shoes.title=Kai的鞋子	#
+persona.kai_name.title=Kai	#
+persona.makena_hair.title=Makena的卷发	#
+persona.makena_pants.title=Makena的裤子	#
+persona.makena_shirt.title=Makena的毛衣	#
+persona.makena_shoes.title=Makena的鞋子	#
+persona.makena_skin.title=Makena	#
+persona.makena_name.title=Makena	#
+persona.ari_hair.title=Ari的辫子	#
+persona.ari_pants.title=Ari的裤子	#
+persona.ari_shirt.title=Ari的束腰衣	#
+persona.ari_shoes.title=Ari的鞋子	#
+persona.ari_skin.title=Ari	#
+persona.ari_name.title=Ari	#
+persona.noor_hair.title=Noor的脏辫	#
+persona.noor_jacket.title=Noor的夹克衫	#
+persona.noor_pants.title=Noor的裤子	#
+persona.noor_shirt.title=Noor的衬衫	#
+persona.noor_shoes.title=Noor的鞋子	#
+persona.noor_skin.title=Noor	#
+persona.noor_name.title=Noor	#
+persona.sunny_shirt.title=Sunny的纽扣衬衫	#
+persona.sunny_hair.title=Sunny的碗盖头	#
+persona.sunny_pants.title=Sunny的背带裤	#
+persona.sunny_shoes.title=Sunny的鞋子	#
+persona.sunny_skin.title=Sunny	#
+persona.sunny_name.title=Sunny	#
+persona.standard_eyes.title=标准	#
+persona.standard_mouth.title=标准	#
+persona.steve_beard.title=Steve的胡子？	#
+persona.steve_hair.title=Steve的头发	#
+persona.steve_mouth.meta.title=Steve的嘴？	#
+persona.steve_pants.title=Steve的裤子	#
+persona.steve_shirt.title=Steve的衬衫	#
+persona.steve_shoes.title=Steve的鞋子	#
+persona.steve_skin.title=Steve	#
+persona.steve_name.title=Steve	#
+persona.player_name.title=玩家	#
+	
+skin.Standard.Alex=Alex	#
+skin.Standard.Ari=Ari	#
+skin.Standard.Efe=Efe	#
+skin.Standard.Kai=Kai	#
+skin.Standard.Makena=Makena	#
+skin.Standard.Noor=Noor	#
+skin.Standard.Steve=Steve	#
+skin.Standard.Sunny=Sunny	#
+skin.Standard.Zuri=Zuri	#
+	
+	
 ## Experimental Next Major Update strings	
 entity.camel.name=骆驼	#
 item.spawn_egg.entity.camel.name=骆驼刷怪蛋	#
