@@ -1738,7 +1738,7 @@ createWorld.customize.presets.share=想要与别人分享你的预设方案吗�
 createWorld.customize.presets.title=选择一种预设	#
 	
 createWorldUpsell.removeTrial=不在世界列表中显示试玩	#
-createWorldUpsell.title=创建新世界或Realm？	#
+createWorldUpsell.title=创建新的世界或Realm？	#
 createWorldUpsell.title.realm=创建新Realm	#
 createWorldUpsell.button.realm=新Realm	#
 createWorldUpsell.button.world=新的世界	#
@@ -1837,7 +1837,7 @@ createWorldScreen.header.realmsReset=重置你的Realm？	#
 createWorldScreen.levelName=名称	#
 createWorldScreen.levelSeed=种子	#
 createWorldScreen.multiplayer.settings=多人游戏设置	#
-createWorldScreen.progress.local=正在创建新世界…	#
+createWorldScreen.progress.local=正在创建新的世界…	#
 createWorldScreen.progress.realms=正在重置Realm…	#
 createWorldScreen.seed.desc=输入种子再次生成相同的地形。不填则为随机世界。	#
 createWorldScreen.showCoordinates=显示坐标	#
@@ -2478,7 +2478,7 @@ demo.remainingTime=剩余时间：%s	#
 demo.reminder=试玩时间已经结束，请购买游戏来继续或开始一个新的世界！	#
 	
 ## Specific for the Chromebook Trial	
-demo.cb.reminder=试玩时间已经结束，继续试玩请开启一个新世界！	#
+demo.cb.reminder=试玩时间已经结束，继续试玩请开启一个新的世界！	#
 	
 difficulty.lock.question=你确定你要锁定这个世界的难度吗？这会将这个世界的难度锁定为%1$s，并且永远无法再次改变难度。	#
 difficulty.lock.title=锁定世界难度	#
@@ -6788,7 +6788,7 @@ progressScreen.message.invalidWorldFile=无效的世界文件。请重新打开�
 progressScreen.message.resourceLoading=正在加载资源	#
 progressScreen.message.leaveLevel=正在保存你的游戏。请不要关闭你的设备。	#
 progressScreen.message.genericMayTakeAMoment=这可能要花一段时间	#
-progressScreen.message.noUploadResponse=我们无法确认你的世界是否上传正确。请加入你的Realm进行检查，如果尚未更新为新世界，请重试。	#
+progressScreen.message.noUploadResponse=我们无法确认你的世界是否上传正确。请加入你的Realm进行检查，如果尚未更新为新的世界，请重试。	#
 progressScreen.message.noUploadEndpoint=无法上传世界。请检查你的网络连接。	#
 progressScreen.message.unownedTemplate=你好像没有这个世界所基于的市场模板。你可以在Minecraft市场购买。	#
 progressScreen.message.createArchiveFileFailed=我们无法将你的世界文件打包上传。或许你的硬盘已满？	#
@@ -9030,7 +9030,7 @@ trial.upsell.expiredViewWorld=查看世界	#
 	
 ## Specific for the Chromebook Trial	
 trial.upsell.cb.expiredNewDescription.worldsDontTransferToFullGame.line1=想要继续探索、合成和建造吗？开启一个新的试玩版世界继续游戏吧！	#
-trial.upsell.cb.startNew=开启新世界	#
+trial.upsell.cb.startNew=开启新的世界	#
 	
 ## tabbedUpsell content	
 trial.tabbed_upsell.title=解锁完整游戏	#
@@ -10185,7 +10185,7 @@ hbui.AnnouncementModalRoute.errorUnsupportedTemplate=模板未执行	#
 hbui.AnnouncementModalRoute.unlock=解锁	#
 hbui.CreateNewWorld.achievementsDisabledMessages.experiments=关闭实验性玩法	#
 hbui.CreateNewWorld.leavingCNWForMarketplaceModal.title=前往市场	#
-hbui.CreateNewWorld.leavingCNWForMarketplaceModal.message=已将你重定向到市场。你在创建新世界中的设置已保存。	#
+hbui.CreateNewWorld.leavingCNWForMarketplaceModal.message=已将你重定向到市场。你在创建新的世界中的设置已保存。	#
 hbui.CreateNewWorld.leavingCNWForMarketplaceModal.cancel=取消	#
 hbui.CreateNewWorld.leavingCNWForMarketplaceModal.continue=继续前往市场	#
 hbui.CreateNewWorld.achievementsDisabledMessages.cheatsEnabled=关闭作弊	#
@@ -10337,7 +10337,7 @@ hbui.CreateNewWorld.general.projectHeader=项目	#
 hbui.CreateNewWorld.general.worldNamePlaceholder=我的世界	#
 hbui.CreateNewWorld.general.worldNameTitle=世界名称	#
 hbui.CreateNewWorld.general.worldTypeTitle=世界类型	#
-hbui.CreateNewWorld.loseYourChangesModal.title=退出“创建新世界”？	#
+hbui.CreateNewWorld.loseYourChangesModal.title=退出“创建新的世界”？	#
 hbui.CreateNewWorld.loseYourChangesModal.message=如果你退出，你的世界设置将不会保存。	#
 hbui.CreateNewWorld.loseYourChangesModal.leaveButton=退出而不保存	#
 hbui.CreateNewWorld.loseYourChangesModal.leaveInputLegend=退出	#
@@ -10477,7 +10477,7 @@ hbui.CreateNewWorld.resourcePacksPlatformLockedModal.turnOffMultiplayerAndApplyP
 hbui.CreateNewWorld.tabContainerNarrationSuffix=垂直子菜单	#
 hbui.CreateNewWorld.title=创建新的世界	#
 hbui.CreateNewWorld.editTitle=编辑世界	#
-hbui.CreateNewWorld.titleNarration=创建新世界屏幕	#
+hbui.CreateNewWorld.titleNarration=创建新的世界屏幕	#
 hbui.CreateNewWorld.unlockSettingsModal.keepSettings=保留初始设置	#
 hbui.CreateNewWorld.unlockSettingsModal.message=如果你解锁所有世界设置，可能会破坏创作者的预期体验。	#
 hbui.CreateNewWorld.unlockSettingsModal.title=解锁所有世界设置	#
@@ -10782,8 +10782,8 @@ hbui.WorldListItem.narration.creative=创造	#
 hbui.WorldListItem.narration.adventure=冒险	#
 hbui.WorldListItem.narration.buttonSiblings=按钮：第%1$s个，共%2$s个	#
 hbui.PlayScreen.narration.title=游戏屏幕	#
-hbui.PlayScreen.narration.createNewWorld=从头开始创建新世界	#
-hbui.PlayScreen.narration.createFromTemplate=从现有模板创建新世界，或从市场购买一个	#
+hbui.PlayScreen.narration.createNewWorld=从头开始创建新的世界	#
+hbui.PlayScreen.narration.createFromTemplate=从现有模板创建新的世界，或从市场购买一个	#
 hbui.PlayScreen.narration.buttonSiblings=按钮：第%1$s个，共%2$s个	#
 hbui.PlayScreen.select=选择	#
 hbui.PlayerAvatarWrapper.full=已满	#
@@ -10805,7 +10805,7 @@ hbui.PlayScreen.designPreviewInputLegend=选择	#
 hbui.PlayScreen.createNewWorld=创建新的世界	#
 hbui.PlayScreen.createFromTemplate=从模板创建	#
 hbui.PlayScreen.allWorlds.emptyStateTitle=这里还没有世界……	#
-hbui.PlayScreen.allWorlds.emptyStateText=从头开始创建新世界或从模板创建世界。	#
+hbui.PlayScreen.allWorlds.emptyStateText=从头开始创建新的世界或从模板创建世界。	#
 hbui.PlayScreen.allWorlds.emptyStateCreateNewButton=创建新的世界	#
 hbui.PlayScreen.allWorlds.emptyStateCreateFromTemplateButton=从模板创建	#
 hbui.RealmsStories.back=返回	#
