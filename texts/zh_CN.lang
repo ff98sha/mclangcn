@@ -3152,7 +3152,7 @@ howtoplay.armor.text.5.rift_controller=盾牌可以抵挡收到的伤害。盾�
 howtoplay.armor.text.5.windowsmr_controller=盾牌可以抵挡收到的伤害。盾牌可以装备在副手槽或快捷栏中。按下:_input_key.sneak: 按钮或点击 :windowsmr_right_stick: 可以切换为盾牌进行格挡。	#
 howtoplay.armor.text.6=盾牌甚至可以抵挡一次苦力怕的爆炸！	#
 howtoplay.armor.header.3=伪装	#
-howtoplay.armor.text.7=你还可以将雕刻过的南瓜戴在头上。这不会给予你任何 :armor:，但却使你在盯着末影人看时不会让它变得疯狂。	#
+howtoplay.armor.text.7=你还可以将雕刻南瓜戴在头上。这不会给予你任何 :armor:，但却使你在盯着末影人看时不会让它变得疯狂。	#
 	
 howtoplay.armorStand=盔甲架	#
 howtoplay.armorStand.title=游戏指南：盔甲架	#
@@ -8035,7 +8035,7 @@ tile.cactus.name=仙人掌	#
 tile.cake.name=蛋糕	#
 tile.dried_kelp_block.name=干海带块	#
 tile.carrot.name=胡萝卜	#
-tile.carved_pumpkin.name=雕刻过的南瓜	#
+tile.carved_pumpkin.name=雕刻南瓜	#
 tile.cauldron.name=炼药锅	#
 tile.chalkboard.oneByOne.name=石板	#
 tile.chalkboard.twoByOne.name=横幅	#
