@@ -3582,7 +3582,7 @@ howtoplay.fishing=钓鱼	#
 howtoplay.fishing.title=游戏指南：钓鱼	#
 howtoplay.fishing.text.1=必须使用钓鱼竿来钓鱼，这是从海里捕获某种鱼或其他炫酷物品的绝佳方式！	#
 howtoplay.fishing.header.1=抛竿	#
-howtoplay.fishing.text.2.notTouch=瞄准水中的某处，在持有钓鱼竿的同时按下 :_input_key.use 即可将饵钩抛进水里。	#
+howtoplay.fishing.text.2.notTouch=瞄准水中的某处，在持有钓鱼竿的同时按下 :_input_key.use: 即可将饵钩抛进水里。	#
 howtoplay.fishing.text.2.touch=瞄准水中的某处，在持有钓鱼竿的同时点击“钓鱼”按钮即可将饵钩抛进水里。	#
 howtoplay.fishing.header.2=开始钓鱼！	#
 howtoplay.fishing.text.3=等待直至你留意到饵钩处出现泡泡的痕迹。	#
@@ -12169,12 +12169,8 @@ tile.labtable.name=实验台	#
 tile.materialreducer.name=材料分解器	#
 tile.underwater_tnt.name=水下TNT	#
 tile.underwater_torch.name=水下火把	#
-	
-## Legacy strings	
-hbui.TabBar.tab=标签页	#
-gameTest.error.simulatedPlayerOutOfBounds=模拟玩家“%s”偏离其游戏测试结构太远。	#
-	
-## Custom strings	
+
+## Custom strings
 tips.game.72=本译名修正包由ff98sha制作。	#
 tips.game.73=本译名修正包发布于http://www.mcbbs.net/thread-682370-1-1.html。	#
 tips.game.74=在Github搜索mclangcn可查看本译名修正包项目。	#
