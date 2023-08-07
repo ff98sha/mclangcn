@@ -1841,8 +1841,6 @@ createWorldScreen.experimentalCameras=实验性相机	#
 createWorldScreen.experimentalCamerasDescription=启用相机命令	#
 createWorldScreen.recipeUnlocking=配方解锁	#
 createWorldScreen.recipeUnlockingDescription=启用配方解锁	#
-createWorldScreen.experimentalVillagerTradesRebalance=村民交易的平衡性调整
-createWorldScreen.experimentalVillagerTradesRebalanceDescription=包含了更新后的村民交易以重新平衡
 createWorldScreen.experimentalholiday=假期创作者功能	#
 createWorldScreen.experimentalholidayDescription=添加数据驱动的方块和物品技术，以自定义方块形状、旋转、损坏等	#
 createWorldScreen.experimentalGameTest=测试版API	#
@@ -6533,15 +6531,6 @@ options.shadowQuality.low=低	#
 options.shadowQuality.medium=中	#
 options.shadowQuality.high=高	#
 options.shadowQuality.ultra=极致	#
-options.graphicsMode=图像模式	#
-options.graphicsMode.simple=简单	#
-options.graphicsMode.fancy=高品质	#
-options.graphicsMode.deferred=延迟渲染技术预览	#
-options.graphicsMode.rayTraced=光线追踪	#
-options.graphicsModeOptions.simple=简单图形选项	#
-options.graphicsModeOptions.fancy=高品质图形选项	#
-options.graphicsModeOptions.deferred=延迟渲染图形选项	#
-options.graphicsModeOptions.rayTraced=光线追踪图形选项	#
 
 options.dcast_character.Title=用于角色创建的新角色	#
 
@@ -7119,7 +7108,7 @@ resourcePack.subpackResolution=分辨率：%s	#
 resourcePack.incompatible=此包与你的设备不兼容。	#
 resourcePack.incompatible.memory=此分辨率与你的设备不兼容，因为你的设备内存不足。	#
 resourcePack.incompatible.graphics.raytracing=此包本会启用光线追踪，但你的设备不支持此功能。	#
-resourcePack.packSettingsTitle=%s个设置	#
+resourcePack.packSettingsTitle=%s 设置	#
 resourcePack.missingPackDescription=找不到此包！	#
 resourcePack.legacyPackName=旧资源包	#
 
