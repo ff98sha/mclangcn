@@ -7108,7 +7108,7 @@ resourcePack.subpackResolution=分辨率：%s	#
 resourcePack.incompatible=此包与你的设备不兼容。	#
 resourcePack.incompatible.memory=此分辨率与你的设备不兼容，因为你的设备内存不足。	#
 resourcePack.incompatible.graphics.raytracing=此包本会启用光线追踪，但你的设备不支持此功能。	#
-resourcePack.packSettingsTitle=%s 设置	#
+resourcePack.packSettingsTitle=%s设置	#
 resourcePack.missingPackDescription=找不到此包！	#
 resourcePack.legacyPackName=旧资源包	#
 
