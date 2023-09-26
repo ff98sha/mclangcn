@@ -10105,7 +10105,7 @@ lateJoinScreen.waitingForUserReady=准备中	#
 
 ## Storage Migration
 storage_migration.progress.title=正在移动文件	#
-storage_migration.progress.message=正在移动"%"…	#
+storage_migration.progress.message=正在移动"%s"…	#
 storage_migration.worlds_error=一些世界因无法移动而不可用。请重启Minecraft重试。	#
 
 storage_migration.button.get_started=开始	#
@@ -10219,13 +10219,13 @@ cloud_upload.uploading.description_1=上传你的世界文件可能需要几分�
 cloud_upload.uploading.description_2=世界的规模可能会很大。请使用Wi-Fi，不要使用移动数据。	#
 cloud_upload.succeeded.description=你的世界已成功上传。谢谢！	#
 cloud_upload.failed.retryable.description=你的世界无法上传，由于%s	#
-cloud_upload.failed.description=你的世界无法上传，由于%s	#
+cloud_upload.failed.description=你的世界无法上传，原因是%s	#
 cloud_upload.tts.message=上传世界文件	#
-cloud_upload.input_error_number_of_files=包含太多文件。如果你想再次尝试，请与LiveOps联系。	#
+cloud_upload.input_error_number_of_files=包含了太多文件。如果你想再次尝试，请与LiveOps联系。	#
 cloud_upload.input_error_maximum_size=其中一个文件太大。如果你想再次尝试，请与LiveOps联系。	#
-cloud_upload.input_error_record_already_completed=已经成功上传。请与LiveOps联系以获取更多信息。	#
+cloud_upload.input_error_record_already_completed=已经成功上传过了。请与LiveOps联系以获取更多信息。	#
 cloud_upload.operation_error_missing_files_on_complete_upload=网络错误。如果你想再次尝试，请与LiveOps联系。	#
-cloud_upload.unknown_error=未知的错误。如果你想再次尝试，请与LiveOps联系。	#
+cloud_upload.unknown_error=未知的错误。请再次尝试或与LiveOps联系。（错误代码：%s）	#
 
 dr.banner.sale=特惠！	#
 dr.banner.limitedTimeOffer=限时优惠！	#
