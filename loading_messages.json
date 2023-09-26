@@ -83,5 +83,18 @@
       "tips.game.81",
       "tips.game.82",
       "tips.game.83"
-    ]
-  }
+  ],
+  "editor_loading_messages": [
+    "tips.game.28",
+    "tips.game.29",
+    "tips.game.33",
+    "tips.game.35",
+    "tips.game.43",
+    "tips.game.47",
+    "tips.game.63"
+  ],
+  "realms_loading_messages": [
+    "tips.realms.1",
+    "tips.realms.2"
+  ]
+}
