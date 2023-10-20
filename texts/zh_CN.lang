@@ -6558,6 +6558,7 @@ options.editor.modeNotActive=Minecraft当前未处于编辑器模式。	#
 options.editor.achievementsDisabled=此项目中无法获得成就。	#
 options.newUiPlayScreen.initiate=切换到新UI	#
 options.openPage.continue=更多信息	#
+options.graphicsMode=画质模式	#
 options.graphicsMode.simple=简单	#
 options.graphicsMode.fancy=高品质	#
 options.graphicsMode.deferred=延迟技术预览	#
