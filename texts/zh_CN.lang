@@ -14896,7 +14896,7 @@ tile.underwater_torch.name=水下火把	#
 
 ## Custom strings
 tips.game.1=本译名修正包由ff98sha制作。	#
-tips.game.2=本译名修正包发布于http://www.mcbbs.net/thread-682370-1-1.html。	#
+tips.game.2=在Crowdin搜索mclangcn项目为本译名修正包贡献最新内容的翻译。	#
 tips.game.3=在Github搜索mclangcn可查看本译名修正包项目。	#
 tips.game.4=关注微博@Minecraft中文Wiki，获取译名信息。	#
 tips.game.5=中文Minecraft Wiki提醒你：译名千万条，准确第一条。翻译不规范，玩家两行泪。	#
