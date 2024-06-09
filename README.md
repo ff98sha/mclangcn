@@ -10,4 +10,6 @@ License Under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.
 
 Github: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
 
-MCBBS: [http://www.mcbbs.net/thread-682370-1-1.html](http://www.mcbbs.net/thread-682370-1-1.html)
+苦力怕BBS：[https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
+
+MINEBBS：[https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
