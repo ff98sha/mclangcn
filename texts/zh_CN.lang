@@ -6028,7 +6028,7 @@ menu.getStarted=开始	#
 menu.howToPlay=游戏指南	#
 menu.howToPlay.caps=游戏指南	#
 menu.host=托管	#
-menu.howToPlay.generalMessage=面向新老玩家的Minecraft游戏百科。	#
+menu.howToPlay.generalMessage=面向新老玩家的Minecraft游戏百科。 中文Minecraft Wiki网址：zh.minecraft.wiki。 本译名修正包由ff98sha和Jingji132制作。 在Github搜索mclangcn可查看本译名修正包项目。 关注B站/微博@Minecraft中文Wiki，获取译名信息。 中文Minecraft Wiki提醒你：译名千万条，准确第一条。翻译不规范，玩家两行泪。	#
 menu.howToPlay.access=按下:_gamepad_face_button_down:打开游戏指南！	#
 menu.howToPlay.access.noicon=按下[A]打开游戏指南！	#
 menu.inbox=收件箱	#
@@ -15835,10 +15835,3 @@ tile.labtable.name=实验台	#
 tile.materialreducer.name=材料分解器	#
 tile.underwater_tnt.name=水下TNT	#
 tile.underwater_torch.name=水下火把	#
-
-## Custom strings
-tips.game.1=本译名修正包由ff98sha制作。	#
-tips.game.2=在Crowdin搜索mclangcn项目为本译名修正包贡献最新内容的翻译。	#
-tips.game.3=在Github搜索mclangcn可查看本译名修正包项目。	#
-tips.game.4=关注微博@Minecraft中文Wiki，获取译名信息。	#
-tips.game.5=中文Minecraft Wiki提醒你：译名千万条，准确第一条。翻译不规范，玩家两行泪。	#
