@@ -11,12 +11,7 @@
     "beginnerTips.9",
     "beginnerTips.10",
     "beginnerTips.11",
-    "beginnerTips.12",
-    "tips.game.1",
-    "tips.game.2",
-    "tips.game.3",
-    "tips.game.4",
-    "tips.game.5"
+    "beginnerTips.12"
   ],
   "mid_game_loading_messages": [
     "beginnerTips.1",
@@ -99,12 +94,7 @@
     "midgameTips.66",
     "midgameTips.67",
     "midgameTips.68",
-    "midgameTips.69",
-    "tips.game.1",
-    "tips.game.2",
-    "tips.game.3",
-    "tips.game.4",
-    "tips.game.5"
+    "midgameTips.69"
   ],
   "late_game_loading_messages": [
     "beginnerTips.1",
@@ -214,12 +204,7 @@
     "lategameTips.24",
     "lategameTips.25",
     "lategameTips.26",
-    "lategameTips.27",
-    "tips.game.1",
-    "tips.game.2",
-    "tips.game.3",
-    "tips.game.4",
-    "tips.game.5"
+    "lategameTips.27"
   ],
   "editor_loading_messages": [
     "beginnerTips.1",
@@ -329,12 +314,7 @@
     "lategameTips.24",
     "lategameTips.25",
     "lategameTips.26",
-    "lategameTips.27",
-    "tips.game.1",
-    "tips.game.2",
-    "tips.game.3",
-    "tips.game.4",
-    "tips.game.5"
+    "lategameTips.27"
   ],
   "realms_loading_messages": [
     "tips.realms.1",
@@ -344,12 +324,7 @@
     "tips.realms.5",
     "tips.realms.6",
     "tips.realms.7",
-    "tips.realms.8",
-    "tips.game.1",
-    "tips.game.2",
-    "tips.game.3",
-    "tips.game.4",
-    "tips.game.5"
+    "tips.realms.8"
   ],
   "addons_loading_messages": [
     "progressScreen.message.modifiedWorldWarning.1",
@@ -359,11 +334,6 @@
     "progressScreen.message.modifiedWorldWarning.5",
     "progressScreen.message.modifiedWorldWarning.6",
     "progressScreen.message.modifiedWorldWarning.7",
-    "progressScreen.message.modifiedWorldWarning.8",
-    "tips.game.1",
-    "tips.game.2",
-    "tips.game.3",
-    "tips.game.4",
-    "tips.game.5"
+    "progressScreen.message.modifiedWorldWarning.8"
   ]
 }
