@@ -540,7 +540,7 @@ book.generation.3=破烂不堪	#
 book.pageIndicator=第%1$s页/共%2$s页	#
 book.signButton=署名	#
 book.titleHere=[在此处输入书名]	#
-book.headerPortfolio=来自公文包	#
+book.headerPortfolio=来自相片簿	#
 book.headerInventory=来自物品栏	#
 
 build.tooHigh=建筑高度限制是%s个方块	#
@@ -3687,8 +3687,8 @@ howtoplay.camera.text.3=对着放置的摄像机按:_input_key.use:即可完成�
 howtoplay.camera.text.3.touch=如果要自拍，先放置摄像机，然后点击拍照按钮即可。	#
 howtoplay.camera.text.4=你可以在相片簿中查看图片，或者将其插入书与笔。	#
 
-howtoplay.portfolio=公文包	#
-howtoplay.portfolio.title=游戏指南：公文包	#
+howtoplay.portfolio=相片簿	#
+howtoplay.portfolio.title=游戏指南：相片簿	#
 howtoplay.portfolio.text.1=你拍摄的图片会出现在相片簿中，按:_input_key.use:可查看相片簿。查看相片簿时，你可以为图片添加标题或者删除图片，也可以将图片导出为PDF。	#
 howtoplay.portfolio.text.1.touch=你拍摄的图片会出现在相片簿中，长按可查看相片簿。查看相片簿时，你可以为图片添加标题或者删除图片，也可以将图片导出为PDF。	#
 
@@ -5464,7 +5464,7 @@ item.stone_pickaxe.name=石镐	#
 item.wooden_pickaxe.name=木镐	#
 item.porkchop_cooked.name=熟猪排	#
 item.porkchop.name=生猪排	#
-item.portfolio.name=公文包	#
+item.portfolio.name=相片簿	#
 item.potato.name=马铃薯	#
 item.baked_potato.name=烤马铃薯	#
 item.poisonous_potato.name=毒马铃薯	#
