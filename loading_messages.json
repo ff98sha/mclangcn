@@ -1,5 +1,6 @@
 {
   "beginner_loading_messages": [
+    "onlinePlay.message",
     "beginnerTips.1",
     "beginnerTips.2",
     "beginnerTips.3",
@@ -14,6 +15,7 @@
     "beginnerTips.12"
   ],
   "mid_game_loading_messages": [
+    "onlinePlay.message",
     "beginnerTips.1",
     "beginnerTips.2",
     "beginnerTips.3",
@@ -97,6 +99,7 @@
     "midgameTips.69"
   ],
   "late_game_loading_messages": [
+    "onlinePlay.message",
     "beginnerTips.1",
     "beginnerTips.2",
     "beginnerTips.3",
@@ -317,6 +320,7 @@
     "lategameTips.27"
   ],
   "realms_loading_messages": [
+    "onlinePlay.message",
     "tips.realms.1",
     "tips.realms.2",
     "tips.realms.3",
@@ -327,6 +331,7 @@
     "tips.realms.8"
   ],
   "addons_loading_messages": [
+    "onlinePlay.message",
     "progressScreen.message.modifiedWorldWarning.1",
     "progressScreen.message.modifiedWorldWarning.2",
     "progressScreen.message.modifiedWorldWarning.3",
@@ -335,5 +340,15 @@
     "progressScreen.message.modifiedWorldWarning.6",
     "progressScreen.message.modifiedWorldWarning.7",
     "progressScreen.message.modifiedWorldWarning.8"
+  ],
+  "store_progress_tooltips": [
+    "store.progress.dialog.tooltip.1",
+    "store.progress.dialog.tooltip.2",
+    "store.progress.dialog.tooltip.3",
+    "store.progress.dialog.tooltip.4",
+    "store.progress.dialog.tooltip.5",
+    "store.progress.dialog.tooltip.6"
+  ]
+}
   ]
 }
