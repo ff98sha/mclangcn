@@ -13,3 +13,5 @@ Github: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangc
 苦力怕BBS：[https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
 
 MINEBBS：[https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
+
+Crowdin：[https://zh.crowdin.com/project/mclangcn](https://zh.crowdin.com/project/mclangcn)
