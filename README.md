@@ -15,3 +15,5 @@ Github: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangc
 MINEBBS：[https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
 
 Crowdin：[https://zh.crowdin.com/project/mclangcn](https://zh.crowdin.com/project/mclangcn)
+
+Only for release versions. For Beta/preview versions user please click [this](https://github.com/SomethingStillWrong/mclangcn-beta)
