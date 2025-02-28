@@ -10,7 +10,7 @@ License Under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.
 
 仅适用于正式版。对于Beta/Preview版请点击[此处](https://github.com/SomethingStillWrong/mclangcn-beta)。
 
-Only for release versions. For Beta/preview versions user please click [here](https://github.com/SomethingStillWrong/mclangcn-beta).
+Only for release versions. For beta/preview versions user please click [here](https://github.com/SomethingStillWrong/mclangcn-beta).
 
 Github: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
 
