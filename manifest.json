@@ -15,5 +15,10 @@
             "uuid": "6ee9332c-3615-4876-a061-0406d3725a80",
             "version": [1, 21, 0]
         }
-    ]
+    ],
+    "metadata": {
+        "authors": ["ff98sha"],
+        "license": "CC BY-NC-SA 4.0",
+        "url": "https://github.com/ff98sha/mclangcn"
+    }
 }
