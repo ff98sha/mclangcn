@@ -12,7 +12,7 @@ License Under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.
 
 Only for release versions. For Beta/Preview versions user please click [here](https://github.com/SomethingStillWrong/mclangcn-beta).
 
-Github: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
+GitHub: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
 
 苦力怕BBS：[https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
 
