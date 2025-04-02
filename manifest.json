@@ -4,7 +4,7 @@
         "description": "No longer need to bear terrible translations.",
         "name": "BE Translation Patch",
         "uuid": "6ab4515c-4f62-352c-aed6-e23022a8ebee",
-        "version": [1, 21, 60],
+        "version": [1, 21, 70],
         "platform_locked" : false,
         "min_engine_version": [1, 21, 0]
     },
@@ -17,7 +17,7 @@
         }
     ],
     "metadata": {
-        "authors": ["ff98sha"],
+        "authors": ["ff98sha","Jingji132"],
         "license": "CC BY-NC-SA 4.0",
         "url": "https://github.com/ff98sha/mclangcn"
     }
