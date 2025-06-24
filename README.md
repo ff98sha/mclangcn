@@ -14,6 +14,8 @@ Only for release versions. For Beta/Preview versions user please click [here](ht
 
 GitHub: [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
 
+红石中继站：[https://www.mczwlt.net/resource/h6yhayqi](https://www.mczwlt.net/resource/h6yhayqi)
+
 苦力怕BBS：[https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
 
 MINEBBS：[https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
