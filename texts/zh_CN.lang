@@ -1556,6 +1556,11 @@ connect_gamepad.warning.controllerRequired=需要手柄	#
 connect_gamepad.pressButtonToContinue=请按下手柄上的A按键以继续	#
 gamepad_disconnect=手柄丢失连接	#
 gamepad_disconnect.reconnectController=你的手柄已丢失连接。请重新连接你的手柄才能继续。	#
+gameinput_load.error.title=错误	#
+gameinput_load.error.message=你的游戏缺失一个必要组件。要解决该问题，请选择“安装”来初始化安装程序，随后重启游戏。	#
+gameinput_load.error.message2=你的游戏缺失一个必要组件。要解决该问题，请选择“安装”来初始化安装程序，随后重启游戏。	#
+gameinput_load.error.message3=你的游戏缺失一个必要组件。要解决该问题，请运行GameInputRedist.msi（在你的本地安装中）来初始化安装程序，随后重启游戏。	#
+gameinput_load.installButton=安装	#
 container.beacon=信标	#
 container.brewing=酿造台	#
 container.chest=箱子	#
@@ -18103,3 +18108,4 @@ tile.frame=物品展示框	#
 resourcePack.incompatible.graphics.pbr=此包内含有启用灵动视效的信息，但你的设备不支持此选项。	#
 item.spawn_egg.entity.editor:map_marker.name=地图标记刷怪蛋	#
 entity.editor:map_marker.name=地图标记	#
+
