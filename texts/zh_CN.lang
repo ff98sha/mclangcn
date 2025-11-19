@@ -18108,4 +18108,3 @@ tile.frame=物品展示框	#
 resourcePack.incompatible.graphics.pbr=此包内含有启用灵动视效的信息，但你的设备不支持此选项。	#
 item.spawn_egg.entity.editor:map_marker.name=地图标记刷怪蛋	#
 entity.editor:map_marker.name=地图标记	#
-
