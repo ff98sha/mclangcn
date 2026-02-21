@@ -6,7 +6,7 @@
         "uuid": "6ab4515c-4f62-352c-aed6-e23022a8ebee",
         "version": "1.26.0",
         "platform_locked" : false,
-        "min_engine_version": "1.21.0"
+        "min_engine_version": "1.26.0"
     },
     "modules": [
         {
