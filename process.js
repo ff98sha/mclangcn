@@ -39,7 +39,7 @@ protect(/§./g);
 /**
  * 执行 pangu
  */
-text = pangu.spacing(text);
+text = pangu.spacingText(text);
 
 /**
  * 恢复所有保护内容
