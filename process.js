@@ -28,27 +28,25 @@ const protectedStrictItems = [];
  * 保护且防止被处理
  */
 function protectStrict(regex) {
-    text = text.replace(regex, match => {
+    text = text.replace(regex, (match, ...args) => {
         const id = protectedStrictItems.length;
         protectedStrictItems.push(match);
 
-        const sectionPos = match.indexOf('§');
+        const offset = args[args.length - 2];
+        const prevChar = text[offset - 1];
 
-        if (sectionPos > 0) {
-            const prevChar = match[sectionPos - 1];
+        let suffix = '';
 
-            // 中文
-            if (/[\u4E00-\u9FFF]/.test(prevChar)) {
-                return `⟦P${id}⟧桀夜我喜欢你`;
-            }
-
-            // 英文
-            if (/[A-Za-z]/.test(prevChar)) {
-                return `⟦P${id}⟧ILoveUFromLuoYunXi`;
-            }
+console.log(prevChar);
+        if (prevChar === '=') {
+            suffix = '';
+        } else if (/[\u4E00-\u9FFF]/.test(prevChar)) {
+            suffix = '桀夜我喜欢你';
+        } else if (/[A-Za-z]/.test(prevChar)) {
+            suffix = 'ILoveUFromLuoYunXi';
         }
 
-        return `⟦P${id}⟧`;
+        return `⟦P${id}⟧${suffix}`;
     });
 }
 
