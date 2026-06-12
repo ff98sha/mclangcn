@@ -14,7 +14,7 @@ function protect(regex) {
     text = text.replace(regex, match => {
         const id = protectedItems.length;
         protectedItems.push(match);
-        return `⟦P${id}⟧`;
+        return `Protected${id}`;
     });
 }
 
@@ -44,7 +44,7 @@ text = pangu.spacingText(text);
 /**
  * 恢复所有保护内容
  */
-text = text.replace(/⟦P(\d+)⟧/g, (_, index) => {
+text = text.replace(/Protected(\d+)/g, (_, index) => {
     return protectedItems[Number(index)];
 });
 
