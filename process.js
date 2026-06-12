@@ -40,7 +40,7 @@ function protectStrict(regex) {
 protect(/%\d*\$?[a-zA-Z]/g);
 
 // :tip_virtual_button_action_build_or_use:
-protectStrict(/:[a-zA-Z0-9_-]+:/g);
+protect(/:[a-zA-Z0-9_-]+:/g);
 
 
 // §a
