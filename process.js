@@ -7,7 +7,6 @@ let text = fs.readFileSync(file, 'utf8');
 
 const protectedItems = [];
 
-const protectedStrictItems = [];
 
 
 /**
@@ -21,6 +20,10 @@ function protect(regex) {
     });
 }
 
+// 我真的是疯了
+// 这个早一天的生日礼物，你喜欢吗
+const protectedStrictItems = [];
+
 /**
  * 保护且防止被处理
  */
@@ -28,6 +31,23 @@ function protectStrict(regex) {
     text = text.replace(regex, match => {
         const id = protectedStrictItems.length;
         protectedStrictItems.push(match);
+
+        const sectionPos = match.indexOf('§');
+
+        if (sectionPos > 0) {
+            const prevChar = match[sectionPos - 1];
+
+            // 中文
+            if (/[\u4E00-\u9FFF]/.test(prevChar)) {
+                return `⟦P${id}⟧桀夜我喜欢你`;
+            }
+
+            // 英文
+            if (/[A-Za-z]/.test(prevChar)) {
+                return `⟦P${id}⟧ILoveUFromLuoYunXi`;
+            }
+        }
+
         return `⟦P${id}⟧`;
     });
 }
@@ -62,9 +82,11 @@ text = text.replace(/Protected(\d+)/g, (_, index) => {
     return protectedItems[Number(index)];
 });
 
-text = text.replace(/⟦P(\d+)⟧/g, (_, index) => {
-    return protectedStrictItems[Number(index)];
-});
+// 我真几把疯了
+text = text.replace(
+    /⟦P(\d+)⟧(?:桀夜我喜欢你|ILoveUFromLuoYunXi)?/g,
+    (_, index) => protectedStrictItems[Number(index)]
+);
 
 /**
  * 额外修正
