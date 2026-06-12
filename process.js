@@ -28,7 +28,7 @@ function protectStrict(regex) {
     text = text.replace(regex, match => {
         const id = protectedStrictItems.length;
         protectedStrictItems.push(match);
-        return `⟦Protected${id}⟧`;
+        return `⟦P${id}⟧`;
     });
 }
 
@@ -61,7 +61,7 @@ text = text.replace(/Protected(\d+)/g, (_, index) => {
     return protectedItems[Number(index)];
 });
 
-text = text.replace(/⟦Protected⟧(\d+)/g, (_, index) => {
+text = text.replace(/⟦P(\d+)⟧/g, (_, index) => {
     return protectedStrictItems[Number(index)];
 });
 
